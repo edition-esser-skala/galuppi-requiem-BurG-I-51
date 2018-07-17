@@ -19,7 +19,9 @@ RequiemAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoRequiem
-		R1*24
+		R1*11 %11
+		R1\fermataMarkup %12
+		R1*12 %24
 		r8 \mvTr g'\fE^\tuttiE g g g8. g16 g4 %25
 		r2 g4 g8 g
 		g g r4 r2

@@ -81,10 +81,10 @@ RequiemOrgano = {
 		f cis d
 		b2. %75
 		a2 r4
-		d d e
+		d\f d e
 		f e d
 		c c c
-		\mvTr f\fE-\tutti f f %80
+		f-\tutti f f %80
 		f f f
 		c'2 b4
 		a2 f4
@@ -198,7 +198,7 @@ RequiemBassFigures = \figuremode {
 	<6 4> <5 _+> r
 	r2. %55
 	r
-	r2 <6>8 <5>
+	r2 <6>8. <5>16
 	<_+>2.
 	<6 4+ 2>
 	<6> %60

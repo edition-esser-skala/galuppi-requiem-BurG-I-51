@@ -19,7 +19,9 @@ RequiemSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoRequiem
-		R1*24
+		R1*11 %11
+		R1\fermataMarkup %12
+		R1*12 %24
 		r8 \mvTr h'\fE^\tuttiE h h h8. h16 h4 %25
 		r2 c4 c8 c
 		c c r4 r2
@@ -48,7 +50,7 @@ RequiemSopranoNotes = {
 		\time 3/4 \newSpacingSection \tempoTeDecet R2.*4 %53
 		R2.\fermataMarkup
 		R2.*25 %79
-		\mvTr a4\fE^\tuttiE a a %80
+		\mvTr a4\fE^\tutti a a %80
 		a a a
 		g2 g4
 		a2 a4
