@@ -113,7 +113,7 @@ RequiemViolinoII = {
 		g2. \noBreak
 		f2 r4\fermata \bar "||" %104
 		\time 4/4 \newSpacingSection \tempoRequiemII
-			f8 f a a c c f f \noBreak %105
+			f8\fE f a a c c f f \noBreak %105
 		e e c c g g e e
 		f' f c c a a f f
 		f4 r a8 a a a

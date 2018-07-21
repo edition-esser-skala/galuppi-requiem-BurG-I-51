@@ -113,7 +113,7 @@ RequiemViola = {
 		c \noBreak
 		f,2 r4\fermata \bar "||"
 		\time 4/4 \newSpacingSection \tempoRequiemII
-			c'8 c f f c c a a  \noBreak %105
+			c'8\fE c f f c c a a  \noBreak %105
 		g g g' g e e c c
 		c c a a f f c' c
 		c4 r c8 c c c
