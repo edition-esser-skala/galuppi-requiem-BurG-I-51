@@ -8,7 +8,7 @@ RequiemCornoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoRequiem
-		c'2.\fE e4
+		\pao c'2.\fE e4
 		d2. f4
 		e2. e4
 		d2. d4
@@ -32,7 +32,7 @@ RequiemCornoI = {
 		d~
 		d2 e
 		d r4 e
-		d d e r
+		\pao d d e r
 		e4 f e2~ %30
 		e r
 		R1
@@ -54,11 +54,11 @@ RequiemCornoI = {
 		\time 3/4 \newSpacingSection \tempoTeDecet R2.*30 %79
 		e'4\fE r r8 e %80
 		e4 r r8 e
-		d2.
+		\pao d2.
 		e4 r r8 e
 		f2.
 		e4 r r8 e %85
-		d4 r r
+		\pao d4 r r
 		R2.*6 %92
 		c2 r4
 		R2.
@@ -83,7 +83,7 @@ RequiemCornoI = {
 		d~
 		d2 e
 		d r4 e %115
-		d d e r
+		\pao d d e r
 		e4 f e2~
 		e r
 		R1
