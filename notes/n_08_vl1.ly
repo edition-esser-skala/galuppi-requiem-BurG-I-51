@@ -20,7 +20,7 @@ RequiemViolinoI = {
 		des c4 h8 c b4 as16 g %10
 		as8 f as c f as as as
 		as?4 g\fermata a32(\f b c8.) c32( b a8.)
-		b32( a g8.) g32( f e8.) b'8 b4 b8
+		b32( a g8.) g32( f e8.) b'8 b4 \once\tieDashed b8~
 		b a4 g f es8~
 		es d4 c8 b a g4 %15
 		f8 f'4 e8 f4 r8 f
@@ -111,7 +111,7 @@ RequiemViolinoI = {
 		a'[ c a f] a, r
 		d[ f b, d] d, b'
 		g2. \noBreak
-		a2 r4\fermata \bar "||" %104
+		f2 r4\fermata \bar "||" %104
 		\time 4/4 \newSpacingSection \tempoRequiemII
 			f'8\fE f c c a a f f \noBreak %105
 		g' g e e c c g g
