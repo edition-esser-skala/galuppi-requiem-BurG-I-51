@@ -107,7 +107,7 @@ RequiemViolinoII = {
 		d'[ f es g] d r
 		d[ f d b] f r
 		d'[ f b, d] d, r
-		b'[ d b g] e r %100
+		b'[ d b g] e! r %100
 		a'[ c a f] a, r
 		d[ f b, d] d, b'
 		g2. \noBreak

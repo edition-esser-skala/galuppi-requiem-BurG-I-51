@@ -104,7 +104,7 @@ RequiemOrgano = {
 		b2.~
 		b
 		b'4 b b
-		e, e e %100
+		e,! e e %100
 		f2.
 		b,
 		c \noBreak
@@ -195,7 +195,7 @@ RequiemBassFigures = \figuremode {
 	<[6]>
 	r2 <6>4
 	<6+> r <7 5 [_!]>
-	<6 4> <5 _+> r
+	<[5] 4> <\l _+> r
 	r2. %55
 	r
 	r2 <6>8. <5>16
@@ -229,8 +229,8 @@ RequiemBassFigures = \figuremode {
 	r2. %85
 	r4 <6> <6 5>
 	r2 <6+>4
-	<6>2.
-	r
+	<6>2 <[6\\]>4
+	r2.
 	<_+>2 <7 [\t]>4 %90
 	r2.
 	<7>4 <6!>2

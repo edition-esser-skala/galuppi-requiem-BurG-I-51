@@ -86,7 +86,7 @@ RequiemBassoNotes = {
 		b2.~
 		b
 		b'2 b4
-		e,2 e4 %100
+		e,!2 e4 %100
 		f2.
 		b,
 		c2 c4 \noBreak

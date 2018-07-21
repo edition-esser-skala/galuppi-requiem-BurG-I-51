@@ -6,7 +6,7 @@
 
 RequiemViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 4/4 \tempoRequiem
 		f8\fE f c c a a f f
 		e' e c c g g b b
