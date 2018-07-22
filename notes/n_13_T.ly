@@ -245,12 +245,83 @@ KyrieTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrie
-		
+		R1*8 %8
+		R1\fermataMarkup
+		\mvTr f4.\fE^\tuttiE f8 f4 r %10
+		e4. e8 e4 r
+		r8 f16([ e)] f8 c des4 r
+		R1
+		r4 des2 des4
+		b4 r8 b b4 b %15
+		b r r8 b b b
+		c4 r8 as as4 des
+		b r8 c b4 b
+		c r r2
+		r8 \mvTr c\pE^\solo f4.( es8[ des)] c %20
+		h4 r r2
+		r es8. es16 es4
+		d8. d16 d4 r8 g16([ f)] g8 d
+		es4 r r2
+		R1 %25
+		r8 des des des g,4 r
+		r2 r8 \mvTr des'\fE^\tuttiE des des
+		des?4 r r2
+		r f4. f8
+		f4 r r2 %30
+		R1
+		r2 e4.  e8
+		e4 r r2
+		R1*2 %35
+		c4. c8 c4 r
+		r2 r8 b16([ as)] b8 f
+		ges4 es' es2~
+		es4 es as, r
+		R1 %40
+		des2 des
+		c r
+		r4 c c2
+		c1
+		c2 r %45
+		R1\fermataMarkup \bar "||" %46 finis
 	}
 }
 
 KyrieTenoreLyrics = \lyricmode {
+	[Ky -- ri -- e, %10
+	Ky -- ri -- e]
+	e -- le -- i -- son.
 	
+	[Ky -- ri] --
+	e e -- le -- i -- %15
+	son, e -- le -- i --
+	son, e -- le -- i --
+	son, e -- le -- i --
+	son,
+	e -- le -- i -- %20
+	son.
+	Ky -- ri -- e,
+	Ky -- ri -- e e -- le -- i --
+	son,
+	%25
+	e -- le -- i -- son,
+	e -- le -- i --
+	son.
+	Ky -- ri --
+	e, %30
+	
+	Ky -- ri --
+	e,
+	
+	Ky -- ri -- e %36
+	e -- le -- i --
+	son, e -- le --
+	i -- son.
+	%40
+	Ky -- ri --
+	e
+	e -- le --
+	i --
+	son. %45 finis
 }
 
 % TenoreNotes = {
