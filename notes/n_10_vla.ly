@@ -148,6 +148,13 @@ IntroitusViola = {
 	}
 }
 
+KyrieViola = {
+	\relative c' {
+		\clef treble
+		\key f \dorian \time 4/4 \tempoKyrie
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % 		\clef treble

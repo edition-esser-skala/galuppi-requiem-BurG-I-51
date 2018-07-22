@@ -239,6 +239,18 @@ IntroitusBassoLyrics = \lyricmode {
 	is. %136 finis
 }
 
+KyrieBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrie
+		
+	}
+}
+
+KyrieBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

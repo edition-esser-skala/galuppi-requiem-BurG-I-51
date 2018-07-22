@@ -166,6 +166,8 @@ tempoIntroitus = \tempoMarkup "Adagio"
 	tempoTeDecet = \tempoMarkup "[Tempo deest]"
 	tempoIntroitusII = \tempoMarkup "Adagio"
 
+tempoKyrie = \tempoMarkup "Adagio"
+
 
 % modify the Scheme function 'format-bass-figure'
 % in usr/share/lilypond/current/scm/translation-functions.scm

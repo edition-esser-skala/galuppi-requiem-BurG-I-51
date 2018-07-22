@@ -178,6 +178,18 @@ IntroitusSopranoLyrics = \lyricmode {
 	is. %136 finis
 }
 
+KyrieSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrie
+		
+	}
+}
+
+KyrieSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

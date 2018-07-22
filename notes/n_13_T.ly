@@ -241,6 +241,18 @@ IntroitusTenoreLyrics = \lyricmode {
 	is. %136 finis
 }
 
+KyrieTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrie
+		
+	}
+}
+
+KyrieTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

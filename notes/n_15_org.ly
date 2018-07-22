@@ -280,6 +280,18 @@ IntroitusBassFigures = \figuremode {
 	r1 %136 finis
 }
 
+KyrieOrgano = {
+	\relative c {
+		\clef bass
+		\key f \dorian \time 4/4 \tempoKyrie
+		\mvTr f4\fE-\tuttiE r f r
+	}
+}
+
+KyrieBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

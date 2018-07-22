@@ -184,6 +184,17 @@ IntroitusAltoLyrics = \lyricmode {
 	is. %136 finis
 }
 
+KyrieAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrie
+	}
+}
+
+KyrieAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
