@@ -182,12 +182,83 @@ KyrieSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrie
-		
+		R1*8 %8
+		R1\fermataMarkup
+		\mvTr c'4.\fE^\tuttiE c8 c4 r %10
+		c4. c8 c4 r
+		r2 r8 b16([ as)] b8 f
+		g4 r r2
+		r4 as2 as4
+		as r8 as g4 g %15
+		g8 b b b b4 es8. des16
+		c8 as16([ b)] c([ des es)] c des4. b16([ as)]
+		g8([ es] as2) g4
+		as r r2
+		R1*2 %21
+		r2 \mvTr a8.\pE^\solo a16 a4
+		b8. b16 b4 r2
+		r8 c16([ b)] c8 g as!4 r
+		r2 r8 b b b %25
+		b4 b8. b16 b8 b b b
+		as4 r r8 \mvTr b\fE^\tutti b b
+		b4 r r2
+		r des4. des8
+		des?4 r8 des des4 c8([ b)] %30
+		a4 r r2
+		r c4. c8
+		c4 r r r8 f,
+		des'2. c4~
+		c b2 as4 %35
+		g r8 g g4. as16([ b)]
+		as4 r r2
+		r4 b8. b16 b4 b
+		c es des r
+		des8. des16 des4 c8. c16 c4 %40
+		b2 b
+		as r8 as as as
+		g4 as g4.( as8
+		b4 as g4.) g8
+		f2 r %45
+		R1\fermataMarkup \bar "||" %546 finis
 	}
 }
 
 KyrieSopranoLyrics = \lyricmode {
+	[Ky -- ri -- e, %10
+	Ky -- ri -- e]
+	e -- le -- i --
+	son.
+	[Ky -- ri] --
+	e e -- le -- i -- %15
+	son, e -- le -- i -- son. Ky -- ri --
+	e e -- le -- i -- son, e --
+	le -- i --
+	son.
 	
+	Ky -- ri -- e, %22
+	Ky -- ri -- e
+	e -- le -- i -- son,
+	e -- le -- i -- %25
+	son. Ky -- ri -- e e -- le -- i --
+	son, e -- le -- i --
+	son.
+	Ky -- ri --
+	e e -- le -- i -- %30
+	son.
+	Ky -- ri --
+	e e --
+	le -- _
+	_ i -- %35
+	son, e -- le -- i --
+	son.
+	Ky -- ri -- e e --
+	le -- i -- son.
+	Ky -- ri -- e, Ky -- ri -- e, %40
+	Ky -- ri --
+	e e -- le -- i --
+	son, e -- le --
+	i --
+	son. %45 finis
 }
 
 % SopranoNotes = {
