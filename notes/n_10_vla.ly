@@ -4,10 +4,10 @@
 
 \version "2.18.0"
 
-RequiemViola = {
+IntroitusViola = {
 	\relative c' {
 		\clef alto
-		\key f \major \time 4/4 \tempoRequiem
+		\key f \major \time 4/4 \tempoIntroitus
 		f8\fE f c c a a f f
 		e' e c c g g b b
 		a a c c a a a' a
@@ -112,7 +112,7 @@ RequiemViola = {
 		b,
 		c \noBreak
 		f,2 r4\fermata \bar "||"
-		\time 4/4 \newSpacingSection \tempoRequiemII
+		\time 4/4 \newSpacingSection \tempoIntroitusII
 			c'8\fE c f f c c a a  \noBreak %105
 		g g g' g e e c c
 		c c a a f f c' c

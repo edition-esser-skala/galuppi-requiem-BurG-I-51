@@ -23,23 +23,23 @@
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" } }
-						\partcombine \RequiemCornoI \RequiemCornoII
+						\partcombine \IntroitusCornoI \IntroitusCornoII
 					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\RequiemViolinoI
+							\IntroitusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\RequiemViolinoII
+							\IntroitusViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\RequiemViola
+						\IntroitusViola
 					>>
 				>>
 				\new ChoirStaff <<
@@ -47,40 +47,40 @@
 						\set Staff.instrumentName = \SopranoIncipit
 						\override Staff.InstrumentName.self-alignment-Y = ##f
 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \RequiemSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \IntroitusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \RequiemSopranoLyrics
+					\new Lyrics \lyricsto Soprano \IntroitusSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = \AltoIncipit
 						\override Staff.InstrumentName.self-alignment-Y = ##f
 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Alto" { \dynamicUp \RequiemAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \IntroitusAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \RequiemAltoLyrics
+					\new Lyrics \lyricsto Alto \IntroitusAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = \TenoreIncipit
 						\override Staff.InstrumentName.self-alignment-Y = ##f
 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Tenore" { \dynamicUp \RequiemTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \IntroitusTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \RequiemTenoreLyrics
+					\new Lyrics \lyricsto Tenore \IntroitusTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \RequiemBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \IntroitusBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \RequiemBassoLyrics
+					\new Lyrics \lyricsto Basso \IntroitusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\RequiemOrgano
+						\IntroitusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\RequiemBassFigures
+					\IntroitusBassFigures
 				}
 			>>
 			\layout { }

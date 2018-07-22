@@ -15,10 +15,10 @@ SopranoIncipit = \markup {
 	} \hspace #-1.8
 }
 
-RequiemSopranoNotes = {
+IntroitusSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key f \major \time 4/4 \autoBeamOff \tempoRequiem
+		\key f \major \time 4/4 \autoBeamOff \tempoIntroitus
 		R1*11 %11
 		R1\fermataMarkup %12
 		R1*12 %24
@@ -72,7 +72,7 @@ RequiemSopranoNotes = {
 		b2.
 		g2 g4 \noBreak
 		a2 r4\fermata \bar "||"
-		\time 4/4 \newSpacingSection \tempoRequiemII R1*7 %111
+		\time 4/4 \newSpacingSection \tempoIntroitusII R1*7 %111
 		r8 \mvTr h\fE^\tuttiE h h h8. h16 h4
 		r2 c4 c8 c
 		c c r4 r2
@@ -101,7 +101,7 @@ RequiemSopranoNotes = {
 	}
 }
 
-RequiemSopranoLyrics = \lyricmode {
+IntroitusSopranoLyrics = \lyricmode {
 	Et lux per -- pe -- tu -- a %25
 	lu -- ce -- at
 	e -- is,

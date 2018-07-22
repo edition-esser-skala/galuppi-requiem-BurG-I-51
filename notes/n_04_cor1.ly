@@ -4,10 +4,10 @@
 
 \version "2.18.0"
 
-RequiemCornoI = {
+IntroitusCornoI = {
 	\relative c' {
 		\clef treble
-		\key c \major \time 4/4 \tempoRequiem
+		\key c \major \time 4/4 \tempoIntroitus
 		\pao c'2.\fE e4
 		d2. f4
 		e2. e4
@@ -71,7 +71,7 @@ RequiemCornoI = {
 		c2.
 		r4 r g \noBreak
 		e2 r4\fermata \bar "||" %104
-		\time 4/4 \newSpacingSection \tempoRequiemII
+		\time 4/4 \newSpacingSection \tempoIntroitusII
 			c'2\fE r4 e \noBreak %105
 		d1
 		e4 r e r

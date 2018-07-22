@@ -162,9 +162,9 @@ tempoMarkup =
 	#})
 %
 
-tempoRequiem = \tempoMarkup "Adagio"
+tempoIntroitus = \tempoMarkup "Adagio"
 	tempoTeDecet = \tempoMarkup "[Tempo deest]"
-	tempoRequiemII = \tempoMarkup "Adagio"
+	tempoIntroitusII = \tempoMarkup "Adagio"
 
 
 % modify the Scheme function 'format-bass-figure'

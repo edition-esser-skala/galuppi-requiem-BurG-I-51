@@ -4,10 +4,10 @@
 
 \version "2.18.0"
 
-RequiemBassoNotes = {
+IntroitusBassoNotes = {
 	\relative c {
 		\clef bass
-		\key f \major \time 4/4 \autoBeamOff \tempoRequiem
+		\key f \major \time 4/4 \autoBeamOff \tempoIntroitus
 		R1*11 %11
 		R1\fermataMarkup %12
 		R1*5 %17
@@ -91,7 +91,7 @@ RequiemBassoNotes = {
 		b,
 		c2 c4 \noBreak
 		f,2 r4\fermata \bar "||"
-		\time 4/4 \newSpacingSection \tempoRequiemII \mvTr f'1(\fE^\tutti \noBreak %105
+		\time 4/4 \newSpacingSection \tempoIntroitusII \mvTr f'1(\fE^\tutti \noBreak %105
 		g2.) g4
 		f1
 		r2 r4 f
@@ -126,7 +126,7 @@ RequiemBassoNotes = {
 	}
 }
 
-RequiemBassoLyrics = \lyricmode {
+IntroitusBassoLyrics = \lyricmode {
 	Re -- %18
 	qui --
 	em %20

@@ -4,10 +4,10 @@
 
 \version "2.18.0"
 
-RequiemOrgano = {
+IntroitusOrgano = {
 	\relative c {
 		\clef bass
-		\key f \major \time 4/4 \tempoRequiem
+		\key f \major \time 4/4 \tempoIntroitus
 		\mvTr f8\fE-\tuttiE f f f f f f f
 		c c c c c c c c
 		f f f f f f f f
@@ -109,7 +109,7 @@ RequiemOrgano = {
 		b,
 		c \noBreak
 		f,2 r4\fermata \bar "||"
-		\time 4/4 \newSpacingSection \tempoRequiemII
+		\time 4/4 \newSpacingSection \tempoIntroitusII
 			\mvTr f'8\fE-\tuttiE f f f f f f f \noBreak %105
 		c c c c c c c c
 		f f f f f f f f
@@ -145,7 +145,7 @@ RequiemOrgano = {
 	}
 }
 
-RequiemBassFigures = \figuremode {
+IntroitusBassFigures = \figuremode {
 	r1
 	<7>
 	r

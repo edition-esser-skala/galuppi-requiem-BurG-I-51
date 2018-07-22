@@ -15,10 +15,10 @@ AltoIncipit = \markup {
 	} \hspace #-1.8
 }
 
-RequiemAltoNotes = {
+IntroitusAltoNotes = {
 	\relative c' {
 		\clef treble
-		\key f \major \time 4/4 \autoBeamOff \tempoRequiem
+		\key f \major \time 4/4 \autoBeamOff \tempoIntroitus
 		R1*11 %11
 		R1\fermataMarkup %12
 		R1*12 %24
@@ -75,7 +75,7 @@ RequiemAltoNotes = {
 		f2.
 		f4( e8[ d)] e4 \noBreak
 		f2 r4\fermata \bar "||"
-		\time 4/4 \newSpacingSection \tempoRequiemII R1*7 %111
+		\time 4/4 \newSpacingSection \tempoIntroitusII R1*7 %111
 		r8 \mvTr g\fE^\tuttiE g g g8. g16 g4
 		r2 g4 g8 g
 		g g r4 r2
@@ -104,7 +104,7 @@ RequiemAltoNotes = {
 	}
 }
 
-RequiemAltoLyrics = \lyricmode {
+IntroitusAltoLyrics = \lyricmode {
 	Et lux per -- pe -- tu -- a %25
 	lu -- ce -- at
 	e -- is,

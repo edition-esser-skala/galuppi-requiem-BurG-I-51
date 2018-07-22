@@ -4,10 +4,10 @@
 
 \version "2.18.0"
 
-RequiemViolinoII = {
+IntroitusViolinoII = {
 	\relative c' {
 		\clef treble
-		\key f \major \time 4/4 \tempoRequiem
+		\key f \major \time 4/4 \tempoIntroitus
 		f8\fE f a a c c f f
 		g, g b b e e g g
 		f, f a a c c f f
@@ -112,7 +112,7 @@ RequiemViolinoII = {
 		d[ f b, d] d, b'
 		g2. \noBreak
 		f2 r4\fermata \bar "||" %104
-		\time 4/4 \newSpacingSection \tempoRequiemII
+		\time 4/4 \newSpacingSection \tempoIntroitusII
 			f8\fE f a a c c f f \noBreak %105
 		e e c c g g e e
 		f' f c c a a f f

@@ -15,10 +15,10 @@ TenoreIncipit = \markup {
 	} \hspace #-1.8
 }
 
-RequiemTenoreNotes = {
+IntroitusTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key f \major \time 4/4 \autoBeamOff \tempoRequiem
+		\key f \major \time 4/4 \autoBeamOff \tempoIntroitus
 		R1*11 %11
 		R1\fermataMarkup %12
 		R1*8 %20
@@ -99,7 +99,7 @@ RequiemTenoreNotes = {
 		d
 		c2 c4 \noBreak
 		c2 r4\fermata \bar "||"
-		\time 4/4 \newSpacingSection \tempoRequiemII R1*3 %107
+		\time 4/4 \newSpacingSection \tempoIntroitusII R1*3 %107
 		r4 \mvTr c\fE^\tuttiE f2~
 		f8[ g16 f] e8[ c] d4. e8
 		f2 e4 g~ %110
@@ -132,7 +132,7 @@ RequiemTenoreNotes = {
 	}
 }
 
-RequiemTenoreLyrics = \lyricmode {
+IntroitusTenoreLyrics = \lyricmode {
 	Ae -- ter -- %21
 	_ _ _
 	_ nam do --
