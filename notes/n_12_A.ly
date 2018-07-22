@@ -190,7 +190,7 @@ KyrieAltoNotes = {
 		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrie
 		R1*8 %8
 		R1\fermataMarkup
-		\mvTr as'4.\fE^\tuttiE as8 as4 r %10
+		\mvDll as'4.\fE^\tuttiE as8 as4 r %10
 		g4. g8 g4 r
 		R1
 		r8 es16([ des)] es8 b c4 r

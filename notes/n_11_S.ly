@@ -184,7 +184,7 @@ KyrieSopranoNotes = {
 		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrie
 		R1*8 %8
 		R1\fermataMarkup
-		\mvTr c'4.\fE^\tuttiE c8 c4 r %10
+		\mvDll c'4.\fE^\tuttiE c8 c4 r %10
 		c4. c8 c4 r
 		r2 r8 b16([ as)] b8 f
 		g4 r r2

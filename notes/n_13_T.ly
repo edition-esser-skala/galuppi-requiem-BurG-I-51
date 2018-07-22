@@ -247,7 +247,7 @@ KyrieTenoreNotes = {
 		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrie
 		R1*8 %8
 		R1\fermataMarkup
-		\mvTr f4.\fE^\tuttiE f8 f4 r %10
+		\mvDll f4.\fE^\tuttiE f8 f4 r %10
 		e4. e8 e4 r
 		r8 f16([ e)] f8 c des4 r
 		R1
