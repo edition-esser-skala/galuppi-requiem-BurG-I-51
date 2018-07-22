@@ -285,11 +285,101 @@ KyrieOrgano = {
 		\clef bass
 		\key f \dorian \time 4/4 \tempoKyrie
 		\mvTr f4\fE-\tuttiE r f r
+		b, r c r
+		h h c c
+		c\p r e r
+		r2 f4\fE f %5
+		es! es d es
+		d d es es
+		c des r8 des( c h)
+		c1\fermata
+		f4 r f r %10
+		c r c r
+		f r b, r
+		es r as, r
+		des r des r
+		es r es r %15
+		es r r8 g g g
+		as4 r8 as des,4 des
+		es r8 c des4 es
+		as, r as r
+		\mvTr as\p-\soloE r as r %20
+		g r h r
+		r2 c4 c
+		b b h h
+		c c f f
+		b, b es es %25
+		des des c c
+		f f \mvTr b,\fE-\tutti b
+		b r b r
+		f' f b r
+		b r es, r %30
+		f r a r
+		r2 c,4 c
+		c c f f
+		b, b as as
+		b e f2 %35
+		c4 r c r
+		f r b, r
+		es r es des
+		c c des des
+		g4 r8 g as4 r8 as %40
+		b2 e,
+		f r8 des c h
+		c4 f c2~
+		c1
+		f,2 r %45
+		f4 f f r\fermata \bar "||" %46 finis
 	}
 }
 
 KyrieBassFigures = \figuremode {
-	
+	r1
+	<_->2 <_!>
+	<7 5 _-> <6 4>4 <5 _!>
+	r1
+	r2 <6! 4! _-> %5
+	<6 4->4 <3> <7 _+> <5 3>
+	<6 _-> <5-> <9> <8>
+	<6 5> <5 3> r8 <5 3> <6 4> <7 5 [_!]>
+	<5 4>2 <\l _!>
+	r1 %10
+	<_!>
+	r2 <_->
+	r1
+	r
+	<9 4>2 <8 3> %15
+	r2 r8 <6>4 <5->8
+	<9>4 <8> <7>2
+	<9 5>2 <6 5>
+	r1
+	r %20
+	r
+	r2 <6 4+ _->
+	<6>1
+	r
+	<_->2 q %25
+	<6> <7 5 _!>
+	r <_->
+	r1
+	r
+	r2 <7! _-> %30
+	<_!>1
+	r2 <_!>
+	<_!> <9>4 <8>
+	<7 _-> <6> <6 4-> <3>
+	<9 _-> <7 5> <4> <3> %35
+	<_!>1
+	r2 <_->
+	<_->2. <6 4! 2>4
+	<6>4 <9-> <5>2
+	<6! 5->2 <6> %40
+	<_-> <7- 5>
+	r2 r8 <5> <6 4> <7 5 [_!]>
+	<_!>1
+	r
+	r %45
+	r %46 finis
 }
 
 % Organo = {
