@@ -188,11 +188,85 @@ KyrieAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrie
+		R1*8 %8
+		R1\fermataMarkup
+		\mvTr as'4.\fE^\tuttiE as8 as4 r %10
+		g4. g8 g4 r
+		R1
+		r8 es16([ des)] es8 b c4 r
+		r f2 f4
+		f r8 f es4 es %15
+		es r r8 es es es
+		es4 r8 es f4 f
+		g r8 es f4 es
+		es r r2
+		R1 %20
+		r2 \mvTr g8.\pE^\solo g,16 g4
+		r2 fis'8. fis16 fis4
+		g8. g16 g4 r2
+		r r8 f16([ es)] f8 c
+		des4 r r8 ges ges ges %25
+		f4 r e8. e16 e4
+		r2 r8 \mvTr f\fE^\tuttiE f f
+		f4 r r2
+		r b4. b8
+		b4 r8 b ges4 ges %30
+		f r r2
+		r g!4. g8
+		g4 r8 c, as'2~
+		as4 g f2
+		des c4 f %35
+		e r8 e e4. f16([ g)]
+		f4 r r2
+		r4 ges8. ges16 ges4 g
+		as ges f r
+		e8. e16 e4 f8. f16 f4 %40
+		f2 g
+		f r8 f f f
+		e4 f e4.( f8
+		g[ c,] f2) e4
+		f2 r %45
+		R1\fermataMarkup \bar "||" %46 finis
 	}
 }
 
 KyrieAltoLyrics = \lyricmode {
+	[Ky -- ri -- e, %10
+	Ky -- ri -- e]
 	
+	e -- le -- i -- son.
+	[Ky -- ri] --
+	e e -- le -- i -- %15
+	son, e -- le -- i --
+	son, e -- le -- i --
+	son, e -- le -- i --
+	son.
+	%20
+	Ky -- ri -- e,
+	Ky -- ri -- e,
+	Ky -- ri -- e
+	e -- le -- i --
+	son, e -- le -- i -- %25
+	son. Ky -- ri -- e
+	e -- le -- i --
+	son.
+	Ky -- ri --
+	e e -- le -- i -- %30
+	son.
+	Ky -- ri --
+	e e -- le --
+	_ _
+	_ _ i -- %35
+	son, e -- le -- i --
+	son.
+	Ky -- ri -- e e --
+	le -- i -- son.
+	Ky -- ri -- e, Ky -- ri -- e, %40
+	Ky -- ri --
+	e e -- le -- i --
+	son, e -- le --
+	i --
+	son. %45 finis
 }
 
 % AltoNotes = {
