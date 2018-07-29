@@ -152,6 +152,52 @@ KyrieViola = {
 	\relative c' {
 		\clef treble
 		\key f \dorian \time 4/4 \tempoKyrie
+		f4\fE r f r
+		f r e r
+		des des c c
+		c\pE r c r
+		f r d!\fE d %5
+		es es a, es'
+		f d b b
+		c as r8 des( c h)
+		c1\fermata
+		f4 r f r %10
+		c r e r
+		f r f r
+		es! r es r
+		des r f r
+		b, r b r %15
+		g r r2
+		r4 c f2~
+		f4 es des b
+		c r es r
+		c\pE r r2 %20
+		g4 r g r
+		c r a? a
+		b r h r
+		c r c r
+		des r es r %25
+		R1
+		r8 f f f f4\fE r
+		f r b, r
+		f' as f r
+		f des b r %30
+		f' r f r
+		b r r2
+		c,4 r as r
+		b r8 b f'4. as,8
+		f b g4 r8 c c4 %35
+		c r e r
+		c r des r
+		es r es r8 es
+		es4. c8 as4. des8
+		b4 r8 b c4 r8 c %40
+		b4 f' g2
+		c,8 f f4~ f8 des c h
+		c1~
+		c
+		c2 r %45
+		f,4 f f r\fermata \bar "||" %456 finis
 	}
 }
 
