@@ -170,7 +170,7 @@ KyrieViolinoI = {
 		r2 r4 es'
 		c'2. f,4
 		b as2 g4
-		as es8\p es c4\f as8\p as
+		as\fE es8\p es c4\f as8\p as
 		as4 r r2 %20
 		r r8 g(\pE as g)
 		es'8. d16 c b a g fis2

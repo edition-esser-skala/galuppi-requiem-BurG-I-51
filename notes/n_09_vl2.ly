@@ -152,6 +152,52 @@ KyrieViolinoII = {
 	\relative c' {
 		\clef treble
 		\key f \dorian \time 4/4 \tempoKyrie
+		f'4\f c8\p c as4\f f8\p f
+		des'4\f b8\p b g4\f e8\p e
+		f4\f f f e
+		r2 r8 c'(\p des c)
+		as'8. g16 f es d c h2\f %5
+		c2. b4~
+		b as g g'~
+		g f~ f8 f f f
+		f4 e8 d e2\fermata
+		f4\f c8\p c as4\f f8\p f %10
+		e'4\f c8\p c g4\f e8\p e
+		c'4\f r des r
+		b r c r
+		f4\f des8\p des as4\f f8\p f
+		f4\f r es r %15
+		r es b'2~
+		b4 as2 as4
+		g c b2
+		as4\fE es'8\p es c4\f as8\p as
+		as4 r r2 %20
+		r8 d(\pE es d) r2
+		r es4 es
+		d8 g16 fis g8 d g, r r4
+		es' r f r
+		f r ges r %25
+		R1
+		r8 as as as b4\f r
+		des,4\f b8\p b f4\f des8\p des
+		c\f f'16 e f8 c des b16 as b8 f
+		des b''16 as b8 f ges4 r %30
+		r8 c,( des c) r2
+		r r4 c
+		g'2. f4~
+		f8 des b r r4 r8 f
+		des'2 c8 f as,4 %35
+		e'4\f c8\p c g4\f e8\p e
+		f'4\f r f r
+		ges r ges r8 g
+		as es ges4 f8 des as4
+		g8 g' e4 f r8 as %40
+		f4 b,2 b4
+		as f8 f f des' c h
+		c e f4 e4. f8
+		g g, as4 g2
+		f8 f' c as f c' as f %45
+		f4 f f r\fermata \bar "||" %465 finis
 	}
 }
 
