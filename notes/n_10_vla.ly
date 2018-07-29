@@ -150,7 +150,7 @@ IntroitusViola = {
 
 KyrieViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \dorian \time 4/4 \tempoKyrie
 		f4\fE r f r
 		f r e r
