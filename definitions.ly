@@ -167,6 +167,7 @@ tempoIntroitus = \tempoMarkup "Adagio"
 	tempoIntroitusII = \tempoMarkup "Adagio"
 
 tempoKyrie = \tempoMarkup "Adagio"
+tempoChriste = \tempoMarkup "Andantino"
 
 
 % modify the Scheme function 'format-bass-figure'

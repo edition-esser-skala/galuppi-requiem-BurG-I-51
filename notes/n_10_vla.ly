@@ -201,6 +201,14 @@ KyrieViola = {
 	}
 }
 
+ChristeViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \tempoChriste
+			\set Score.currentBarNumber = #47
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % 		\clef treble
