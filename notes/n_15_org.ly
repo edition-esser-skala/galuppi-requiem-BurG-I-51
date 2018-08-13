@@ -642,7 +642,7 @@ KyrieIIOrgano = {
 		b4 f' g c,
 		c c f2~
 		f c~
-		c d4 g %185
+		c d!4 g %185
 		c,4. c8 g' f es c
 		g'4 g es8 d c h
 		c4. c8 f4 f~
