@@ -611,11 +611,105 @@ KyrieIIOrgano = {
 		\key f \dorian \time 4/4 \tempoKyrieII
 			\set Score.currentBarNumber = #153
 		\mvTr e2\fE-\tuttiE f
+		es des
+		c h %155
+		c r\fermata
+		\tempoKyrieIIFuga \clef treble c''4.-\tasto c8 as4 f
+		des' c b r8 g
+		as b c des e,4 f~
+		f\trill e f8 e f g %160
+		f4. f8 es4 c
+		as' g f r8 d
+		es f g as h,4 c
+		f, g c8 d es h
+		\clef "treble_8" c4. c8 as4 f %165
+		des' c b r8 g
+		as b c des e,4 f
+		b, c f8 g as e
+		\clef bass f4. f8 es4 c
+		as' g f r8 d %170
+		es f g as g f es c
+		g'4 g, c8 h c d
+		es4 c as f
+		des' c b r8 g
+		as b c des c b as f %175
+		b4 c f, g'8 as
+		e4 f r8 f f g
+		as4 r8 as des,4 r8 des
+		es2 as,8 as' as as
+		g e f4 des8 b c c'16 b %180
+		as8 f e4 f4. des8
+		b4 f' g c,
+		c c f2~
+		f c~
+		c d4 g %185
+		c,4. c8 g' f es c
+		g'4 g es8 d c h
+		c4. c8 f4 f~
+		f8 f f f g4 e
+		f4. f8 g4 f %190
+		b, c f, r
+		f'4. f8 es4 c
+		c2 des
+		b4 f' g r8 e
+		f2 c %195
+		f4 r8 f f4 r8 f
+		f4 h, c c8 c'
+		as f e f b,2
+		c1
+		f,\fermata \bar "|." %200 FINIS
 	}
 }
 
 KyrieIIBassFigures = \figuremode {
-	
+	<6 5>2 <9>4 <8> %153
+	<6>2 <7 3>4 <6>
+	<7 5 _!> <6 4> <7 5> <6 5> %155
+	<5 4> <\l _!> r2
+	r1
+	r
+	r
+	r %160
+	r2 <6>
+	<5 3>4 <6 4> <6 4! 3>2
+	<6> <6 5>
+	<6 5>4 <5 _!> r8 <6!> <[6]> <[6!]>
+	r2 <6> %165
+	<5 3>4 <6 4> <6 4! _->2
+	<6>2 <6>8 <5> r4
+	<6 5 _-> <_!> r8 <6!> <[6]> <[6!]>
+	r2 <[6]>
+	<5 3>4 <6 4> <6 4! 3>2 %170
+	<6> <_!>4 <6>
+	<5 4> <\l _!> r4. <6!>8
+	<[6]>4 <5> <6>2
+	<5 3>4 <6 4> <6 4! _->2
+	<[6]>2 <_!>4 <[6]> %175
+	<6 5 _-> <_!> r <6!>8 <6>
+	<6> <5> r4. <6->4 <5->8
+	r1
+	<5 4>4 <\l 3> r2
+	<6!>2 <5>8 <7> <9 _!> <8> %180
+	<6>4 <[6]> r4. <5>8
+	<_->4 <5> <6!> <7 5 _!>
+	r1
+	r2 <_->
+	<6>4 <5> <6!> <7 5 _!> %185
+	r2 <_!>4 <6>
+	<5 4> <\l _!> <6>8 <6!> r <5>
+	r1
+	<6->4 <5> <6!> <[6]>
+	<9> <8>8 <6-> <6!>2 %190
+	<6 5 _->4 <_!> r2
+	r <6>
+	<6>4 <6> <5>2
+	<_-> <6! 3>4. <[6]>8
+	r2 <_!> %195
+	r1
+	r4 <7 5> <6 4> <5 _!>
+	<[6]> q <9 _-> <8>
+	<5 4>2 <\l _!>
+	<_!>1 %200 FINIS
 }
 
 % Organo = {
