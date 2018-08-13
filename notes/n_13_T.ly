@@ -629,12 +629,88 @@ KyrieIITenoreNotes = {
 		\clef "treble_8"
 		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #153
-		
+		\mvTr c2.\fE^\tuttiE c4
+		c2 des
+		g,4( c) d2 %155
+		c r\fermata
+		\tempoKyrieIIFuga R1*8 %164
+		c4. c8 as4 f %165
+		des' c b r8 g
+		as b c des e,4 f~
+		f e f8 e f g
+		as4 as g8([ c] es16[ d c h]
+		c2) h %170
+		c4 c d( es
+		d4.) d8 c d c h
+		c4 r r2
+		r8 as as as des2
+		c2. c4 %175
+		des8 des c b as f' e f
+		c4 r r2
+		es8. es16 es8 es f f f f
+		es4. es8 es4 r
+		r8 c c c des des des c %180
+		c4 r r8 as as as
+		b4 r r8 e e e
+		e g e c as c c c
+		as4 r r2
+		R1*3 %187
+		c4. c8 as4 f
+		des' c b r8 g
+		as b c des e,4 f~ %190
+		f e f8 e f g
+		as4 r8 c c c c4
+		r8 c c c f des des des
+		des4 r r2
+		R1 %195
+		f4. f8 f4 r8 f
+		f4 f f e
+		f c des des
+		c2. c4
+		c1\fermata \bar "|." %200 FINIS
 	}
 }
 
 KyrieIITenoreLyrics = \lyricmode {
+	Ky -- ri -- %153
+	e e --
+	le -- i -- %155
+	son.
 	
+	Ky -- ri -- e e -- %165
+	le -- i -- son, e --
+	le -- i -- son, e -- le -- _
+	i -- son, e -- le -- i --
+	son, e -- le --
+	i -- %170
+	son, e -- le --
+	i -- son, e -- le -- i --
+	son,
+	e -- le -- i -- son.
+	Ky -- ri -- %175
+	e e -- le -- i -- son, e -- le -- i --
+	son.
+	Ky -- ri -- e e -- le -- i -- son, e --
+	le -- i -- son,
+	e -- le -- i -- son, e -- le -- i -- %180
+	son, e -- le -- i --
+	son, e -- le -- i --
+	son, e -- le -- i -- son, e -- le -- i --
+	son.
+	
+	Ky -- ri -- e e -- %188
+	le -- i -- son, e --
+	le -- i -- son, e -- le -- _ %190
+	i -- son, e -- le -- i --
+	son, e -- le -- i -- son,
+	e -- le -- i -- son, e -- le -- i --
+	son.
+	%195
+	Ky -- ri -- e e --
+	le -- i -- son, e --
+	le -- i -- son, e --
+	le -- i --
+	son. %200 FINIS
 }
 
 % TenoreNotes = {
