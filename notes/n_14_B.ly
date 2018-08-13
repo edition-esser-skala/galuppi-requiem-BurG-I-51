@@ -322,6 +322,19 @@ KyrieBassoLyrics = \lyricmode {
 	son. %45 finis
 }
 
+KyrieIIBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrieII
+			\set Score.currentBarNumber = #153
+		
+	}
+}
+
+KyrieIIBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

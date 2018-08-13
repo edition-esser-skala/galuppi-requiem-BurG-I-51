@@ -293,6 +293,14 @@ ChristeViolinoI = {
 	}
 }
 
+KyrieIIViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \dorian \time 4/4 \tempoKyrieII
+			\set Score.currentBarNumber = #153
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
