@@ -274,12 +274,100 @@ KyrieIIAltoNotes = {
 		\clef treble
 		\key f \dorian \time 4/4 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #153
-		
+		r4 \mvTr g'2\fE^\tuttiE f4
+		g2 f
+		e4( f2) f4 %155
+		f( e) r2\fermata
+		\tempoKyrieIIFuga R1*4 %160
+		f4. f8 es!4 c
+		as' g f r8 d
+		es f g as h,4 c~
+		c h c8 h c d
+		es4 es c8([ f] as16[ g f e] %165
+		f2) e
+		f4 f c8([ b] as[ g16 f]
+		g4.) g8 f4 r
+		R1
+		r8 es' es es as4 as %170
+		g2. g4
+		g1~
+		g2 r
+		r8 f f f g4 g
+		f4. f8 e4 f %175
+		f e f r
+		R1
+		as8. as16 as8 as as as as as
+		as4. g8 as4 r
+		r r8 f f f e4 %180
+		R1
+		r8 f f f e g g g
+		g4 r f8. f16 f4
+		f4. f8 es4 c
+		as' g f r8 d %185
+		es f g as h,4 c~
+		c h c8 h c d
+		es4 e f2~
+		f4 f e r
+		R1 %190
+		r4 r8 g as g f e
+		f4 as g8 es es es
+		es2 r
+		r8 f f f e4 r
+		R1 %195
+		as4. as8 as4 r8 as
+		as4 as as g
+		as g8[ f] f2~
+		f4 e8[ d!] e4 e
+		f1\fermata \bar "|." %200 FINIS
 	}
 }
 
 KyrieIIAltoLyrics = \lyricmode {
+	Ky -- ri -- %153
+	e e --
+	le -- i -- %155
+	son. __
 	
+	Ky -- ri -- e e -- %161
+	le -- i -- son, e --
+	le -- i -- son, e -- le -- _
+	i -- son, e -- le -- i --
+	son, e -- le -- %165
+	i --
+	son, e -- le --
+	i -- son,
+	
+	e -- le -- i -- son, e -- %170
+	le -- i --
+	son, __
+	
+	e -- le -- i -- son, e --
+	le -- i -- son, e -- %175
+	le -- i -- son.
+	
+	Ky -- ri -- e e -- le -- i -- son, e --
+	le -- i -- son,
+	e -- le -- i -- son, %180
+	
+	e -- le -- i -- son, e -- le -- i --
+	son. Ky -- ri -- e,
+	Ky -- ri -- e e --
+	le -- i -- son, e -- %185
+	le -- i -- son, e -- le -- _
+	i -- son, e -- le -- i --
+	son, e -- le --
+	i -- son,
+	%190
+	e -- le -- i -- son, e --
+	le -- i -- son, e -- le -- i --
+	son,
+	e -- le -- i -- son.
+	
+	Ky -- ri -- e e --
+	le -- i -- son, e --
+	le -- _ _
+	_ _ i --
+	son.
 }
 
 % AltoNotes = {

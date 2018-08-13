@@ -270,7 +270,7 @@ KyrieIISopranoNotes = {
 		g4 c2 b4~
 		b as2 g4 %155
 		g2 r\fermata
-		c4. c8 as4 f
+		\tempoKyrieIIFuga c4. c8 as4 f
 		des' c b r8 g
 		as b c des e,4 f~
 		f e f8 e f g %160
