@@ -277,7 +277,7 @@ ChristeViola = {
 
 KyrieIIViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \dorian \time 4/4 \tempoKyrieII
 			\set Score.currentBarNumber = #153
 		e,8.-!\fE c'16[ c8. c16] f,8.-! c'16[ c8. c16]

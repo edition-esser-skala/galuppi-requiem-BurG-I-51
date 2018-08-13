@@ -7,123 +7,123 @@
 \include "../definitions.ly"
 
 \paper {
-	first-page-number = #1
+	first-page-number = #19
 	systems-per-page = #1
 }
 
 #(set-global-staff-size 15.87)
 
 \book {
-% 	\bookpart {
-% 		\header {
-% 			movement = "2.1 KYRIE"
-% 		}
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\KyrieViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\KyrieViolinoII
-% 						}
-% 					>>
-% 					\new Staff <<
-% 						\set Staff.instrumentName = "Viola"
-% 						\KyrieViola
-% 					>>
-% 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \KyrieAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \KyrieBassoLyrics
-% 				>>
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
-% 						\KyrieOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass {
-% 					\KyrieBassFigures
-% 				}
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4 = 80 }
-% 		}
-% 	}
-% 	\bookpart {
-% 		\header {
-% 			movement = "2.2 CHRISTE"
-% 		}
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\ChristeViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\ChristeViolinoII
-% 						}
-% 					>>
-% 					\new Staff <<
-% 						\set Staff.instrumentName = "Viola"
-% 						\ChristeViola
-% 					>>
-% 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore I"
-% 						\new Voice = "TenoreI" { \dynamicUp \ChristeTenoreINotes }
-% 					}
-% 					\new Lyrics \lyricsto TenoreI \ChristeTenoreILyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore II"
-% 						\new Voice = "TenoreII" { \dynamicUp \ChristeTenoreIINotes }
-% 					}
-% 					\new Lyrics \lyricsto TenoreII \ChristeTenoreIILyrics
-% 				>>
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
-% 						\ChristeOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass {
-% 					\ChristeBassFigures
-% 				}
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4. = 60 }
-% 		}
-% 	}
+	\bookpart {
+		\header {
+			movement = "2.1 KYRIE"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\KyrieViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\KyrieViolinoII
+						}
+					>>
+					\new Staff <<
+						\set Staff.instrumentName = "Viola"
+						\KyrieViola
+					>>
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \KyrieAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \KyrieBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\KyrieOrgano
+					}
+				>>
+				\new FiguredBass {
+					\KyrieBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4 = 80 }
+		}
+	}
+	\bookpart {
+		\header {
+			movement = "2.2 CHRISTE"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\ChristeViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\ChristeViolinoII
+						}
+					>>
+					\new Staff <<
+						\set Staff.instrumentName = "Viola"
+						\ChristeViola
+					>>
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Tenore I"
+						\new Voice = "TenoreI" { \dynamicUp \ChristeTenoreINotes }
+					}
+					\new Lyrics \lyricsto TenoreI \ChristeTenoreILyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore II"
+						\new Voice = "TenoreII" { \dynamicUp \ChristeTenoreIINotes }
+					}
+					\new Lyrics \lyricsto TenoreII \ChristeTenoreIILyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\ChristeOrgano
+					}
+				>>
+				\new FiguredBass {
+					\ChristeBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4. = 60 }
+		}
+	}
 	\bookpart {
 		\header {
 			movement = "2.3 KYRIE II"
