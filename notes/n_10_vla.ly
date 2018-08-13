@@ -206,6 +206,72 @@ ChristeViola = {
 		\clef treble
 		\key c \major \time 3/8 \tempoChriste
 			\set Score.currentBarNumber = #47
+		c4\fE r8
+		h4 r8
+		c4 r8
+		g' g, g %50
+		g g g
+		a d c
+		h8. g'16 a h
+		c a f8.([ e32 f)]
+		g8. a16 g f %55
+		e8 f h,
+		c4 r8
+		g' e f
+		g4 g,8
+		c4\p r8 %60
+		h4 r8
+		c4 r8
+		g' g, g
+		g r r
+		R4.*6 %70
+		c4 r8
+		g'4 r8
+		fis8 d fis
+		g g, g'
+		e r r %75
+		R4.*3
+		g8 g, fis'
+		g g, g' %80
+		e r r
+		R4.*4 %85
+		g,8\fE g g
+		g c fis,
+		g4 r8
+		fis4 r8
+		g g g %90
+		g'4 f!8
+		e4 r8
+		R4.*11 %103
+		r8 r h'\pE
+		h4. %105
+		c
+		fis,4 g8
+		g fis4
+		e4 r8
+		R4.*20 %129
+		c4 r8 %130
+		c4 r8
+		c4 r8
+		r g' f
+		e d c
+		f4 fis8 %135
+		g4 r8
+		R4.*2
+		c,4\fE r8
+		h4 r8 %140
+		c4 r8
+		g' g, g
+		g g g
+		a d c
+		h8. g'16 a h %145
+		c a f8.([ e32 f)]
+		g8. a16 g f
+		e8 f h,
+		c4 r8
+		g' e f %150
+		g4 g,8
+		c4 r8\fermata \bar "||" %152 finis
 	}
 }
 
