@@ -206,6 +206,90 @@ ChristeViolinoI = {
 		\clef treble
 		\key c \major \time 3/8 \tempoChriste
 			\set Score.currentBarNumber = #47
+		g''16\fE a g8 g
+		f16 g f8 f
+		e16 f e8 e
+		e d r %50
+		r16 fis g d e h
+		c a' fis4
+		f4.
+		\appoggiatura f8 e4 a8
+		d,4. %55
+		\tuplet 3/2 8 { c16 e g } a4
+		g16 a g8 g
+		\tuplet 3/2 8 { f16 e d } e4
+		d4.\trill
+		c4 r8 %60
+		r f\p f
+		r e e
+		r16 d\f e h c g
+		g,8 r r
+		R4.*6 %70
+		r8 e''\p e
+		r d d
+		\tuplet 3/2 8 { d,16\f fis a } c4
+		h16 fis'\pE g d e h
+		c8 r r %75
+		R4.*3
+		r16 d\f e h c a
+		h fis'\p g d e h %80
+		c8 r r
+		R4.*4 %85
+		r16 d\f e h c g
+		\tuplet 3/2 8 { g,16 h d } e4
+		d16 e d8 d
+		c16 d c8 c
+		c8 h r %90
+		d'16 e d8 d
+		\tuplet 3/2 8 { d16 h gis } e4
+		R4.
+		r8 f'!\p f
+		r e e %95
+		r g g
+		r f f
+		r e e
+		e4 r8
+		r d d %100
+		d4 r8
+		r e e
+		e4 r8
+		R4.*5 %108
+		r8 g g
+		r g g %110
+		g4 r8
+		R4.*2
+		r16 d\f e h c g
+		f'!4 r8 %115
+		R4.*2
+		r16 g a e f d
+		e4 r8
+		R4. %120
+		r8 g g
+		r d d
+		R4.*7 %129
+		g16 a g8 g %130
+		e16 f e8 e
+		c,4 r8
+		r h'' a
+		g f e
+		e4 d8 %135
+		d c h
+		c4 r8
+		R4.
+		g'16\f a g8 g
+		f16 g f8 f %140
+		e16 f e8 e
+		e d r
+		r16 fis g d e h
+		c a' fis4
+		f4. %145
+		\appoggiatura f8 e4 a8
+		d,4.
+		\tuplet 3/2 8 { c16 e g } a4
+		g16 a g8 g
+		\tuplet 3/2 8 { f16 e d } e4 %150
+		d4.\trill
+		c4 r8\fermata \bar "||" %152 finis
 	}
 }
 
