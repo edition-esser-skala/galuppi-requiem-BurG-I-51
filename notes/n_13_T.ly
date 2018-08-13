@@ -483,11 +483,145 @@ ChristeTenoreIINotes = {
 		\clef "treble_8"
 		\key c \major \time 3/8 \autoBeamOff \tempoChriste
 			\set Score.currentBarNumber = #47
+		R4.*13 %59
+		\mvTr e4.\pE^\soloE %60
+		d4 d8
+		c4 c8
+		c([ h)] r
+		R4.*3 %66
+		c4.
+		h
+		b
+		a4 a8 %70
+		g4 r8
+		h16([ c)] h8 h
+		a4 r8
+		h4.
+		c %75
+		c
+		h4 c8
+		\tuplet 3/2 8 { h16([ a g] } fis8.) fis16
+		g4 r8
+		h4. %80
+		c
+		c
+		h8 g4
+		fis g8
+		g16([ a32 g] fis8.) fis16 %85
+		g4 r8
+		R4.*8 %94
+		r8 e' c %95
+		R4.*3
+		e16([ f)] e8 e
+		e([ d)] r %100
+		R4.
+		r8 e c
+		R4.
+		r8 a fis
+		g4. %105
+		a~
+		a4 g8
+		fis4.
+		r8 e' h
+		R4. %110
+		c16([ d)] c8 c
+		c4 h8~
+		h16([ c)] a8. g16
+		g4 r8
+		R4.*4 %118
+		c4.
+		h %120
+		c16([ h)] c8 c
+		h4 r8
+		r r d
+		d c4~
+		c8 h4 %125
+		e4.~
+		e8 d4
+		g,8 c4~
+		c8 h4
+		c r8 %130
+		r g e
+		c'16([ d)] c8 c
+		h4 r8
+		c4.
+		c %135
+		h8([ c d]
+		g,) c4~
+		c16([ d32 c] h8.) c16
+		c4 r8
+		R4.*12 %151
+		R4.\fermataMarkup \bar "||" %152 finis
 	}
 }
 
 ChristeTenoreIILyrics = \lyricmode {
+	Chri -- %60
+	ste e --
+	le -- i --
+	son.
 	
+	Chri -- %67
+	ste
+	e --
+	le -- i -- %70
+	son,
+	e -- le -- i --
+	son.
+	Chri --
+	ste, %75
+	Chri --
+	ste e --
+	le -- i --
+	son.
+	Chri -- %80
+	ste
+	e --
+	le -- i --
+	son, e --
+	le -- i -- %85
+	son.
+	
+	Chri -- ste %95
+	
+	e -- le -- i -- %99
+	son. %100
+	
+	Chri -- ste,
+	
+	Chri -- ste
+	e -- %105
+	le --
+	i --
+	son.
+	Chri -- ste
+	%110
+	e -- le -- i --
+	son, e --
+	le -- i --
+	son.
+	
+	Chri -- %119
+	ste %120
+	e -- le -- i --
+	son,
+	e --
+	le -- _
+	_ %125
+	_
+	_
+	_ _
+	i --
+	son. %130
+	Chri -- ste
+	e -- le -- i --
+	son.
+	Chri --
+	ste %135
+	e --
+	le --
+	i --
+	son. %139 finis
 }
 
 % TenoreNotes = {

@@ -587,7 +587,7 @@ ChristeBassFigures = \figuremode {
 	<[6]>
 	<7 5>4 <6 5>8 %135
 	r4.
-	r
+	<[6] [4]>
 	<5 4>8 <\l 3>4
 	r4.
 	r %140
