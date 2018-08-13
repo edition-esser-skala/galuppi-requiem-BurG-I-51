@@ -228,7 +228,7 @@ ChristeViolinoI = {
 		r8 e''\p e
 		r d d
 		\tuplet 3/2 8 { d,16\f fis a } c4
-		h16 fis'\pE g d e h
+		h16 fis' g d e h
 		c8 r r %75
 		R4.*3
 		r16 d\f e h c a
@@ -264,7 +264,7 @@ ChristeViolinoI = {
 		r16 g a e f d
 		e4 r8
 		R4. %120
-		r8 g g
+		r8 g\pE g
 		r d d
 		R4.*7 %129
 		g16 a g8 g %130
