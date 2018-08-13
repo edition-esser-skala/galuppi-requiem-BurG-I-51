@@ -298,6 +298,51 @@ KyrieIIViolinoI = {
 		\clef treble
 		\key f \dorian \time 4/4 \tempoKyrieII
 			\set Score.currentBarNumber = #153
+		e8.-!\fE b''16[ b8. b16] f,8.-! as'16[ as8. as16]
+		es,8.-! g'16[ g8. g16] des,8.-! f'16[ f8. f16]
+		e4 f2 g8 f %155
+		f4 e r2\fermata
+		\tempoKyrieIIFuga R1*4
+		f4. f8 es!4 c
+		as' g f r8 d
+		es f g as h,4 c~
+		c h c8 h c d
+		es4. d16 c c8 f as16 g f e %165
+		f2 e
+		f4 r8 des c b as g16 f
+		g4. g8-\critnote f4 r
+		R1
+		r8 es' es es as4 as %170
+		g8 as h? c g4. g8
+		g4 r8 g g4 r8 g
+		g2 as
+		r8 f f f g4 g
+		f4. f8 e g f as %175
+		b4 g f r
+		r r8 as as as as b
+		c as es as f as f des
+		b4. b8 c es as16 b c as
+		b8.( c32 b) as8 f f4 e8 g %180
+		as4 g8 c c,4 r
+		r8 f f f e g g g
+		g4 r8 c, c f, f' r
+		f4. f8 es4 c
+		as' g f r8 d %185
+		es f g as h,4 c~
+		c h c8 h c d
+		es g c4~ c8 c c c
+		f,4 r8 as b g b c16 b
+		as4 r8 as, b g c4 %190
+		des c8 g' as g f e
+		f4 as g8 es es es
+		es c' g es f as as,4
+		r8 f' f f e g b4
+		r8 as g f g4. f16 e %195
+		f8 as f c' c, as' as4
+		as2. g4
+		f g8 as b f f4~
+		f e8 d! e2
+		f1\fermata \bar "|." %200 FINIS
 	}
 }
 
