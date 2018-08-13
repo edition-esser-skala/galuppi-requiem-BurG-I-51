@@ -309,7 +309,6 @@ KyrieIISopranoNotes = {
 		c4. as8 b4 b
 		g2. g4
 		f1\fermata \bar "|." %200 FINIS
-		
 	}
 }
 
