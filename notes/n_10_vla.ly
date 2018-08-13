@@ -280,6 +280,47 @@ KyrieIIViola = {
 		\clef treble
 		\key f \dorian \time 4/4 \tempoKyrieII
 			\set Score.currentBarNumber = #153
+		e,8.-!\fE c'16[ c8. c16] f,8.-! c'16[ c8. c16]
+		es,8.-! c'16[ c8. c16] des,8.-! b'16[ b8. b16]
+		c4 r8 c h2 %155
+		c r\fermata
+		\tempoKyrieIIFuga R1*8 %164
+		c4. c8 as4 f %165
+		des' c b r8 g
+		as b c des e, e' f4~
+		f e f8 e f g
+		as f, as4 g8 c es16 d c h
+		c2 h %170
+		c4. c8 d4 es8 g
+		g, g' g,4 c8 d c h
+		c4 r r2
+		r8 as as as des4 r8 b
+		as b c des c e f f %175
+		f des c4 c r
+		r2 r4 r8 b'
+		as es c es f4 r8 des
+		es4 r8 es es as as as
+		g4 f8 c des4 r8 c %180
+		c f g4 r8 as as as
+		b4 r8 as g e e e
+		e g e c as c c c
+		as c c4~ c8 g' es4
+		r8 es c es f4. f8 %185
+		es c r4 r2
+		R1
+		c4. c8 as4 f
+		des' c b r8 g
+		as b c des e,4 f~ %190
+		f e f8 e f g
+		as4 r8 c c c c4
+		r8 c es? g f des des des
+		des b as' f b g e4
+		r r8 f c4 r8 c %195
+		c4 r8 c c4 r8 f
+		f4 r8 d! c4 r8 c
+		c4. c8 des4 r8 des
+		c1
+		c\fermata \bar "|." %200 FINIS
 	}
 }
 
