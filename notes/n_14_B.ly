@@ -411,12 +411,115 @@ DiesIraeBassoNotes = {
 	\relative c {
 		\clef bass
 		\key f \major \time 3/2 \tempoDiesIrae
-		
+		R1.*19
+		R1.\fermataMarkup %20
+		\mvTr f1\fE^\tuttiE f2
+		c1 c2
+		a1 a2
+		b1 b2
+		g1 g2 %25
+		f1 f2
+		R1.*3
+		f'1 f2 %30
+		R1.
+		c'1 c2
+		R1.
+		f,1 f2
+		f, f r %35
+		r f' es
+		d d r
+		r d c
+		b b r
+		r b' b %40
+		g g r
+		c1 c2
+		f,1 f2
+		f e2.( f4)
+		g1. %45
+		c,1 r2
+		R1.
+		a'2.( b!4 a g
+		fis2) fis r
+		g2.( a4 g f %50
+		e2) e r
+		r f e
+		f c r
+		r g' fis
+		g d r %55
+		r r d'~
+		d c1~
+		c2 b1
+		a1.
+		g1 a2 %60
+		b1 r2
+		r b b
+		f1 f2
+		r f f
+		c1 c2 %65
+		R1.*2
+		f1.
+		h,
+		c~ %70
+		c~
+		c~
+		c~
+		c
+		f,1 r2 %75
+		R1.*5 %80
+		R1.\fermataMarkup \bar "||" %81 finis
 	}
 }
 
 DiesIraeBassoLyrics = \lyricmode {
+	Di -- es %21
+	i -- rae,
+	di -- es
+	il -- la,
+	di -- es %25
+	il -- la
 	
+	sol -- vet %30
+	
+	sae -- clum
+	
+	in fa --
+	vil -- la, %35
+	di -- es
+	i -- rae,
+	di -- es
+	il -- la
+	sol -- vet %40
+	sae -- clum,
+	sol -- vet
+	sae -- clum,
+	in fa --
+	vil -- %45
+	la,
+	
+	tes --
+	te,
+	tes -- %50
+	te,
+	tes -- te
+	Da -- vid,
+	tes -- te
+	Da -- vid %55
+	cum __
+	Si --
+	byl --
+	_
+	_ _
+	la,
+	tes -- te
+	Da -- vid,
+	tes -- te
+	Da -- vid %65
+	
+	cum %68
+	Si --
+	byl -- %70
+	
+	la. %75 finis
 }
 
 % BassoNotes = {
