@@ -362,12 +362,106 @@ DiesIraeSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/2 \tempoDiesIrae
-		
+		R1.*19
+		R1.\fermataMarkup %20
+		\mvTr a'1\fE^\tuttiE a2
+		g1 g2
+		a1 c2
+		c( b4 a) b2
+		b1 b2 %25
+		b( a4 g) a2
+		\mvTr a2.\pE^\solo g4 a b
+		b a a2 a
+		a g r
+		\mvTr a1\fE^\tutti a2 %30
+		R1.
+		c1 c2
+		R1.
+		c1 c2
+		c a r %35
+		r a a
+		b b r
+		r b c
+		d d r
+		r d d %40
+		d d r
+		e1 c2
+		c1 c2
+		h c1
+		c2( h1) %45
+		c r2
+		R1.*5 %51
+		r2 a b
+		a g r
+		r b c
+		b a r %55
+		R1.*6 %61
+		r2 b b
+		b( a4 g) a2
+		r a a
+		g1 g2 %65
+		as1 as2
+		g1 g2
+		as1.
+		as?
+		as? %70
+		g2. as4 b2~
+		b as2. g4
+		as b g1~
+		g1.
+		f1 r2 %75
+		R1.*5 %80
+		R1.\fermataMarkup \bar "||" %81 finis
 	}
 }
 
 DiesIraeSopranoLyrics = \lyricmode {
+	[Di -- es %21
+	i -- rae,
+	di -- es
+	il -- la,
+	di -- es %25
+	il -- la]
+	sol -- vet, sol -- vet
+	sae -- clum in fa --
+	vil -- la,
+	[sol -- vet %30
 	
+	sae -- clum
+	
+	in fa --
+	vil -- la,] %35
+	[di -- es
+	i -- rae,
+	di -- es
+	il -- la
+	sol -- vet %40
+	sae -- clum,
+	sol -- vet
+	sae -- clum,
+	in fa --
+	vil -- %45
+	la,]
+	
+	[tes -- te %52
+	Da -- vid,
+	tes -- te
+	Da -- vid,] %55
+	
+	tes -- te %62
+	Da -- vid,
+	[tes -- te
+	Da -- vid, %65
+	tes -- te
+	Da -- vid
+	cum]
+	Si --
+	byl -- %70
+	_ _ _
+	_ _
+	_ _ _
+	
+	la. %75 finis
 }
 
 % SopranoNotes = {
