@@ -717,12 +717,115 @@ DiesIraeTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key f \major \time 3/2 \tempoDiesIrae
-		
+		R1.*19
+		R1.\fermataMarkup %20
+		\mvTr c1\fE^\tuttiE c2
+		c1 c2
+		c1 c2
+		d1 d2
+		b1 b2 %25
+		c1 c2
+		R1.*3
+		c1 c2 %30
+		R1.
+		e1 e2
+		R1.
+		f1 f2
+		f c r %35
+		r c c
+		d d r
+		r d es
+		f f r
+		r f f %40
+		g g r
+		g1 e2
+		f1 f2
+		d e1
+		d1. %45
+		e1 r2
+		e2.( f4 e d
+		cis2) cis r
+		d2.( e4 d c
+		h2) h r %50
+		c1.
+		c
+		c1 c2
+		d1.
+		d %55
+		d1 d2
+		es1.
+		d1 g2~
+		g f1~
+		f2 es1 %60
+		d1 r2
+		r d d
+		c1 c2
+		r c c
+		c1 c2 %65
+		R1.*2
+		c1.
+		d
+		c~ %70
+		c~
+		c~
+		c~
+		c
+		c1 r2 %75
+		R1.*5 %80
+		R1.\fermataMarkup \bar "||" %81 finis
 	}
 }
 
 DiesIraeTenoreLyrics = \lyricmode {
+	[Di -- es %21
+	i -- rae,
+	di -- es
+	il -- la,
+	di -- es %25
+	il -- la]
 	
+	[sol -- vet %30
+	
+	sae -- clum
+	
+	in fa --
+	vil -- la,] %35
+	[di -- es
+	i -- rae,
+	di -- es
+	il -- la
+	sol -- vet %40
+	sae -- clum,
+	sol -- vet
+	sae -- clum,
+	in fa --
+	vil -- %45
+	la,]
+	tes --
+	te,
+	tes --
+	te, %50
+	tes --
+	te
+	Da -- vid,
+	tes --
+	te %55
+	Da -- vid
+	cum
+	Si -- byl --
+	_
+	_ %60
+	la,
+	tes -- te
+	Da -- vid,
+	tes -- te
+	Da -- vid %65
+	
+	cum %68
+	Si --
+	byl -- %70
+	
+	la. %75 finis
 }
 
 % TenoreNotes = {
