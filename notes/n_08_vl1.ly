@@ -350,6 +350,76 @@ DiesIraeViolinoI = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/2 \tempoDiesIrae
+		f2.\fE f'4 c a
+		R1.
+		f2. f'4 c a
+		R1.
+		b,2. b'4 g e %5
+		R1.*3
+		r2 r4 c'' a f
+		R1. %10
+		r2 r4 d b g
+		b'2 b b
+		b a4 g a2
+		a g4 f g2
+		f,2. c''4 a f %15
+		f,2. d''4 b g
+		a f d e f2~
+		f4 g e c b'2
+		a1.
+		g\fermata %20
+		f,2. f'4 c a
+		R1.
+		f2. f'4 c a
+		R1.
+		b,2. b'4 g e %25
+		R1.*4
+		r2 r4 c' a f %30
+		R1.
+		e'2 g g
+		R1.
+		f2 c' c
+		c2. a4 f c %35
+		a2 a' a
+		b2. f4 d b
+		b,2 f'' es
+		d2. b'4 f d
+		b2 f' f %40
+		h,2. g'4 d h
+		c2 g' g
+		f2. c'4 a f
+		d2 e1
+		d1. %45
+		c1 r2
+		R1.*4 %50
+		c,2. g''4 e c
+		a2 a' g
+		a g~ g8 e f g
+		g,2 d' d
+		d2. a'4 fis d %55
+		d,2 r r
+		R1.*4 %60
+		b'2. b'4 f d
+		R1.
+		f,2. f'4 c a
+		R1.
+		c,2. c'4 g e %65
+		R1.
+		c'2. c'4 g e
+		R1.
+		as2 as as
+		as? r r %70
+		g r r
+		g r r
+		c,, g''1
+		g1.
+		f,2. f'4 c a %75
+		f2. a'4 f c
+		d,2. f'4 d b
+		b,2. g''4 d b
+		a2 a'1
+		g1. %80
+		f4 c \appoggiatura b a1\fermata \bar "||" %81 finis
 	}
 }
 

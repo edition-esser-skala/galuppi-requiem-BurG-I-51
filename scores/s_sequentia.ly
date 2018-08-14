@@ -83,7 +83,7 @@
 					\DiesIraeBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 1. = 40 }
 		}
 	}
