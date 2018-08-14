@@ -21,9 +21,14 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Oboe I, II" } }
+					\new Staff \with {
+							soloText = \markup { \medium \remark "ob 1" }
+							soloIIText = \markup { \medium \remark "ob 2" }
+							instrumentName = \markup { \center-column { "Oboe I, II" } }
+					} <<
 						\partcombine \DiesIraeOboeI \DiesIraeOboeII
+% 						\new Voice { \voiceOne \dynamicUp \DiesIraeOboeI }
+% 						\new Voice { \voiceTwo \DiesIraeOboeII }
 					>>
 				>>
 				\new StaffGroup <<

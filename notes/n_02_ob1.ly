@@ -16,16 +16,16 @@ DiesIraeOboeI = {
 		R1.
 		a'8\pE g a b a4 c a f
 		g8 f g a g4 c g e
-		r2 r4 c'\fE a f
+		\pa r2 r4 c'\fE a f
 		R1. %10
-		r2 r4 d b g
+		r2 r4 d b g \pd
 		b'2 b b
 		b a4 g a2
 		a g4 f g2
-		f,2. c''4 a f %15
-		f,2. d''4 b g
+		\pao f,2. c''4 a f %15
+		\pao f,2. d''4 b g
 		a f d e f2~
-		f4 g e c b'2
+		\pa f4 g e c b'2 \pd
 		a1.
 		g\fermata %20
 		f,2. f'4 c a
@@ -47,17 +47,17 @@ DiesIraeOboeI = {
 		b2 f' f %40
 		h,2. g'4 d h
 		c2 g' g
-		f2. c'4 a f
+		\pao f2. c'4 a f
 		d2 e1
 		d1. %45
-		c1 r2
+		\pao c1 r2
 		R1.*4 %50
 		c,2. g''4 e c
-		a2 a' g
+		a2 a' \pao g
 		a g~ g8 e f g
 		g,2 d' d
-		d2. a'4 fis d %55
-		d,2 r r
+		\pa d2. a'4 fis d %55
+		d,2 r r \pd
 		R1.*4 %60
 		b'2. b'4 f d
 		R1.
@@ -71,13 +71,13 @@ DiesIraeOboeI = {
 		as? r r %70
 		g r r
 		g r r
-		c,, g''1
+		\pao c,, g''1
 		g1.
 		f,2. f'4 c a %75
 		f2. a'4 f c
 		d,2. f'4 d b
-		b2. g'4 d b
-		a2 a'1
+		\pao b2. g'4 d b
+		\pao a2 a'1
 		g1. %80
 		f4 c \appoggiatura b a1\fermata \bar "||" %81 finis
 	}
