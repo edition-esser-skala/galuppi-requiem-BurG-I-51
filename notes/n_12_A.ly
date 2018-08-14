@@ -374,12 +374,108 @@ DiesIraeAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/2 \tempoDiesIrae
-		
+		R1.*19
+		R1.\fermataMarkup %20
+		\mvTr f1\fE^\tuttiE f2
+		e1 e2
+		f1 f2
+		f1 f2
+		f( e4 d) e2 %25
+		f1 f2
+		\mvTr f2.\pE^\solo e4 f g
+		g f f2 f
+		f e r
+		\mvTr f1\fE^\tutti f2 %30
+		R1.
+		g1 g2
+		R1.
+		a1 a2
+		a f r %35
+		r f f
+		f f r
+		r f a
+		b b r
+		r b b %40
+		h h r
+		c1 g2
+		a1 a2
+		g2 g1
+		g1. %45
+		g1 r2 %46
+		R1.*5 %51
+		r2 f g
+		f e r
+		r g a
+		g fis r %55
+		R1.*5 %60
+		r2 f f
+		f1.
+		f
+		r2 f f
+		f( e4 d) e2 %65
+		f1 f2
+		f1 e2
+		f1.
+		f
+		f %70
+		e2. f4 g2
+		e4 c f2. e4
+		f1 e4 d
+		e1.
+		f1 r2 %75
+		R1.*5 %80
+		R1.\fermataMarkup \bar "||" %81 finis
 	}
 }
 
 DiesIraeAltoLyrics = \lyricmode {
+	[Di -- es %21
+	i -- rae,
+	di -- es
+	il -- la,
+	di -- es %25
+	il -- la]
+	sol -- vet, sol -- vet
+	sae -- clum in fa --
+	vil -- la,
+	[sol -- vet %30
 	
+	sae -- clum
+	
+	in fa --
+	vil -- la,] %35
+	[di -- es
+	i -- rae,
+	di -- es
+	il -- la
+	sol -- vet %40
+	sae -- clum,
+	sol -- vet
+	sae -- clum,
+	in fa --
+	vil -- %45
+	la,]
+	
+	tes -- te %52
+	Da -- vid,
+	tes -- te
+	Da -- vid, %55
+	
+	tes -- te %61
+	Da --
+	vid,
+	tes -- te
+	Da -- vid, %65
+	tes -- te
+	Da -- vid
+	cum
+	Si --
+	byl -- %70
+	_ _ _
+	_ _ _ _
+	_ _ _
+	_
+	la. %75 finis
 }
 
 % AltoNotes = {

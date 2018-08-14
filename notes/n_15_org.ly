@@ -775,7 +775,7 @@ DiesIraeOrgano = {
 		g1 e2
 		f!1 h,2
 		c1 f2 %60
-		b,1.~
+		b,!1.~
 		b2 b' b
 		f1.
 		r2 f f
@@ -863,9 +863,9 @@ DiesIraeBassFigures = \figuremode {
 	r
 	<5 4>2 <\l 3>1
 	r1.
-	r %65
-	<_->
-	<5 4>2 <\l _!>1
+	<5 4>2 <\l 3>1 %65
+	<_->1.
+	<5 4>1 <\l _!>2
 	<_->1.
 	<7- 5>
 	<6- 4> %70
