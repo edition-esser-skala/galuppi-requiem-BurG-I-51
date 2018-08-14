@@ -358,6 +358,18 @@ KyrieIISopranoLyrics = \lyricmode {
 	son. %200 FINIS
 }
 
+DiesIraeSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/2 \tempoDiesIrae
+		
+	}
+}
+
+DiesIraeSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

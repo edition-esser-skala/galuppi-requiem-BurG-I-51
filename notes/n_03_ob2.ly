@@ -4,3 +4,9 @@
 
 \version "2.18.0"
 
+DiesIraeOboeII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/2 \tempoDiesIrae
+	}
+}

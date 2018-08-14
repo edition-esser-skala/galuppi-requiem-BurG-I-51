@@ -370,6 +370,18 @@ KyrieIIAltoLyrics = \lyricmode {
 	son. %200 FINIS
 }
 
+DiesIraeAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/2 \tempoDiesIrae
+		
+	}
+}
+
+DiesIraeAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -712,6 +712,18 @@ KyrieIIBassFigures = \figuremode {
 	<_!>1 %200 FINIS
 }
 
+DiesIraeOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/2 \tempoDiesIrae
+		\mvTr f,2\fE-\tuttiE r r
+	}
+}
+
+DiesIraeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

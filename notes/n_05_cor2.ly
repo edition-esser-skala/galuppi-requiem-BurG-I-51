@@ -104,3 +104,10 @@ IntroitusCornoII = {
 		e4 e e2\fermata \bar "|." %136 finis
 	}
 }
+
+DiesIraeCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \tempoDiesIrae
+	}
+}

@@ -3,3 +3,10 @@
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 \version "2.18.0"
+
+DiesIraeOboeI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/2 \tempoDiesIrae
+	}
+}

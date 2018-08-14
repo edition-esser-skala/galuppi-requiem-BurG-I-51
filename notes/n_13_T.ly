@@ -713,6 +713,18 @@ KyrieIITenoreLyrics = \lyricmode {
 	son. %200 FINIS
 }
 
+DiesIraeTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 3/2 \tempoDiesIrae
+		
+	}
+}
+
+DiesIraeTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

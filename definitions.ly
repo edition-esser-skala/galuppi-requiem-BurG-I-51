@@ -171,6 +171,8 @@ tempoChriste = \tempoMarkup "Andantino"
 tempoKyrieII = \tempoMarkup "Adagio"
 	tempoKyrieIIFuga = \tempoMarkup "Allegro"
 
+tempoDiesIrae = \tempoMarkup "Maestoso"
+
 
 % modify the Scheme function 'format-bass-figure'
 % in usr/share/lilypond/current/scm/translation-functions.scm

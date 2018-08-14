@@ -346,6 +346,13 @@ KyrieIIViolinoI = {
 	}
 }
 
+DiesIraeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/2 \tempoDiesIrae
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
