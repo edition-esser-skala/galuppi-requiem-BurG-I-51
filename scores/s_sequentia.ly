@@ -27,8 +27,6 @@
 							instrumentName = \markup { \center-column { "Oboe I, II" } }
 					} <<
 						\partcombine \DiesIraeOboeI \DiesIraeOboeII
-% 						\new Voice { \voiceOne \dynamicUp \DiesIraeOboeI }
-% 						\new Voice { \voiceTwo \DiesIraeOboeII }
 					>>
 				>>
 				\new StaffGroup <<
