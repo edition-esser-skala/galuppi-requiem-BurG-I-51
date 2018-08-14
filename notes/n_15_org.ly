@@ -717,11 +717,169 @@ DiesIraeOrgano = {
 		\clef bass
 		\key f \major \time 3/2 \tempoDiesIrae
 		\mvTr f,2\fE-\tuttiE r r
+		c' r r
+		a r r
+		b r r
+		g r r %5
+		f r r
+		R1.*2
+		f'4 f f f f f
+		fis fis fis fis fis fis %10
+		g g g g g g
+		e2 e e
+		f f f
+		c c c
+		f, r r %15
+		b r r
+		a g f
+		b c c
+		f f f
+		c1.\fermata %20
+		f,2 r r
+		c' r r
+		a r r
+		b r r
+		g r r %25
+		f f f
+		f'\p c1
+		f2 a, h
+		c2. d4 c b
+		a\f f f'2 f %30
+		f, r r
+		c' c c
+		c r r
+		f1 f2
+		f,1.~ %35
+		f2 f' es
+		d1.~
+		d2 d c
+		b1.~
+		b2 b' b %40
+		g g r
+		c,1 c2
+		f1 f2
+		f e2. f4
+		g1. %45
+		c,2 c' a
+		gis r r
+		a2. b!4 a g
+		fis2 r r
+		g2. a4 g f %50
+		e2 r r
+		r f e
+		f c r
+		r g' fis
+		g d r %55
+		d1 fis2
+		fis?1.
+		g1 e2
+		f!1 h,2
+		c1 f2 %60
+		b,1.~
+		b2 b' b
+		f1.
+		r2 f f
+		c1. %65
+		f,
+		c'
+		f
+		h,
+		c~ %70
+		c~
+		c~
+		c~
+		c
+		f, %75
+		f2 r r
+		b r r
+		g r r
+		f2. g4 a b
+		c1. %80
+		f,\fermata \bar "||" %81 finis
 	}
 }
 
 DiesIraeBassFigures = \figuremode {
-	
+	r1.
+	r
+	<[6]>
+	r
+	<6> %5
+	r
+	r1.*2
+	r1.
+	<7- 5> %10
+	r
+	<6 5>
+	<9 4>2 <8 3> r
+	<6 4> <5 3> r
+	r1. %15
+	r
+	<[6]>2 <5>4 <6> r2
+	<6 5> <9>4 <8> <7>2
+	<9>4 <8> r1
+	<5 4>2 <\l 3>1 %20
+	r1.
+	r
+	<[6]>
+	<9>4 <8> r1
+	<7>4 <6> r1 %25
+	<5 4>4 <\l 3> r1
+	r2 <6 4>4 <5 3> <6 4> <7 5>
+	<9 4> <8 3> <[6]>2 <7 5>
+	<6 4> <5 3>1
+	<[6]>1. %30
+	r
+	r
+	r
+	r
+	r %35
+	r1 <4>2
+	<6>1.
+	r1 <6 4 3->2
+	r1.
+	r %40
+	<_!>
+	r
+	r
+	<6 4!>2 <[6]>1
+	<5 4>2 <\l _!>1 %45
+	r1.
+	<[6] [_!]>
+	<_+>
+	<6>
+	<_!> %50
+	<[6]>
+	r1 q2
+	r1.
+	r2 <_-> <6 5>
+	r <_+>1 %55
+	<[_+]>1 <[6]>2
+	<7- 5> <6> <5>
+	<4> <3> <6 5>
+	<9> <8> <[7]>
+	<5 4> <\l _-> <7-> %60
+	r1.
+	r
+	<5 4>2 <\l 3>1
+	r1.
+	r %65
+	<_->
+	<5 4>2 <\l _!>1
+	<_->1.
+	<7- 5>
+	<6- 4> %70
+	<5 _!>1 <7>2
+	<7 5> <[6-] 4> <5 3>
+	<6- 4> <5 4> <\l 3>
+	r1.
+	<_!> %75
+	r
+	r
+	<[6]>
+	r
+	<4>2 <3>1 %80
+	r1. %81 finis
 }
 
 % Organo = {
