@@ -534,12 +534,81 @@ TubaMirumSopranoNotes = {
 		\key f \major \time 2/1 \autoBeamOff \tempoTubaMirum
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #117
-		
+		R\breve*4 %120
+		\mvTr c'1.\fE^\tuttiE c2
+		c c d d
+		c\breve
+		g~
+		g1 c~ %125
+		c2 b1 a4 g
+		a1. g4 f
+		g1\fermata r
+		R\breve*2 %130
+		a2 a g g
+		g2. g4 g2 f
+		e fis g1
+		g a(
+		b) a %135
+		d1. c2
+		R\breve*6 %142
+		r1 g2. g4
+		g2 g a2. a4
+		d2 d d d %145
+		c1 c
+		R\breve*2
+		c2. c4 c2 c
+		c2. c4 c2 h %150
+		h? h h h
+		c c c h
+		c2. c4 c2 c
+		b!2. b4 b2 b
+		a a a1 %155
+		b a
+		a r
+		b2 a b a
+		g g b1
+		a\breve~ %160
+		a2 g4 f g1
+		a\breve\fermata \bar "||" %162 finis
 	}
 }
 
 TubaMirumSopranoLyrics = \lyricmode {
+	[Tu -- ba %121
+	mi -- rum spar -- gens
+	so --
+	_
+	_ %125
+	_ _ _
+	_ _ _
+	num,]
 	
+	per se -- pul -- chra %131
+	re -- gi -- o -- num,
+	per se -- pul --
+	chra re --
+	gi -- %135
+	o -- num,
+	
+	co -- get %143
+	o -- mnes, co -- get
+	o -- mnes an -- te %145
+	thro -- num.
+	
+	[Tu -- ba mi -- rum] %149
+	spar -- gens so -- num, %150
+	[per se -- pul -- chra
+	re -- gi -- o -- num,
+	co -- get o -- mnes,
+	co -- get o -- mnes
+	an -- te thro -- %155
+	_ _
+	num,
+	co -- get o -- mnes
+	an -- te thro --
+	_ %160
+	_ _ _
+	num.] %162 finis
 }
 
 % SopranoNotes = {
