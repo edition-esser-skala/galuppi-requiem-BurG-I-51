@@ -35,10 +35,10 @@ DiesIraeOboeI = {
 		b2. b4 g e %25
 		R1.*4
 		r2 r4 c' a f %30
-		a'8 g a b a4 c a f
-		e2 g g
-		g8 f g a g4 c g e
-		f2 c' c
+		a'8\pE g a b a4 c a f
+		e2\fE g g
+		g8\pE f g a g4 c g e
+		f2\fE c' c
 		c2. a4 f c %35
 		a2 a' a
 		b2. f4 d b

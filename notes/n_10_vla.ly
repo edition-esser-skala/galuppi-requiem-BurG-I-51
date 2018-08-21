@@ -328,6 +328,80 @@ DiesIraeViola = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/2 \tempoDiesIrae
+		c2\fE r r
+		c r r
+		c r r
+		b r r
+		e, r r %5
+		f r r
+		f'4\p f f f f f
+		c c c c c c
+		a\f c a f r2
+		a4 c a fis r2 %10
+		b4 d b g r2
+		c c c
+		c c c
+		c c c
+		c r r %15
+		d r r
+		c b4 g c a
+		b2 g c
+		c c c
+		c1.\fermata %20
+		c2 r r
+		c r r
+		c r r
+		b r r
+		e, r r %25
+		f r r
+		R1.*3
+		f'2 r r %30
+		f4\p f f f f f
+		c2\f c c
+		c4\p c c c c c
+		c2.\f f4 c a
+		f2 r r %35
+		r c' c
+		d r r
+		r d es
+		f r r
+		r b b %40
+		g r r
+		r c, c
+		c r r
+		r g' g
+		g1. %45
+		e1 r2
+		r e e
+		R1.
+		r2 d d
+		R1. %50
+		r2 c c
+		r c c
+		r c c
+		r g a
+		g a r %55
+		R1.*6 %61
+		r2 b b
+		c r r
+		a r r
+		g1 c2 %65
+		c r r
+		c r r
+		c r r
+		d d d
+		c r r %70
+		c r r
+		c r r
+		c1 c2
+		c1.
+		c2 r r %75
+		c r r
+		b r r
+		g r r
+		c2. b4 c d
+		g,2 c1 %80
+		c1.\fermata \bar "||" %81 finis
 	}
 }
 
