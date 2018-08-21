@@ -110,10 +110,10 @@ DiesIraeCornoI = {
 		\clef treble
 		\key c \major \time 3/2 \tempoDiesIrae
 		e'2\fE r r
-		d r r
+		\pao d r r
 		e r r
-		c r r
-		d r r %5
+		\pao c r r
+		\pao d r r %5
 		e r r
 		R1.*5 %11
 		g,1.~
@@ -124,12 +124,12 @@ DiesIraeCornoI = {
 		c d e
 		f d1
 		e2 e e
-		d1.\fermata %20
+		\pao d1.\fermata %20
 		e2 r r
-		d r r
+		\pao d r r
 		e r r
-		c r r
-		d r r %25
+		\pao c r r
+		\pao d r r %25
 		e r r
 		R1.*3
 		r4 g e c g2~ %30
@@ -138,20 +138,20 @@ DiesIraeCornoI = {
 		g~
 		g~
 		g~ %35
-		g~
+		g
 		c~
 		c~
 		c~
-		c~ %40
+		c %40
 		d~
-		d
+		d \pd
 		e1 r2
 		r r d
 		d1. %45
 		d2 r r
 		R1.*5 %51
-		e2 e d
-		e d r
+		e2 e \pao d
+		e \pao d r
 		R1.*7 %60
 		c1.~
 		c~
@@ -169,10 +169,10 @@ DiesIraeCornoI = {
 		d1.
 		e %75
 		e2 r r
-		c r r
-		d r r
+		\pao c r r
+		\pao d r r
 		e1.
-		d %80
+		\pao d %80
 		e\fermata \bar "||" %81 finis
 	}
 }

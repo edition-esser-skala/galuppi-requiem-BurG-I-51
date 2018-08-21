@@ -109,5 +109,70 @@ DiesIraeCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/2 \tempoDiesIrae
+		c'2\fE r r
+		d r r
+		c r r
+		c r r
+		d r r %5
+		c r r
+		R1.*5 %11
+		g1.~
+		g~
+		g
+		c2 r r %15
+		c r r
+		c d e
+		f d1
+		c2 c c
+		d1.\fermata %20
+		c2 r r
+		d r r
+		c r r
+		c r r
+		d r r %25
+		c r r
+		R1.*3
+		r4 g' e c g2~ %30
+		g1.~
+		g~
+		g~
+		g~
+		g~ %35
+		g
+		c~
+		c~
+		c~
+		c %40
+		d~
+		d
+		c1 r2
+		r r d
+		d1. %45
+		d2 r r
+		R1.*5 %51
+		c2 c d
+		c d r
+		R1.*7 %60
+		c1.~
+		c~
+		c~
+		c
+		d %65
+		c2 r r
+		R1.
+		c1 r2
+		c1 r2
+		c g1 %70
+		d'2 g,1
+		d'2 g,1~
+		g d'2
+		d1.
+		c %75
+		c2 r r
+		c r r
+		d r r
+		c1.
+		d %80
+		c\fermata \bar "||" %81 finis
 	}
 }
