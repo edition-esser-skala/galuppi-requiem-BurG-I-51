@@ -882,6 +882,19 @@ DiesIraeBassFigures = \figuremode {
 	r1. %81 finis
 }
 
+QuantusTremorOrgano = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 4/4 \tempoQuantusTremor
+			\set Score.currentBarNumber = #82
+		\mvTr d4\fE-\soloE r d r
+	}
+}
+
+QuantusTremorBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -405,6 +405,14 @@ DiesIraeViola = {
 	}
 }
 
+QuantusTremorViola = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \tempoQuantusTremor
+			\set Score.currentBarNumber = #82
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % 		\clef treble

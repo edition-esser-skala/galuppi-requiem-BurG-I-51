@@ -423,6 +423,14 @@ DiesIraeViolinoI = {
 	}
 }
 
+QuantusTremorViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \tempoQuantusTremor
+			\set Score.currentBarNumber = #82
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -172,6 +172,7 @@ tempoKyrieII = \tempoMarkup "Adagio"
 	tempoKyrieIIFuga = \tempoMarkup "Allegro"
 
 tempoDiesIrae = \tempoMarkup "Maestoso"
+tempoQuantusTremor = \tempoMarkup "Andante"
 
 
 % modify the Scheme function 'format-bass-figure'
