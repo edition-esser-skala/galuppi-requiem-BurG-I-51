@@ -970,11 +970,101 @@ TubaMirumOrgano = {
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #117
 		\mvTr f4\fE-\tuttiE f, f f' g g, g g'
+		a a, a a' b b, b b'
+		c b a g f e d d
+		c2 r r4 c d g %120
+		c c, c c' c c, c c'
+		f, f, f f' h,2 r4 h
+		c\breve~
+		c1 g'~
+		g f~ %125
+		f\breve~
+		f2 h, c1~
+		c1\fermata r
+		f4 f, f f' g g, g g'
+		a a, a a' b b, b b' %130
+		f f, f f' c' c, c c'
+		g g, g g' d' d, d d'
+		a a, a a' g g, g g'
+		e e, e e' f f, f f'~
+		f2 e f d~ %135
+		d e f1
+		\clef "treble_8" f'4 es d c b a g g
+		f2 r r4 f g c
+		f f, f f' e e, e e'
+		d d, d d' b b, b b' %140
+		\clef bass g g, g g' d2 b~
+		b a4 b c1
+		c r
+		c'4 c, c c' a a, a a'
+		b b, b b' b b, b b' %145
+		f f, f f' f f, f f'
+		c' b a g f e d d
+		c2 r r4 c d g
+		c c, c c' c c, c c'
+		c2 c, g' g, %150
+		g' f e e
+		a dis, e e
+		a4 a, a a' d, d, d d'
+		g g, g g' c, c, c c'
+		f f, f f' f f, f f' %155
+		f2 e f1
+		f r
+		b2 f b f
+		c' c, d2. e4
+		f e d c h1 %160
+		c\breve
+		f,\fermata \bar "||" %162 finis
 	}
 }
 
 TubaMirumBassFigures = \figuremode {
-	
+	r1 <6 4 _-> %117
+	<[6]>\breve
+	r2 <6>1 <7>4 <6!>
+	r1. <7>4 <7 5 _!> %120
+	r\breve
+	<9>2 <8> <7 5>1
+	<6 4> <5 3>
+	r <5 4>2 <\l _->
+	<5> <6> <5 4> <\l 3> %125
+	<5 3> <6 4> <5 4> <\l 3>
+	r <7 5> <6 4> <5 3>
+	r\breve
+	r1 <6 4 3>
+	<[6]>\breve %130
+	r
+	<4>2 <_-> <5 4> <\l 3>
+	<5 4> <6+ [3]> <5 4> <\l _->
+	<6>1 <9>2 <8>
+	<6 4 2> <6 5> <9> <3> %135
+	<6> <7 5> <6 4> <5 3>
+	r2 <6>1 <7>4 <6!>
+	r1. <7>4 <7>
+	r1 <6>
+	r <6> %140
+	r <5>
+	r2 <[6]> <6 4> <7 5>4 <6 4>
+	<5 3>\breve
+	r1 <[6]>
+	r\breve %145
+	r
+	r1. <7>4 <6!>
+	r1. <7>4 <7 5 _!>
+	r\breve
+	r1 <6 4>2 <5 _!> %150
+	r <6 4! 2> <[5!] _+>1
+	r2 <7 5 [_+]> <6 4> <[5!] _+>
+	r1 <7>
+	<7 _-> <7>
+	r\breve %155
+	<6 4 2>2 <7 5> <9> <8>
+	r\breve
+	r
+	r1 <6>2. <[6]>4
+	r1 <7 5> %160
+	<6 4> <5 3>
+	r\breve %162 finis
 }
 
 % Organo = {
