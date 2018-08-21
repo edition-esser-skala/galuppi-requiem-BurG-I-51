@@ -918,7 +918,7 @@ QuantusTremorOrgano = {
 		a, r a r %110
 		a'8 g f d g4 r
 		a2 a,
-		d4 r d r
+		d4\fE r d r
 		g r g r
 		a r8 f g4 a %115
 		d, r d r\fermata \bar "||" %116 finis
@@ -932,8 +932,8 @@ QuantusTremorBassFigures = \figuremode {
 	<7 5 _+> r %85
 	<6 4> <5 _!>
 	<7 5 _+>1
-	r
-	r
+	<[6] [4]>2 <[5] [_+]>
+	r1
 	<7 _->2 <6> %90
 	<7> <7 5>
 	<7 5 _+> r
