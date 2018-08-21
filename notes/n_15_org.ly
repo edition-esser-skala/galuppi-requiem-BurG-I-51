@@ -963,6 +963,20 @@ QuantusTremorBassFigures = \figuremode {
 	r1 %116 finis
 }
 
+TubaMirumOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/1 \tempoTubaMirum
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #117
+		\mvTr f4\fE-\tuttiE f, f f' g g, g g'
+	}
+}
+
+TubaMirumBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

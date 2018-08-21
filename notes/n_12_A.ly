@@ -478,6 +478,20 @@ DiesIraeAltoLyrics = \lyricmode {
 	la. %75 finis
 }
 
+TubaMirumAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/1 \autoBeamOff \tempoTubaMirum
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #117
+		
+	}
+}
+
+TubaMirumAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

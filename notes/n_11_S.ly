@@ -528,6 +528,20 @@ QuantusTremorSopranoLyrics = \lyricmode {
 	rus. %113 finis
 }
 
+TubaMirumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/1 \autoBeamOff \tempoTubaMirum
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #117
+		
+	}
+}
+
+TubaMirumSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -466,6 +466,15 @@ QuantusTremorViolinoI = {
 	}
 }
 
+TubaMirumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/1 \tempoTubaMirum
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #117
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

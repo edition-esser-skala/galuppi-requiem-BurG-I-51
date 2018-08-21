@@ -90,48 +90,115 @@
 % 			\midi { \tempo 1. = 40 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.2 QUANTUS TREMOR"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup \with { \smallerGroupDistance } <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\QuantusTremorViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\QuantusTremorViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\QuantusTremorViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \QuantusTremorSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \QuantusTremorSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuantusTremorOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\QuantusTremorBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 40 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.2 QUANTUS TREMOR"
+			movement = "3.3 TUBA MIRUM"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup \with { \smallerGroupDistance } <<
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" } }
+						\partcombine \TubaMirumTrombaI \TubaMirumTrombaII
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\QuantusTremorViolinoI
+							\TubaMirumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuantusTremorViolinoII
+							\TubaMirumViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\QuantusTremorViola
+						\TubaMirumViola
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \QuantusTremorSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \TubaMirumSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \QuantusTremorSopranoLyrics
+					\new Lyrics \lyricsto Soprano \TubaMirumSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \TubaMirumAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \TubaMirumAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \TubaMirumTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \TubaMirumTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \TubaMirumBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \TubaMirumBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuantusTremorOrgano
+						\TubaMirumOrgano
 					}
 				>>
 				\new FiguredBass {
-					\QuantusTremorBassFigures
+					\TubaMirumBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 40 }
+			\midi { \tempo 1 = 40 }
 		}
 	}
 }

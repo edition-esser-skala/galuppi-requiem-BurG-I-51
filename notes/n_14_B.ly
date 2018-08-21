@@ -522,6 +522,20 @@ DiesIraeBassoLyrics = \lyricmode {
 	la. %75 finis
 }
 
+TubaMirumBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/1 \autoBeamOff \tempoTubaMirum
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #117
+		
+	}
+}
+
+TubaMirumBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -4,3 +4,11 @@
 
 \version "2.18.0"
 
+TubaMirumTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/1 \tempoTubaMirum
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #117
+	}
+}
