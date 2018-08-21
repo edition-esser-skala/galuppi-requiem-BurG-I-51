@@ -441,28 +441,28 @@ QuantusTremorViolinoI = {
 		gis gis gis gis a a a a
 		gis gis gis gis h h h h
 		e, e e e a a a a
-		h h h h c c g g
+		h! h h h c c g g %95
 		a a a a a a a a
 		g g g g g g g g
 		a a a a a a g g
 		g g f f f f e e
-		e e d d es es es es
+		e e d d es es es es %100
 		d d d d e g g g
 		fis fis fis fis fis fis fis fis
 		g d d d es g g g
 		g g f f f es es es
-		es? es es es d f f f
+		es? es es es d f f f %105
 		f f f f f f f f
 		e! e e e e e e e
 		f f f f f f f f
 		e e e e e e e e
-		f f e e e e f f
+		f f e e e e f f %110
 		e4 r8 f d4 r
 		f2 e
 		f8\fE f f f a a a a
 		b a g f g f e d
-		cis a f'4 e2\trill
-		d8 d a a d,4 r\fermata \bar "||"
+		cis a f'4 e2\trill %115
+		d8 d a a d,4 r\fermata \bar "||" %116 finis
 	}
 }
 

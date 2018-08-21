@@ -427,6 +427,41 @@ QuantusTremorViolinoII = {
 		\clef treble
 		\key d \dorian \time 4/4 \tempoQuantusTremor
 			\set Score.currentBarNumber = #82
+		d'8\f d d\p d f\f f f\p f
+		f\f f f\p f e\f e e\p e
+		e\f e e\p e d\f d d\p d
+		d\f d d\p d c\f c c\p c %85
+		c\f c c\p c h!\f h h\p h
+		cis\f cis cis\p cis d\f d d\p d
+		d4\f cis8 h cis cis cis cis
+		d\p d d d f f f f
+		f f f f e e e e %90
+		e e e e d d d d
+		d d d d c c c c
+		h! h h h h h e e
+		cis cis cis cis d d d d
+		d d d d e e e e %95
+		c c c c c c c c
+		e e e e e e e e
+		f f f f d d d d
+		c c c c b b b b
+		a a a a c c c c %100
+		b b b b b b b b
+		a a a a a d d c
+		h! h h h c es es es
+		d d d d g, g g c
+		a a a a b d d d %105
+		c c c c b b b b
+		b? b b b a a a a
+		a a d d d d d d
+		cis cis cis cis cis cis cis cis
+		d d cis cis cis cis d d %110
+		cis4 r8 d b4 r
+		r d2 cis4
+		d8\fE d d d f f f f
+		b a g f g f e d
+		cis a d2 cis4 %115
+		d8 d a a d,4 r\fermata \bar "||" %116 finis
 	}
 }
 
