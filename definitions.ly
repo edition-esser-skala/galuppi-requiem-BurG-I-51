@@ -143,6 +143,18 @@ fpE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bol
 piuF = #(make-dynamic-script (markup #:line (#:normal-text #:small "più" #:normal-text #:large #:bold "f")))
 piuFE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "più" #:normal-text #:large #:bold #:italic "f")))
 
+smallerGroupDistance = {
+	\override StaffGrouper.staffgroup-staff-spacing =
+		#'((basic-distance . 12)
+			 (minimum-distance . 12)
+			 (padding . -100)
+			 (stretchability . 0))
+	\override StaffGrouper.staff-staff-spacing =
+		#'((basic-distance . 10)
+       (minimum-distance . 10)
+       (padding . -100)
+			 (stretchability . 0)) }
+
 
 mvTr = \once \override TextScript.X-offset = #2
 mvTrh = \once \override TextScript.X-offset = #2.5

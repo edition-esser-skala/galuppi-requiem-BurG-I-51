@@ -94,9 +94,10 @@
 		\header {
 			movement = "3.2 QUANTUS TREMOR"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
+				\new StaffGroup \with { \smallerGroupDistance } <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
@@ -112,7 +113,7 @@
 						\QuantusTremorViola
 					>>
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \QuantusTremorSopranoNotes }

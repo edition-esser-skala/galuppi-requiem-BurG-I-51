@@ -407,7 +407,7 @@ DiesIraeViola = {
 
 QuantusTremorViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \dorian \time 4/4 \tempoQuantusTremor
 			\set Score.currentBarNumber = #82
 		a'4\fE r d, r
