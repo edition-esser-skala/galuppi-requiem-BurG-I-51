@@ -959,7 +959,7 @@ QuantusTremorBassFigures = \figuremode {
 	<6 4> <5 4>4 <\l _+>
 	r1
 	<_->
-	<_+>4. <6>8 <6 5>4 <_+> %115
+	<_+>4. <6>8 <6 5 [_-]>4 <_+> %115
 	r1 %116 finis
 }
 

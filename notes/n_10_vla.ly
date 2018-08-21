@@ -410,6 +410,41 @@ QuantusTremorViola = {
 		\clef treble
 		\key d \dorian \time 4/4 \tempoQuantusTremor
 			\set Score.currentBarNumber = #82
+		a'4\fE r d, r
+		d r g r
+		c, r f r
+		h,! r e r %85
+		e r e r
+		e r r8 d f a
+		a,4 r a r
+		d\pE r d r
+		g r g r %90
+		f r h,! r
+		e r a, r
+		e' r gis r
+		a r fis r
+		g r e r %95
+		f r f r
+		c r h! r
+		a r b r
+		a r g r
+		f r fis' r %100
+		g r cis, r
+		d r d r
+		g r c, r
+		h! r c r
+		f r b, r %105
+		a r g' r
+		c, r cis r
+		d r gis r
+		a r a r
+		a, r a r %110
+		a'8 g f d g4 r
+		a2 a,
+		d4\fE r d r
+		d r b' r
+		e, r8 a b4 a %115
+		f r d r\fermata \bar "||" %116 finis
 	}
 }
 
