@@ -326,7 +326,7 @@ KyrieIIViola = {
 
 DiesIraeViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 3/2 \tempoDiesIrae
 		c2\fE r r
 		c r r
