@@ -888,11 +888,79 @@ QuantusTremorOrgano = {
 		\key d \dorian \time 4/4 \tempoQuantusTremor
 			\set Score.currentBarNumber = #82
 		\mvTr d4\fE-\soloE r d r
+		g r g r
+		f r h,! r
+		e r a, r %85
+		e' r e r
+		a r d, r
+		a r a r
+		d\pE r d r
+		g r g r %90
+		f r h,! r
+		e r a, r
+		e' r gis r
+		a r fis r
+		g r e r %95
+		f r f r
+		c r h! r
+		a r b r
+		a r g r
+		f r fis' r %100
+		g r cis, r
+		d r d r
+		g r c, r
+		h! r c r
+		f r b, r %105
+		a r g' r
+		c, r cis r
+		d r gis r
+		a r a r
+		a, r a r %110
+		a'8 g f d g4 r
+		a2 a,
+		d4 r d r
+		g r g r
+		a r8 f g4 a %115
+		d, r d r\fermata \bar "||" %116 finis
 	}
 }
 
 QuantusTremorBassFigures = \figuremode {
-	
+	r1 %82
+	<7 _->2 <6 _->
+	<7> <7 5>
+	<7 5 _+> r %85
+	<6 4> <5 _!>
+	<7 5 _+>1
+	r
+	r
+	<7 _->2 <6> %90
+	<7> <7 5>
+	<7 5 _+> r
+	<_+> <[6]>
+	<_+> <6>
+	<_!> <6> %95
+	r1
+	r2 <4>
+	<[6]> <7>
+	q <7 _->
+	<7!> <7- 5> %100
+	<_-> <7 5>
+	<_+>1
+	<_!>2 <_->
+	<6>4 <5> <4> <_->
+	r1 %105
+	<6>2 <7 _!>
+	<7->1
+	r2 <7 5>
+	<_+>1
+	<6 4>2 <7 5 _+> %110
+	<_+>4 <6> <_->2
+	<6 4> <5 4>4 <\l _+>
+	r1
+	<_->
+	<_+>4. <6>8 <6 5>4 <_+> %115
+	r1 %116 finis
 }
 
 % Organo = {
