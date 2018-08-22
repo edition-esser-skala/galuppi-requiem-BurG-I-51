@@ -1048,7 +1048,7 @@ TubaMirumBassFigures = \figuremode {
 	<5 3>\breve
 	r1 <[6]>
 	r\breve %145
-	r
+	<[4]>1 <[3]>
 	r1. <7>4 <6!>
 	r1. <7>4 <7 5 _!>
 	r\breve

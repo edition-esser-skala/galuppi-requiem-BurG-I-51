@@ -834,12 +834,89 @@ TubaMirumTenoreNotes = {
 		\key f \major \time 2/1 \autoBeamOff \tempoTubaMirum
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #117
-		
+		R\breve*4 %120
+		\mvTr e1.\fE^\tuttiE e2
+		a, a a a
+		a g4 f g1~
+		g2 c1 b!4 a
+		b1. a4 g %125
+		a2 d c1~
+		c2 d c1
+		c\fermata r
+		R\breve*2 %130
+		c2 c c c
+		c b a a
+		r1 d2 d
+		c1 c
+		d2 e c d %135
+		f g f1
+		R\breve*2
+		r1 c2. c4
+		f2 f g d %140
+		d e f1
+		d2 c4 b a2 b4 a
+		g1 c2. c4
+		c2 c, c'2. c4
+		b2 b b b %145
+		b( a4 g) a1
+		R\breve*2
+		e'2. e4 e2 e
+		e2. e4 e2 d %150
+		d d e e
+		e fis e e
+		e2. e4 f2 f
+		f2. f4 e2 e
+		c c c1 %155
+		d c
+		c r
+		d2 c d c
+		c c f,2. g4
+		a2 b4 c d1 %160
+		c\breve
+		c\fermata \bar "||" %162 finis
 	}
 }
 
 TubaMirumTenoreLyrics = \lyricmode {
+	[Tu -- ba %121
+	mi -- rum spar -- gens
+	so -- _ _ _
+	_ _ _
+	_ _ _ %125
+	_ _ _
+	_ _
+	num,]
 	
+	per se -- pul -- chra %131
+	re -- gi -- o -- num,
+	per se --
+	pul -- chra
+	re -- gi -- o -- _ %135
+	_ _ num,
+	
+	co -- get %139
+	o -- mnes an -- te %140
+	thro -- _ _
+	_ _ _ _ _ _
+	num, co -- get
+	o -- mnes, co -- get
+	o -- mnes an -- te %145
+	thro -- num.
+	
+	[Tu -- ba mi -- rum] %149
+	spar -- gens so -- num, %150
+	[per se -- pul -- chra
+	re -- gi -- o -- num,
+	co -- get o -- mnes,
+	co -- get o -- mnes
+	an -- te thro -- %155
+	_ _
+	num,
+	co -- get o -- mnes
+	an -- te thro -- _
+	_ _ _ _ %160
+	_
+	num.] %162 finis
 }
 
 % TenoreNotes = {
