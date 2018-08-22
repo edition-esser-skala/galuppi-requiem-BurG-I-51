@@ -526,6 +526,81 @@ MorsStupebitViolinoI = {
 		\clef treble
 		\key b \major \time 3/8 \tempoMorsStupebit
 			\set Score.currentBarNumber = #163
+		b'4\fE es8
+		d4 f8
+		f es g %165
+		g g g
+		f4.
+		es
+		d
+		c16 f b, f' c f %170
+		a,\p f' b, f' c f
+		g4\f a8
+		b4.~
+		b16 c a8.[ b16]
+		b[ f] d8 r %175
+		r r es\p
+		d8. f16 d f
+		f,4 r8
+		r f' f
+		r g g %180
+		r f f
+		r r es
+		d8. f16 d f
+		f,4 r8
+		r f' f %185
+		r g g
+		c,16[ f] f,8 r
+		a16 f' b, f' c f
+		c[ b] a8 g
+		e'16[ g] c,8 r %190
+		R4.
+		r8 r c
+		h8. d16 h d
+		g,4 r8
+		R4.*4 %198
+		r8 e' e
+		r f f %200
+		r f f
+		r e e
+		r es es
+		d8. f16 d f
+		c,4 r8 %205
+		r c' c
+		r c c
+		a r e'
+		f8. c16 a c
+		a f' b, f' c f %210
+		a,8 a' a
+		g8. g16 e g
+		c,4 r8
+		R4.
+		d8. f16 d f %215
+		d8. f16 es! d
+		d8 c r
+		c8. f16 d f
+		f,4 r8
+		r f' es %220
+		d c b
+		a g f
+		r d' d
+		c4 r8
+		R4. %225
+		a8. c16 a c
+		f,8 es'[ es]
+		f, d'[ d]
+		f, c'[ c]
+		d4 r8 %230
+		R4.
+		b16. b'32 b16. a32 g16. f32
+		es4 r8
+		r d,( e)
+		f4 r8 %235
+		d16\f b' es, b' f b
+		d,\p b' es, b' f b
+		g'8.\f b16 c, es
+		\tuplet 3/2 8 { a,16 g f } c'4\trill
+		b16[ d] d,8 r\fermata \bar "||" %240 finis
 	}
 }
 

@@ -1145,9 +1145,9 @@ MorsStupebitOrgano = {
 		es4 r8
 		r d e
 		f4 f,8 %235
-		b b b
-		b b b
-		es4 r8
+		b\fE b b
+		b\pE b b
+		es4\fE r8
 		f4 f,8
 		b4 r8\fermata \bar "||" %240 finis
 	}
