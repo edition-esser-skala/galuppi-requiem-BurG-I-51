@@ -1021,7 +1021,7 @@ TubaMirumOrgano = {
 TubaMirumBassFigures = \figuremode {
 	r1 <6 4 _-> %117
 	<[6]>\breve
-	r2 <6>1 <7>4 <6!>
+	r2 <6>4 <[6]> r2 <7>4 <6!>
 	r1. <7>4 <7 5 _!> %120
 	r\breve
 	<9>2 <8> <7 5>1
@@ -1039,7 +1039,7 @@ TubaMirumBassFigures = \figuremode {
 	<6>1 <9>2 <8>
 	<6 4 2> <6 5> <9> <3> %135
 	<6> <7 5> <6 4> <5 3>
-	r2 <6>1 <7>4 <6!>
+	r2 <6>4 <[6-]> r2 <7>4 <6!>
 	r1. <7>4 <7>
 	r1 <6>
 	r <6> %140
@@ -1049,7 +1049,7 @@ TubaMirumBassFigures = \figuremode {
 	r1 <[6]>
 	r\breve %145
 	<[4]>1 <[3]>
-	r1. <7>4 <6!>
+	r2 <[6]>4 q r2 <7>4 <6!>
 	r1. <7>4 <7 5 _!>
 	r\breve
 	r1 <6 4>2 <5 _!> %150
