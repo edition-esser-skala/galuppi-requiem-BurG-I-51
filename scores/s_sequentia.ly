@@ -307,7 +307,7 @@
 					\LiberScriptusBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 4 = 90 }
 		}
 	}
