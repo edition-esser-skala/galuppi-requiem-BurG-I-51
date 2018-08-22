@@ -588,7 +588,7 @@ MorsStupebitViola = {
 
 LiberScriptusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 4/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #241
 		r8 d\fE d d r2
