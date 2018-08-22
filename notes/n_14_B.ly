@@ -613,6 +613,19 @@ TubaMirumBassoLyrics = \lyricmode {
 	num. %162 finis
 }
 
+LiberScriptusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \autoBeamOff \tempoLiberScriptus
+			\set Score.currentBarNumber = #241
+		
+	}
+}
+
+LiberScriptusBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

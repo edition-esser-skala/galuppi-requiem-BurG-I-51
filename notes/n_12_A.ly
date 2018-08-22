@@ -563,6 +563,19 @@ TubaMirumAltoLyrics = \lyricmode {
 	num.] %162 finis
 }
 
+LiberScriptusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoLiberScriptus
+			\set Score.currentBarNumber = #241
+		
+	}
+}
+
+LiberScriptusAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

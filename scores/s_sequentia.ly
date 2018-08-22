@@ -201,9 +201,58 @@
 % 			\midi { \tempo 1 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.4 MORS STUPEBIT"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\MorsStupebitViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\MorsStupebitViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\MorsStupebitViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore I"
+% 						\new Voice = "TenoreI" { \dynamicUp \MorsStupebitTenoreINotes }
+% 					}
+% 					\new Lyrics \lyricsto TenoreI \MorsStupebitTenoreILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore II"
+% 						\new Voice = "TenoreII" { \dynamicUp \MorsStupebitTenoreIINotes }
+% 					}
+% 					\new Lyrics \lyricsto TenoreII \MorsStupebitTenoreIILyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\MorsStupebitOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\MorsStupebitBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.4 MORS STUPEBIT"
+			movement = "3.5 LIBER SCRIPTUS"
 		}
 		\score {
 			<<
@@ -211,43 +260,55 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\MorsStupebitViolinoI
+							\LiberScriptusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\MorsStupebitViolinoII
+							\LiberScriptusViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\MorsStupebitViola
+						\LiberScriptusViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Tenore I"
-						\new Voice = "TenoreI" { \dynamicUp \MorsStupebitTenoreINotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \LiberScriptusSopranoNotes }
 					}
-					\new Lyrics \lyricsto TenoreI \MorsStupebitTenoreILyrics
+					\new Lyrics \lyricsto Soprano \LiberScriptusSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Tenore II"
-						\new Voice = "TenoreII" { \dynamicUp \MorsStupebitTenoreIINotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \LiberScriptusAltoNotes }
 					}
-					\new Lyrics \lyricsto TenoreII \MorsStupebitTenoreIILyrics
+					\new Lyrics \lyricsto Alto \LiberScriptusAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \LiberScriptusTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \LiberScriptusTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \LiberScriptusBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \LiberScriptusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\MorsStupebitOrgano
+						\LiberScriptusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\MorsStupebitBassFigures
+					\LiberScriptusBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

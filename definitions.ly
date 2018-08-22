@@ -187,6 +187,7 @@ tempoDiesIrae = \tempoMarkup "Maestoso"
 tempoQuantusTremor = \tempoMarkup "Andante"
 tempoTubaMirum = \tempoMarkup "[Tempo deest]"
 tempoMorsStupebit = \tempoMarkup "Andantino"
+tempoLiberScriptus = \tempoMarkup "[Tempo deest]"
 
 
 % modify the Scheme function 'format-bass-figure'

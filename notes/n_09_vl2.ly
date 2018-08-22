@@ -603,6 +603,15 @@ MorsStupebitViolinoII = {
 	}
 }
 
+LiberScriptusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoLiberScriptus
+			\set Score.currentBarNumber = #241
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

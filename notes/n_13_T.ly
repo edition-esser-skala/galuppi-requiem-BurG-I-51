@@ -1153,6 +1153,19 @@ MorsStupebitTenoreIILyrics = \lyricmode {
 	ra. %236 finis
 }
 
+LiberScriptusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoLiberScriptus
+			\set Score.currentBarNumber = #241
+		
+	}
+}
+
+LiberScriptusTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
