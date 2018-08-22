@@ -547,8 +547,8 @@ TubaMirumSopranoNotes = {
 		a2 a g g
 		g2. g4 g2 f
 		e fis g1
-		g a(
-		b) a %135
+		g a
+		b a %135
 		d1. c2
 		R\breve*6 %142
 		r1 g2. g4
@@ -587,7 +587,7 @@ TubaMirumSopranoLyrics = \lyricmode {
 	re -- gi -- o -- num,
 	per se -- pul --
 	chra re --
-	gi -- %135
+	_ gi -- %135
 	o -- num,
 	
 	co -- get %143

@@ -484,12 +484,83 @@ TubaMirumAltoNotes = {
 		\key f \major \time 2/1 \autoBeamOff \tempoTubaMirum
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #117
-		
+		R\breve*4 %120
+		\mvTr g'1.\fE^\tuttiE g2
+		g f f f
+		f e4 d e1~
+		e d~
+		d2 e f1~ %125
+		f\breve~
+		f1. e4 d
+		e1\fermata r
+		a2 a b e,
+		f2. f4 f1 %130
+		f e2 e
+		d1 d
+		d2 c c b!
+		r g'1 f2
+		g1. f2 %135
+		b1. a2
+		R\breve*6 %142
+		r1 e2. e4
+		e2 e f2. f4
+		f2 f f f %145
+		f1 f
+		R\breve*2
+		g2. g4 g2 g
+		R\breve %150
+		g2 g gis gis
+		a a a gis
+		a2. a4 a2 a
+		g!2. g4 g2 g
+		f f f1 %155
+		g1. f4 e
+		f1 r
+		f2 f f f
+		e e d4 e f2~
+		f4 g f e d e f2~ %160
+		f e4 d e1
+		f\breve\fermata \bar "||" %162 finis
 	}
 }
 
 TubaMirumAltoLyrics = \lyricmode {
+	[Tu -- ba %121
+	mi -- rum spar -- gens
+	so -- _ _ _
+	_
+	_ _ %125
 	
+	_ _
+	num,]
+	per se -- pul -- chra
+	re -- gi -- o -- %130
+	num, per se --
+	pul -- chra
+	re -- gi -- o -- num,
+	re -- gi --
+	o -- _ %135
+	_ num,
+	
+	co -- get %143
+	o -- mnes, co -- get
+	o -- mnes an -- te %145
+	thro -- num.
+	
+	[Tu -- ba mi -- rum] %149
+	%150
+	[per se -- pul -- chra
+	re -- gi -- o -- num,
+	co -- get o -- mnes,
+	co -- get o -- mnes
+	an -- te thro -- %155
+	_ _ _
+	num,
+	co -- get o -- mnes
+	an -- te thro -- _ _
+	_ _ _ _ _ _ %160
+	_ _ _
+	num.] %162 finis
 }
 
 % AltoNotes = {
