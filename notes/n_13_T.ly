@@ -924,12 +924,121 @@ MorsStupebitTenoreINotes = {
 		\clef "treble_8"
 		\key b \major \time 3/8 \autoBeamOff \tempoMorsStupebit
 			\set Score.currentBarNumber = #163
-		
+		R4.*13 %175
+		\mvTr b4\pE^\soloE a8
+		b f r
+		f'4 es8
+		es d r
+		d([ c)] b %180
+		b a r
+		R4.*6 %187
+		c8([ d)] c
+		c16([ b a8]) g
+		g'4 g8 %190
+		g f4
+		e4 fis8
+		g g, r
+		g'4 f!8
+		f([ es!16 d)] es8 %195
+		d4.
+		c
+		b!~
+		b8 a4
+		R4.*2 %201
+		e'4 e8
+		es4.
+		d
+		r8 r g~ %205
+		g f4
+		e16([ d)] c8 r
+		R4.*2
+		c8([ d)] c %210
+		a4.
+		g4 r8
+		R4.
+		f'4 es!8
+		es d r %215
+		d8.([ f16)] es([ d)]
+		d8 c r
+		es4 d8
+		d c r
+		f4 a,8 %220
+		b4.
+		c8.[ f16 es f]
+		d4.
+		c4 r8
+		c4 des8 %225
+		des? c r
+		es16[ d es8~] es16[ d32 c]
+		d16[ c d8]~ d16[ c32 b]
+		c4.
+		d %230
+		c
+		b4 r8
+		g'16. f32 es16. d32 c16. b32
+		a16([ b32 c] d4
+		c4.) %235
+		b4 r8
+		R4.*3
+		R4.\fermataMarkup \bar "||" %240 finis
 	}
 }
 
 MorsStupebitTenoreILyrics = \lyricmode {
+	Mors stu -- %176
+	pe -- bit,
+	mors stu --
+	pe -- bit
+	et na -- %180
+	tu -- ra,
 	
+	cum re -- %188
+	sur -- get
+	cre -- a -- %190
+	tu -- ra,
+	cre -- a --
+	tu -- ra,
+	iu -- di --
+	can -- ti %195
+	re --
+	spon --
+	su --
+	ra,
+	
+	iu -- di -- %202
+	can --
+	ti
+	re -- %205
+	spon --
+	su -- ra.
+	
+	Mors stu -- %210
+	pe --
+	bit
+
+	et na --
+	tu -- ra, %215
+	cum re --
+	sur -- get
+	cre -- a --
+	tu -- ra,
+	iu -- di -- %220
+	can --
+	_
+	_
+	ti
+	re -- spon -- %225
+	su -- ra,
+	re --
+	_
+	_
+	spon -- %230
+	su --
+	ra,
+	iu -- di -- can -- ti re -- spon --
+	su --
+	%235
+	ra. %236 finis
 }
 
 MorsStupebitTenoreIINotes = {
