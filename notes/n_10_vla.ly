@@ -454,6 +454,49 @@ TubaMirumViola = {
 		\key f \major \time 2/1 \tempoTubaMirum
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #117
+		f4\fE f, f f' g g, g e'
+		f c c c' f, d d b'
+		c b a g f c2 h4
+		c2. e8 d c4 c2 h4 %120
+		c g e2 r1
+		f'4 f, f f' f d d d
+		c\breve~
+		c1 g'~
+		g f~ %125
+		f\breve~
+		f2 d c1~
+		c1\fermata r
+		f4 f, f f' g g, g e'
+		f c c c' f, d d b' %130
+		a2 f g e
+		g d f a
+		a, fis' g b,
+		g e' f,! a'
+		g c,1 d2~ %135
+		d e f r
+		f4 es d c b f2 e4
+		f c' a2 r1
+		R\breve*4 %142
+		r1 c'4 c, c c'
+		c4 c, c c' a a, a a'
+		b b, b b' b b, b b' %145
+		f f, f f' f f, f f'
+		c' b a g f c2 h4
+		c g' e2 r1
+		c'4 c, c c' c c, c c'
+		e,2 r4 g g2 g %150
+		g f e e
+		a dis, e e
+		a4 a, a a' d, d, d d'
+		g g, g g' c, c, c c'
+		f f, f f' f f, f f' %155
+		f2 e f1
+		f r
+		b,2 c b a
+		g c d2. e4
+		f e d c h1 %160
+		c\breve
+		a\fermata \bar "||" %162 finis
 	}
 }
 
