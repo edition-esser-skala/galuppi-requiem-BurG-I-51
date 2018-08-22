@@ -1158,12 +1158,55 @@ LiberScriptusTenoreNotes = {
 		\clef "treble_8"
 		\key g \minor \time 4/4 \autoBeamOff \tempoLiberScriptus
 			\set Score.currentBarNumber = #241
-		
+		R1*9 %249
+		\mvTr d4.\fE^\tuttiE d8 d4 d %250
+		d4. d8 d4 d
+		R1
+		d8 d d d d4 c~
+		c8([ d]) b4 a2
+		d4. d8 d4 d %255
+		es4. es8 es4 es
+		es d d b
+		c d c c
+		r2 c8 c c c
+		r2 d8 d d d %260
+		b4. es8 es4 es
+		d4. d8 d4 d
+		d d es d
+		es4. es8 es4 es
+		es4. es8 es4 es %265
+		d4. d8 d4 d
+		d es d d
+		d es d d
+		d es a, b
+		d1 %270
+		h\fermata \bar "||" %271 finis
 	}
 }
 
 LiberScriptusTenoreLyrics = \lyricmode {
+	[Li -- ber scri -- ptus %250
+	pro -- fe -- re -- tur,]
 	
+	[in quo to -- tum con -- ti --
+	ne -- tur,
+	un -- de mun -- dus %255
+	iu -- di -- ce -- tur,
+	un -- de mun -- dus
+	iu -- di -- ce -- tur,]
+	con -- ti -- ne -- tur,
+	con -- ti -- ne -- tur. %260
+	[Li -- ber scri -- ptus
+	pro -- fe -- re -- tur,
+	in quo to -- tum
+	con -- ti -- ne -- tur,
+	un -- de mun -- dus %265
+	iu -- di -- ce -- tur,
+	un -- de mun -- dus
+	iu -- di -- ce -- tur,
+	iu -- di -- ce -- _
+	_ %270
+	tur.] %271 finis
 }
 
 % TenoreNotes = {
