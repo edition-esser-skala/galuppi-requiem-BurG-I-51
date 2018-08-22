@@ -471,6 +471,52 @@ TubaMirumViolinoII = {
 		\key f \major \time 2/1 \tempoTubaMirum
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #117
+		f'8.\fE a16 a2. c,8. g'16 g2.
+		c,8. f16 f2. d8. f16 f2.
+		e4. f8 f4. b8 a4. g8 f4. g8
+		e4 c g'2. f8 e f2\trill %120
+		e r r1
+		f8. a16 a2. d,8. f16 f2.
+		f2 e4 d e g e c
+		e, g' e c d g d b!
+		g d' b g a c a f %125
+		c f' d b f c' a f
+		f'2 f1 e4 d
+		e1\fermata r
+		f8. a16 a2. c,8. g'16 g2.
+		c,8. f16 f2. d8. f16 f2. %130
+		r2 f e c'
+		d, b' a, f'
+		e, a' d, g
+		c, g' a, f'
+		d b' a, f' %135
+		b, g' f, r
+		a4. b8 b4. es8 d4. c8 b4. c8
+		a4 f c'2. b8 a b2
+		a r r1
+		r2 d1 b2~ %140
+		b g a d
+		r f1 g4 f
+		e8. c'16 c2. g8. c16 c2.
+		c,8. e16 e2. c8. f16 f2.
+		b,8. d16 d2. b8. d16 d2. %145
+		c8. a16 f2. r1
+		e'4. f8 f4. b8 a4. g8 f4. g8
+		e4 c g'2. f8 e f2
+		e r c8. e16 e2.
+		r4 c g e c'2 h %150
+		d h1 gis2
+		r4 a a1 gis2
+		a8. c16 c2. d8. f16 f2.
+		d8. g16 g2. e8. g16 g2.
+		f8. a16 a2. r4 f c a %155
+		b2 r4 b a f' c a
+		a8. a'16 a2. r4 f c a
+		b2 a d c
+		c e d b
+		a r r f %160
+		f e4 d e1
+		f\breve\fermata \bar "||" %162 finis
 	}
 }
 
