@@ -616,12 +616,55 @@ LiberScriptusSopranoNotes = {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoLiberScriptus
 			\set Score.currentBarNumber = #241
-		
+		R1*9 %249
+		\mvTr b'4.\fE^\tuttiE b8 b4 b %250
+		a4. a8 a4 a
+		R1
+		b8 b b a b4 c8([ g)]
+		a4( d2) d4
+		a4. a8 h4 h %255
+		c4. c8 c4 c
+		c d b b
+		a b a a
+		a8([ g)] a([ b)] c c r4
+		b8([ a)] b([ c)] d d r4 %260
+		b4. b8 b4 b
+		b4. b8 b4 b
+		b b b b
+		b4. b8 b4 b
+		c4. c8 c4 c %265
+		a!4. a8 b4 b
+		b c b a
+		b c b a
+		b c c b
+		a b a2 %270
+		g1\fermata \bar "||" %271 finis
 	}
 }
 
 LiberScriptusSopranoLyrics = \lyricmode {
+	[Li -- ber scri -- ptus %250
+	pro -- fe -- re -- tur,]
 	
+	[in quo to -- tum con -- ti --
+	ne -- tur,
+	un -- de mun -- dus %255
+	iu -- di -- ce -- tur,
+	un -- de mun -- dus
+	iu -- di -- ce -- tur,]
+	in __ quo to -- tum,
+	in __ quo to -- tum. %260
+	[Li -- ber scri -- ptus
+	pro -- fe -- re -- tur,
+	in quo to -- tum
+	con -- ti -- ne -- tur,
+	un -- de mun -- dus
+	iu -- di -- ce -- tur,
+	un -- de mun -- dus
+	iu -- di -- ce -- tur,
+	iu -- di -- ce -- _
+	_ _ _
+	tur.]
 }
 
 % SopranoNotes = {
