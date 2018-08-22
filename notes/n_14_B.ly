@@ -528,12 +528,89 @@ TubaMirumBassoNotes = {
 		\key f \major \time 2/1 \autoBeamOff \tempoTubaMirum
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #117
-		
+		R\breve*4 %120
+		\mvDll c'1.\fE^\tuttiE e,2
+		f f h, h
+		c\breve~
+		c1 g'~
+		g f~ %125
+		f\breve~
+		f2 h, c1
+		c\fermata r
+		R\breve*2 %130
+		f2 f c' c,
+		g'2. g4 d'2 d,
+		a' a g1
+		e f~
+		f2 e f d~ %135
+		d e f1
+		R\breve*2
+		f2. f4 c'2 c
+		d a b1 %140
+		g d2 b~
+		b a4 b c1
+		c r
+		c2. c4 a2 a
+		b1. b2 %145
+		f'1 f
+		R\breve*2
+		c'2. c4 c2 c,
+		R\breve %150
+		g'2 f e e
+		a dis, e e
+		a2. a4 d,!2 d
+		g2. g4 c,2 c
+		f f f1~ %155
+		f2 e f1
+		f r
+		b2 f b f
+		c' c, d2. e4
+		f e d c h1 %160
+		c\breve
+		f,\fermata \bar "||" %162 finis
 	}
 }
 
 TubaMirumBassoLyrics = \lyricmode {
+	Tu -- ba %121
+	mi -- rum spar -- gens
+	so --
+	_
+	_ %125
 	
+	_ _
+	num,
+	
+	per se -- pul -- chra %131
+	re -- gi -- o -- num,
+	per se -- pul --
+	chra re --
+	gi -- o -- _ %135
+	_ num,
+	
+	co -- get o -- mnes %139
+	an -- te thro -- %140
+	_ _ _
+	_ _ _
+	num,
+	co -- get o -- mnes
+	an -- te %145
+	thro -- num.
+	
+	Tu -- ba mi -- rum %149
+	%150
+	per se -- pul -- chra
+	re -- gi -- o -- num,
+	co -- get o -- mnes,
+	co -- get o -- mnes
+	an -- te thro -- %155
+	_ _
+	num,
+	co -- get o -- mnes
+	an -- te thro -- _
+	_ _ _ _ _ %160
+	_
+	num. %162 finis
 }
 
 % BassoNotes = {

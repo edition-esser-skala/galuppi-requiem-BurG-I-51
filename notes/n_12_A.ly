@@ -485,7 +485,7 @@ TubaMirumAltoNotes = {
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #117
 		R\breve*4 %120
-		\mvTr g'1.\fE^\tuttiE g2
+		\mvDll g'1.\fE^\tuttiE g2
 		g f f f
 		f e4 d e1~
 		e d~

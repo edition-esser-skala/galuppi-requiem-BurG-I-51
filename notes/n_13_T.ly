@@ -835,7 +835,7 @@ TubaMirumTenoreNotes = {
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #117
 		R\breve*4 %120
-		\mvTr e1.\fE^\tuttiE e2
+		\mvDll e1.\fE^\tuttiE e2
 		a, a a a
 		a g4 f g1~
 		g2 c1 b!4 a
