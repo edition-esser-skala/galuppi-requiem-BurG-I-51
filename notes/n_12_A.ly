@@ -568,12 +568,55 @@ LiberScriptusAltoNotes = {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoLiberScriptus
 			\set Score.currentBarNumber = #241
-		
+		R1*9 %249
+		\mvTr g'4.\fE^\tuttiE g8 g4 g %250
+		fis4. fis8 fis4 fis
+		R1
+		g8 g g a g4 g
+		fis( g2) fis4
+		fis?4. fis8 g4 g %255
+		g4. g8 g4 g
+		f! f f g
+		es f f f
+		r2 f8 g a g
+		r2 g8 a b a %260
+		g4. g8 g4 g
+		f4. f8 f4 f
+		f f g as
+		g4. g8 g4 g
+		g4. g8 as4 g %265
+		fis4. fis8 g4 g
+		g a g fis
+		g a g fis
+		g g8([ a)] fis4 g
+		fis8[ d] g2 fis4 %270
+		g1\fermata \bar "||" %271 finis
 	}
 }
 
 LiberScriptusAltoLyrics = \lyricmode {
+	[Li -- ber scri -- ptus %250
+	pro -- fe -- re -- tur,]
 	
+	[in quo to -- tum con -- ti --
+	ne -- tur,
+	un -- de mun -- dus %255
+	iu -- di -- ce -- tur,
+	un -- de mun -- dus
+	iu -- di -- ce -- tur,]
+	con -- ti -- ne -- tur,
+	con -- ti -- ne -- tur. %260
+	[Li -- ber scri -- ptus
+	pro -- fe -- re -- tur,
+	in quo to -- tum
+	con -- ti -- ne -- tur,
+	un -- de mun -- dus %265
+	iu -- di -- ce -- tur,
+	un -- de mun -- dus
+	iu -- di -- ce -- tur,
+	iu -- di -- ce -- _
+	_ _ _ %270
+	tur.] %271 finis
 }
 
 % AltoNotes = {

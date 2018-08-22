@@ -658,13 +658,13 @@ LiberScriptusSopranoLyrics = \lyricmode {
 	pro -- fe -- re -- tur,
 	in quo to -- tum
 	con -- ti -- ne -- tur,
-	un -- de mun -- dus
+	un -- de mun -- dus %265
 	iu -- di -- ce -- tur,
 	un -- de mun -- dus
 	iu -- di -- ce -- tur,
 	iu -- di -- ce -- _
-	_ _ _
-	tur.]
+	_ _ _ %270
+	tur.] %271 finis
 }
 
 % SopranoNotes = {
