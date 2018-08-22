@@ -608,7 +608,37 @@ LiberScriptusViolinoII = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #241
-		
+		r2 r8 d'\fE d d
+		r2 r8 fis fis fis
+		r2 r8 fis fis fis
+		g g, b d d4 c
+		d8 a fis d d4 r %245
+		d'8\p d d c c b b a
+		a g g4 fis r
+		fis'\f fis g fis
+		g2. fis4
+		r2 r8 d d d %250
+		r2 r8 fis fis fis
+		r2 r8 fis fis fis
+		g g, b d d4 c
+		d r r2
+		r8 d d d r2 %255
+		r8 es es es r2
+		r8 f f f r2
+		r8 f f f r2
+		r f8 g a g
+		r2 g8 a b a %260
+		r2 r8 es es es
+		r2 r8 f f f
+		d, d'4 c16 b b,8 b'4 as16 b
+		g8 b4 b g16 as b8 g
+		es' es4 c as16 b c8 es %265
+		a,8 a4 d b16 c d8 b
+		d g es4 d8 g a,4
+		d8 g es4 d8 g a,4
+		g8 g'4 a8 fis d b'4
+		a, b a2 %270
+		g1\fermata \bar "||" %271 finis
 	}
 }
 
