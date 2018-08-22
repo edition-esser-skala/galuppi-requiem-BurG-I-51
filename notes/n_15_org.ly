@@ -1159,8 +1159,8 @@ MorsStupebitBassFigures = \figuremode {
 	<9> <8> r %165
 	<7 5>4.
 	r
-	r
-	r
+	<[6]>4 <[7]>8
+	r4.
 	r8 <6 4> <5 3> %170
 	q <6 4> <5 3>
 	<2> <3> <4>
