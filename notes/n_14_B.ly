@@ -618,12 +618,55 @@ LiberScriptusBassoNotes = {
 		\clef bass
 		\key g \minor \time 4/4 \autoBeamOff \tempoLiberScriptus
 			\set Score.currentBarNumber = #241
-		
+		R1*9 %249
+		\mvTr g'4.\fE^\tuttiE g8 g4 g, %250
+		d'4. d8 d4 d
+		d d d d
+		g8 g g f es4 es
+		d2 d
+		d4. d8 g4 g %255
+		c4. c,8 c4 c
+		a' b d, es
+		c b f' f
+		r2 f8 e f c
+		r2 g'8 fis g d %260
+		es4. es8 es4 es
+		b'4. b8 b4 b
+		b as g f
+		es4. es8 es4 es
+		c4. c8 c4 c %265
+		d4. c8 b4 g
+		g' fis g d
+		g fis g d
+		g c, d2~
+		d1 %270
+		g,\fermata \bar "||" %271 finis
 	}
 }
 
 LiberScriptusBassoLyrics = \lyricmode {
-	
+	Li -- ber scri -- ptus %250
+	pro -- fe -- re -- tur,
+	in quo to -- tum,
+	in quo to -- tum con -- ti --
+	ne -- tur,
+	un -- de mun -- dus %255
+	iu -- di -- ce -- tur,
+	un -- de mun -- dus
+	iu -- di -- ce -- tur,
+	con -- ti -- ne -- tur,
+	con -- ti -- ne -- tur. %260
+	Li -- ber scri -- ptus
+	pro -- fe -- re -- tur,
+	in quo to -- tum
+	con -- ti -- ne -- tur,
+	un -- de mun -- dus %265
+	iu -- di -- ce -- tur,
+	un -- de mun -- dus
+	iu -- di -- ce -- tur,
+	iu -- di -- ce --
+	%270
+	tur. %271 finis
 }
 
 % BassoNotes = {

@@ -1194,8 +1194,8 @@ LiberScriptusTenoreLyrics = \lyricmode {
 	iu -- di -- ce -- tur,
 	un -- de mun -- dus
 	iu -- di -- ce -- tur,]
-	con -- ti -- ne -- tur,
-	con -- ti -- ne -- tur. %260
+	[con -- ti -- ne -- tur,]
+	[con -- ti -- ne -- tur.] %260
 	[Li -- ber scri -- ptus
 	pro -- fe -- re -- tur,
 	in quo to -- tum
