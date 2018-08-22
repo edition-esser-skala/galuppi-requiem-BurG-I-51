@@ -141,7 +141,7 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff <<
+					\new Staff \with { aDueText = \markup { \medium \remark "unisono" } } <<
 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" } }
 						\partcombine \TubaMirumTrombaI \TubaMirumTrombaII
 					>>
