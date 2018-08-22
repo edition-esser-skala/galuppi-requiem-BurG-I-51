@@ -502,7 +502,7 @@ TubaMirumViola = {
 
 MorsStupebitViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 3/8 \tempoMorsStupebit
 			\set Score.currentBarNumber = #163
 		r8 d\fE c
