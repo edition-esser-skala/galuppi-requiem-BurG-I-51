@@ -505,6 +505,84 @@ MorsStupebitViola = {
 		\clef treble
 		\key b \major \time 3/8 \tempoMorsStupebit
 			\set Score.currentBarNumber = #163
+		r8 d\fE c
+		b b' d,
+		es4 es8 %165
+		a,4.
+		b4 b'8
+		g es f
+		b,8. c16 d es
+		f8 f f %170
+		f\p f f
+		f\f es4
+		d16 c d b d es
+		f4 f,8
+		b b b %175
+		b\p d c
+		b4 b'8
+		a f a
+		b b, d
+		es4 e8 %180
+		f4 a,8
+		b d c
+		d4 b'8
+		a8. f16 g a
+		b8 b, d %185
+		es4 e8
+		f8. f,16 a c
+		f8 f f
+		c c c
+		c8. d16 e8 %190
+		f4 d8
+		c4 a8
+		g g' g
+		g h4
+		c c,8 %195
+		d8. c16 b!8
+		a4 a8
+		g4 g8
+		a a' g
+		f4 d8 %200
+		d4 d8
+		c4 c8
+		f4 a8
+		b4 b,8
+		c4 c8 %205
+		f4 f8
+		c4 c8
+		r a' g
+		f4 f8
+		f f f %210
+		f h,4
+		c c8
+		c4 c8
+		f4 f8
+		b,4 b8 %215
+		b4 r8
+		f'8. f,16 a c
+		f8 f f
+		f8. f,16 a c
+		f,8 f' es! %220
+		d c b
+		a g f
+		b b' e,
+		f8. f,16 a c
+		f,4 f8 %225
+		f4 f8
+		f4 r8
+		f4 r8
+		f' f f
+		f e e %230
+		f4.
+		b,16. b'32 b16. a32 g16. f32
+		es4 r8
+		r d e
+		f4 f,8 %235
+		b\fE b b
+		b\pE b b
+		es4\fE r8
+		f4 f,8
+		b4 r8\fermata \bar "||" %240 finis
 	}
 }
 
