@@ -1240,11 +1240,69 @@ LiberScriptusOrgano = {
 		\key g \minor \time 4/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #241
 		\mvTr g4\fE-\tuttiE g g g
+		d' d d d
+		d d d d
+		g r8 f es2
+		d4 d d r %245
+		R1*2
+		d4 c b a
+		g8 a b c d4 d,
+		g g g g %250
+		d' d d d
+		d d d d
+		g r8 f es2
+		d1
+		d4. d8 g4 g %255
+		c4. c,8 c4 c
+		a' b d, es
+		c b f' f
+		r2 f8 e f c
+		r2 g'8 fis g d %260
+		es4. es8 es4 es
+		b'4. b8 b4 b
+		b as g f
+		es4. es8 es4 es
+		c4. c8 c4 c %265
+		d4. c8 b4 g
+		g' fis g d
+		g fis g d
+		g c, d2~
+		d1 %270
+		g,\fermata \bar "||" %271 finis
 	}
 }
 
 LiberScriptusBassFigures = \figuremode {
-	
+	r1 %241
+	<7 5 _+>
+	r
+	r4. <6>8 <7>4 <6>
+	<_+>1 %245
+	r1*2
+	<_+>4 <6 4+ _-> <6> <6+ 4 3>
+	r <[6]> <4> <_+>
+	r1 %250
+	<_+>
+	r
+	r4. <6 3>8 <7 5>4 <6>
+	<7 5 _+> <6 4> <5 4> <\l _+>
+	r2 <_!> %255
+	r1
+	<6 5>2 <6>
+	<6 4 3>1
+	r2 r8 <[6]> r <[_!]>
+	r2 r8 <[6]> r <[_+]> %260
+	r1
+	r
+	r4 <4> <[6]> <6 4 _->
+	r1
+	r2 <6->4 <5> %265
+	<_+>2 <6>
+	r4 <7 5> r <_+>
+	r <7 5> r <_+>
+	r <7 5>8 <6> <7 5 _+>4 <6 4>
+	<5 _+> <6 4> <5 4> <\l _+> %270
+	<_!>1 %271 finis
 }
 
 % Organo = {
