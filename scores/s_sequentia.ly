@@ -134,71 +134,120 @@
 % 			\midi { \tempo 2 = 40 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.3 TUBA MIRUM"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff \with { aDueText = \markup { \medium \remark "unisono" } } <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" } }
+% 						\partcombine \TubaMirumTrombaI \TubaMirumTrombaII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\TubaMirumViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\TubaMirumViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\TubaMirumViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \TubaMirumSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \TubaMirumSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \TubaMirumAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \TubaMirumAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \TubaMirumTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \TubaMirumTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \TubaMirumBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \TubaMirumBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\TubaMirumOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\TubaMirumBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 1 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.3 TUBA MIRUM"
+			movement = "3.4 MORS STUPEBIT"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff \with { aDueText = \markup { \medium \remark "unisono" } } <<
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" } }
-						\partcombine \TubaMirumTrombaI \TubaMirumTrombaII
-					>>
-				>>
-				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\TubaMirumViolinoI
+							\MorsStupebitViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\TubaMirumViolinoII
+							\MorsStupebitViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\TubaMirumViola
+						\MorsStupebitViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \TubaMirumSopranoNotes }
+						\set Staff.instrumentName = "Tenore I"
+						\new Voice = "TenoreI" { \dynamicUp \MorsStupebitTenoreINotes }
 					}
-					\new Lyrics \lyricsto Soprano \TubaMirumSopranoLyrics
+					\new Lyrics \lyricsto TenoreI \MorsStupebitTenoreILyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \TubaMirumAltoNotes }
+						\set Staff.instrumentName = "Tenore II"
+						\new Voice = "TenoreII" { \dynamicUp \MorsStupebitTenoreIINotes }
 					}
-					\new Lyrics \lyricsto Alto \TubaMirumAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \TubaMirumTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \TubaMirumTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \TubaMirumBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \TubaMirumBassoLyrics
+					\new Lyrics \lyricsto TenoreII \MorsStupebitTenoreIILyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\TubaMirumOrgano
+						\MorsStupebitOrgano
 					}
 				>>
 				\new FiguredBass {
-					\TubaMirumBassFigures
+					\MorsStupebitBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 1 = 60 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }

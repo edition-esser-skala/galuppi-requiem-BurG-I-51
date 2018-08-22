@@ -500,6 +500,14 @@ TubaMirumViola = {
 	}
 }
 
+MorsStupebitViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/8 \tempoMorsStupebit
+			\set Score.currentBarNumber = #163
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % 		\clef treble

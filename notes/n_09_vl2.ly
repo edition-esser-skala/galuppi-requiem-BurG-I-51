@@ -520,6 +520,14 @@ TubaMirumViolinoII = {
 	}
 }
 
+MorsStupebitViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/8 \tempoMorsStupebit
+			\set Score.currentBarNumber = #163
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

@@ -919,6 +919,32 @@ TubaMirumTenoreLyrics = \lyricmode {
 	num.] %162 finis
 }
 
+MorsStupebitTenoreINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 3/8 \autoBeamOff \tempoMorsStupebit
+			\set Score.currentBarNumber = #163
+		
+	}
+}
+
+MorsStupebitTenoreILyrics = \lyricmode {
+	
+}
+
+MorsStupebitTenoreIINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 3/8 \autoBeamOff \tempoMorsStupebit
+			\set Score.currentBarNumber = #163
+		
+	}
+}
+
+MorsStupebitTenoreIILyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
