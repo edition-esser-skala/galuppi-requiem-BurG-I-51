@@ -648,6 +648,65 @@ IudexErgoViolinoI = {
 		\clef treble
 		\key es \major \time 3/4 \tempoIudexErgo
 			\set Score.currentBarNumber = #272
+		R2.*9 %280
+		r4 r8 b'\fE b b
+		b4 r8 b b b
+		b4 r8 b b b
+		b4 r8 b b b
+		as'8.( g32 as) g2 %285
+		f2.\trill
+		es8 b16 c b4. as8
+		g32( f es8.) b'4. as8
+		\appoggiatura g4 f2.\trill
+		es4 r r %290
+		R2.*10 %300
+		r4 r8 b'\pE b b
+		b4 r8 b b b
+		b4 r8 b b b
+		b4 r8 b b b
+		b4 r8 b b b %305
+		b4 r8 b b b
+		b c16 d es8[ c] d r
+		b c16 d es8[ c] d r
+		R2.*13 %321
+		r4 as'4. d,8
+		es[ es, g b] es r
+		r es,[ as c] es r
+		r as,[ d f] as r %325
+		R2.
+		r8 g g g g g
+		f4 r r
+		R2.*3 %331
+		r4 r8 c c c
+		c[ f] b, b b b
+		b[ es] as, as as as
+		as[ d] g, g g g %335
+		g[ c] f, f f f
+		h,4 r r
+		c r r
+		es d r
+		R2. %340
+		r8 a'[ a a] a r
+		R2.*3
+		r8 d,[ d d] d r %345
+		R2.*3
+		g'8 b16 c b8 b, b b
+		b4 r8 b b b %350
+		b f'16 g f8 r r4
+		f,8 f'16 g f8 r r4
+		b,8 es16 f es8 r r4
+		c8 es16 f es8 r r4
+		d8 f16 g f8 r r4 %355
+		g,8 b16 c b8 r r4
+		R2.
+		r8 g' g as b g
+		as4 g f
+		es r r %360
+		R2.
+		es2\fE f8.( g32 as)
+		g( f es8.) b'4. as8
+		g16 f es8 f2\trill
+		es8 b es,4 r\fermata \bar "||" %365 finis
 	}
 }
 
