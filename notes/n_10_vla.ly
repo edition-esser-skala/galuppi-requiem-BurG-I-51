@@ -627,7 +627,7 @@ LiberScriptusViola = {
 
 IudexErgoViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \major \time 3/4 \tempoIudexErgo
 			\set Score.currentBarNumber = #272
 		r8 es\fE g es b' b,
