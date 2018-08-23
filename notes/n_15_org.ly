@@ -1311,11 +1311,197 @@ IudexErgoOrgano = {
 		\key es \major \time 3/4 \tempoIudexErgo
 			\set Score.currentBarNumber = #272
 		r8 \mvTr es\fE-\soloE g es b' b,
+		r es g es b' b,
+		es es es es d d
+		es es es4 r %275
+		d8 d d4 r
+		c8 c c4 r
+		b8 b b4 r
+		as8 as as as as' as
+		g es f d es a, %280
+		b4 r8 b b b
+		b4 r8 b b b
+		b4 r8 b b b
+		b4 r8 b b b
+		b4 r8 es g es %285
+		as4 b b,
+		es r8 d d d
+		es es g es g as
+		b as b4 b,
+		es4\pE es es %290
+		es es es
+		es d b
+		r8 es g es b' b,
+		es4 d b
+		es r8 es es es %295
+		as4 g es
+		as r8 as as as
+		b4 r b
+		es, r es
+		d8 d16 c b8 b d f %300
+		b4 b, b
+		b b b
+		b b b
+		b b b
+		b b b %305
+		b b b
+		b r8 f' d b
+		b4 r8 f' d b
+		g' a b2
+		es,4 f f, %310
+		r8 b d b f' f,
+		r b d b f' f,
+		b b b b a a
+		b4 b b
+		b b b %315
+		b a? f
+		r8 b d b f' f,
+		b4 a f
+		b r8 b b b
+		es4 d b %320
+		es r8 es es es
+		f4 r8 f f f
+		g4 r8 g g g
+		as4 r8 as as as
+		f4 r8 f f f %325
+		es es g es b' b,
+		es4 es a,
+		b2.
+		r8 es g es b' b,
+		es4 es es %330
+		b' b b
+		es,8 es es4 r
+		d8 d d4 r
+		c8 c c4 r
+		b8 b b4 r %335
+		as8 as as4 r
+		g4. as'8 g f
+		es4. c8 es f
+		g4. g,8 a? h
+		c4 c c %340
+		d d d
+		g g g
+		d d h
+		c c c
+		g' g g %345
+		c, c c
+		g' g e
+		f f d
+		es! es es
+		f es es8 es %350
+		b4 r b
+		as r as
+		g r g
+		as r as
+		b r b %355
+		es es es
+		f f f
+		es4. f8 g es
+		as4 g f
+		es4. f8 g as %360
+		b4 b,2
+		r8 es g es b' b,
+		es4 d b
+		es as b
+		es,2 r4\fermata \bar "||" %365 finis
 	}
 }
 
 IudexErgoBassFigures = \figuremode {
-	
+	r4 <[6]> r %272
+	r q r
+	r2 <6>8 <5>
+	<5>4 <6> r %275
+	<7> <6> r
+	<7> <6> r
+	<7> <6> r
+	<7> <6> r
+	<6>2 r8 <7 5> %280
+	r2.
+	r
+	r
+	r
+	<7>2 <[6]>4 %285
+	r2.
+	r4. <[6]>
+	r4 q q
+	r2.
+	r %290
+	r
+	<2>4 <5> <7>
+	r <[6]> r
+	<9>8 <8> <[6]>4 <7>
+	<4>8 <3> r2 %295
+	<4>8 <3> <[6]>4 r
+	<9 4>8 <8 3> r2
+	<9 4>8 <8 3> r2
+	r2 <5 3>8 <6 4!>
+	<6>2 r8 <6 4> %300
+	r2.
+	<6 4>4 <5 3> r
+	<6 4> <5 3> r
+	r2.
+	<6 4>4 <5 3> r %305
+	<6 4> <5 3> r
+	r4. <_!>8 <6>4
+	r4. <_!>8 <[6]>4
+	<6>8 <6 5> <5 4>4 <\l 3>
+	r <4> <_!> %310
+	r <[6]> <[_!]>
+	r <[6]> <[_!]>
+	r2 <6>8 <5>
+	r2.
+	r %315
+	<2>4 <[6]> <[_!]>
+	r <[6]> <[_!]>
+	<9>8 <8> <[6]>4 <[_!]>
+	<4>8 <3> r2
+	<9>8 <8> <[6]>4 <7-> %320
+	<4>8 <3> r2
+	<9 4>8 <8 _-> r <[5] _->4 <6>8
+	<6>2.
+	r
+	<7>4 <6>2 %325
+	r4 <[6]>2
+	r <7 5>4
+	<4> <3>2
+	r4 <[6]>2
+	r2. %330
+	<6 4>4 <5 3> <7 5>
+	<9 4>8 <8 3> <6>4 r
+	<7> <6> r
+	<7> <6> r
+	<7> <6> r %335
+	<7> <6> r
+	<_!>2.
+	<[6]>
+	<5 4>4 <\l _!>2
+	r2. %340
+	<5! 4>4 <\l _+>2
+	<[9!] [_-]>8 <8> r2
+	<[5!] 4>4 <\l _!> <6 5>
+	<4> <_-> r
+	<4> <_!> r %345
+	<9>8 <8> r2
+	<4>4 <_-> <6 5>
+	<4> <_-> <6 5>
+	<9> <8>2
+	<6 4 3>2. %350
+	r2.
+	r
+	<6>
+	<9>4 <8> r
+	<9>8 <8> r2 %355
+	<9>8 <8> r2
+	<7>4 <6>2
+	r2 <[6]>4
+	r <[6]> q
+	r2 q4 %360
+	<4> <3>2
+	r4 <[6]>2
+	r4 q2
+	r4 <6 5>2
+	r2. %365 finis
 }
 
 % Organo = {
