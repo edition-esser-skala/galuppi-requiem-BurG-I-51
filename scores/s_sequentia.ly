@@ -313,7 +313,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = "3.6 IUDEX ERGO"
+			movement = "3.6 IUDEX ERGO – QUID SUM"
 		}
 		\score {
 			<<

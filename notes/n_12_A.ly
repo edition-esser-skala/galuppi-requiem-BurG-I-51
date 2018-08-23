@@ -624,12 +624,149 @@ IudexErgoAltoNotes = {
 		\clef treble
 		\key es \major \time 3/4 \autoBeamOff \tempoIudexErgo
 			\set Score.currentBarNumber = #272
-		
+		R2.*18 %289
+		\mvTr g'2\pE^\soloE g4 %290
+		g g r
+		R2.
+		r4 r f8 f
+		f es b'4. as8
+		as g r4 r %295
+		R2.
+		r4 r es8 es
+		es d f4. g16([ as)]
+		g4.( es16[ f] g8[ a]
+		\once \stemUp b) f r4 b8 b %300
+		b2.~
+		b
+		b
+		r4 r f8 f
+		g4 f f8 f %305
+		g4 f f8 f
+		f2.
+		f
+		es4. f16([ es)] d4(
+		c2.\trill) %310
+		b4 r r
+		R2.*2
+		b'2 b4
+		b f f8 g %315
+		es2.
+		\appoggiatura es4 d2 r4
+		R2.
+		r4 r f8 f
+		f es b'4. as!8 %320
+		as g r4 g8 g
+		g f r4 r
+		es2.
+		es
+		es4( d2) %325
+		es4 r d8 d
+		es4 es es8 es
+		es([ f16 es] d2)
+		es4 r r
+		g r g8 g %330
+		g4 f as8 as
+		as g r4 r
+		f2.
+		es
+		d %335
+		c
+		h
+		c
+		c4 h r
+		r c g' %340
+		g fis a~
+		a8 g g2~
+		g4 f! f8 f
+		f4 es r
+		R2.*3 %347
+		r4 r f8 f
+		f4 es g8 g
+		d4 es r %350
+		R2.*3
+		es2 es4
+		es d f~ %355
+		f8 es es2~
+		es4 d2
+		es4 r r
+		es2 d4
+		es2.~ %360
+		es4 d2
+		es r4
+		R2.*2
+		R2.\fermataMarkup \bar "||" %365 finis
 	}
 }
 
 IudexErgoAltoLyrics = \lyricmode {
+	Iu -- dex %290
+	er -- go,
 	
+	quid -- quid
+	la -- tet ap -- pa --
+	re -- bit: %295
+	
+	Nil in --
+	ul -- tum re -- ma --
+	ne --
+	bit, nil in -- %300
+	ul --
+	
+	tum,
+	nil in --
+	ul -- tum re -- ma -- %305
+	ne -- bit, re -- ma --
+	ne --
+	bit,
+	re -- ma -- ne --
+	%310
+	bit.
+	
+	Iu -- dex %314
+	er -- go cum se -- %315
+	de --
+	bit,
+	
+	quid -- quid
+	la -- tet ap -- pa -- %320
+	re -- bit: Nil in --
+	ul -- tum
+	re --
+	ma --
+	ne -- %325
+	bit, nil in --
+	ul -- tum re -- ma --
+	ne --
+	bit.
+	Quid, quid sum %330
+	mi -- ser tunc di --
+	ctu -- rus?
+	Quem
+	pa --
+	tro -- %335
+	num
+	ro --
+	ga --
+	tu -- rus,
+	cum vix %335
+	iu -- stus sit __
+	se -- cu --
+	rus, cum vix
+	iu -- stus,
+	
+	cum vix %348
+	iu -- stus sit se --
+	cu -- rus, %350
+	
+	cum vix %354
+	iu -- stus sit __ %355
+	se -- cu --
+	_
+	rus,
+	sit se --
+	cu -- %360
+	_
+	rus? %362 finis
 }
 
 % AltoNotes = {

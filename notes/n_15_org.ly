@@ -1349,10 +1349,10 @@ IudexErgoOrgano = {
 		b4 r8 f' d b
 		g' a b2
 		es,4 f f, %310
-		r8 b d b f' f,
+		r8 b\fE d b f' f,
 		r b d b f' f,
 		b b b b a a
-		b4 b b
+		b4\pE b b
 		b b b %315
 		b a? f
 		r8 b d b f' f,
@@ -1375,7 +1375,7 @@ IudexErgoOrgano = {
 		c8 c c4 r
 		b8 b b4 r %335
 		as8 as as4 r
-		g4. as'8 g f
+		g4. as'!8 g f
 		es4. c8 es f
 		g4. g,8 a? h
 		c4 c c %340
@@ -1400,7 +1400,7 @@ IudexErgoOrgano = {
 		as4 g f
 		es4. f8 g as %360
 		b4 b,2
-		r8 es g es b' b,
+		r8 es\fE g es b' b,
 		es4 d b
 		es as b
 		es,2 r4\fermata \bar "||" %365 finis
@@ -1491,7 +1491,7 @@ IudexErgoBassFigures = \figuremode {
 	r
 	<6>
 	<9>4 <8> r
-	<9>8 <8> r2 %355
+	<9 [4]>8 <8 [\t]> <\l [3]>2 %355
 	<9>8 <8> r2
 	<7>4 <6>2
 	r2 <[6]>4
