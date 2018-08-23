@@ -311,55 +311,105 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.6 IUDEX ERGO – QUID SUM MISER"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff \with { aDueText = \markup { \medium \remarkE "unisono" } } <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Oboe I, II" } }
+% 						\partcombine \IudexErgoOboeI \IudexErgoOboeII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\IudexErgoViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\IudexErgoViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\IudexErgoViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \IudexErgoAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \IudexErgoAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \IudexErgoTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \IudexErgoTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IudexErgoOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\IudexErgoBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.6 IUDEX ERGO – QUID SUM MISER"
+			movement = "3.7 REX TREMENDAE"
 		}
+		\paper { indent = 3\cm }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff \with { aDueText = \markup { \medium \remarkE "unisono" } } <<
-						\set Staff.instrumentName = \markup { \center-column { "Oboe I, II" } }
-						\partcombine \IudexErgoOboeI \IudexErgoOboeII
-					>>
-				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\IudexErgoViolinoI
+							\RexTremendaeViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\IudexErgoViolinoII
+							\RexTremendaeViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\IudexErgoViola
+						\RexTremendaeViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \IudexErgoAltoNotes }
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \RexTremendaeBassoNotes }
 					}
-					\new Lyrics \lyricsto Alto \IudexErgoAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \IudexErgoTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \IudexErgoTenoreLyrics
+					\new Lyrics \lyricsto Basso \RexTremendaeBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
+						\set Staff.instrumentName = \RexTremendaeCelloIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\RexTremendaeCello
+					}
+					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IudexErgoOrgano
+						\RexTremendaeOrgano
 					}
 				>>
 				\new FiguredBass {
-					\IudexErgoBassFigures
+					\RexTremendaeBassFigures
 				}
 			>>
 			\layout { }

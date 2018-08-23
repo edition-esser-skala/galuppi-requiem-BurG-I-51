@@ -710,6 +710,14 @@ IudexErgoViolinoI = {
 	}
 }
 
+RexTremendaeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #366
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

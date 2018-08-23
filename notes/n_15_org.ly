@@ -1504,6 +1504,38 @@ IudexErgoBassFigures = \figuremode {
 	r2. %365 finis
 }
 
+RexTremendaeCelloIncipit = \markup {
+	\center-column { "Violoncello" "obligato" } \hspace #-20 \score {
+		\new Staff \with {
+			\remove Time_signature_engraver
+		} {
+			\clef tenor s4 \bar empty
+		}
+		\layout { }
+	} \hspace #-1.8
+}
+
+RexTremendaeCello = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \dorian \time 4/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #366
+	}
+}
+
+RexTremendaeOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #366
+		\mvTr c4\fE-\soloE r r8 h'16 a h8 g
+	}
+}
+
+RexTremendaeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

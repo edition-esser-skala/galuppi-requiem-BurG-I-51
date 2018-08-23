@@ -706,6 +706,14 @@ IudexErgoViola = {
 	}
 }
 
+RexTremendaeViola = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #366
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % 		\clef treble

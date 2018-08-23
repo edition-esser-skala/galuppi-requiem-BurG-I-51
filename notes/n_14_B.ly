@@ -669,6 +669,19 @@ LiberScriptusBassoLyrics = \lyricmode {
 	tur. %271 finis
 }
 
+RexTremendaeBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #366
+		
+	}
+}
+
+RexTremendaeBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
