@@ -1214,12 +1214,130 @@ IudexErgoTenoreNotes = {
 		\clef "treble_8"
 		\key es \major \time 3/4 \autoBeamOff \tempoIudexErgo
 			\set Score.currentBarNumber = #272
-		
+		R2.*18 %289
+		\mvTr es2\pE^\soloE es4 %290
+		es b b8 c
+		\appoggiatura b4 as2.
+		g4 r r
+		R2.
+		r4 r b8 b %295
+		b as es'4. des8
+		des c r4 c8 c
+		c b d4. es16([ f)]
+		es4.( c16[ d] es8[ c]
+		d8) d r4 r %300
+		r r d8 d
+		es4 d d8 d
+		es4 d b8 b
+		b2.~
+		b %305
+		b
+		d8 c16([ b)] a4 b
+		d8 c16([ b)] a4 b
+		g8 a b2~
+		b8[ c16 b] a2\trill %310
+		b4 r r
+		R2.*5 %316
+		r4 r c8 c
+		c b f'4. es8
+		es d r4 r
+		R2. %320
+		r4 r b8 b
+		b as r4 r
+		r r b8 b
+		c4 c c8 c
+		as2. %325
+		g8[ f16 es] b'4. as8
+		g2.
+		f
+		es4 r r
+		es' r es8 es %330
+		es4 d f8 f
+		f es r4 r
+		R2.*11 %343
+		r4 g, c
+		c h d~ %345
+		d8 c c2~
+		c4 b! b8 b
+		b4 as r
+		r r b8 b
+		as4 g r %350
+		f'4. d8 b b
+		c4. as8 f f
+		b2 b4
+		b as c~
+		c8 b b2 %355
+		g4 g g
+		as2.
+		g4 r r
+		c( b) as
+		g2. %360
+		f
+		es2 r4
+		R2.*2
+		R2.\fermataMarkup \bar "||" %365 finis
 	}
 }
 
 IudexErgoTenoreLyrics = \lyricmode {
+	Iu -- dex %290
+	er -- go cum se --
+	de -- bit,
 	
+	quid -- quid %295
+	la -- tet ap -- pa --
+	re -- bit: Nil in --
+	ul -- tum re -- ma --
+	ne --
+	bit, %300
+	nil in --
+	ul -- tum re -- ma --
+	ne -- bit, nil in --
+	ul --
+	%305
+	tum,
+	nil in -- ul -- tum
+	re -- ma -- ne -- bit,
+	re -- ma -- ne --
+	_ %310
+	bit.
+	
+	Quid -- quid %317
+	la -- tet ap -- pa --
+	re -- bit:
+	%320
+	Nil in --
+	ul -- tum,
+	nil in --
+	ul -- tum re -- ma --
+	ne -- %325
+	_ _ _
+	_
+	_
+	bit.
+	Quid, quid sum %330
+	mi -- ser tunc di --
+	ctu -- rus?
+
+	Cum vix %344
+	iu -- stus sit __ %345
+	se -- cu --
+	rus, cum vix
+	iu -- stus
+	sit se --
+	cu -- rus, %350
+	quem pa -- tro -- num
+	ro -- ga -- tu -- rus,
+	cum vix
+	iu -- stus sit __
+	se -- cu -- %355
+	rus, sit se --
+	cu --
+	rus,
+	sit __ se --
+	cu -- %360
+	_
+	rus? %362 finis
 }
 
 % TenoreNotes = {

@@ -633,7 +633,7 @@ IudexErgoAltoNotes = {
 		as g r4 r %295
 		R2.
 		r4 r es8 es
-		es d f4. g16([ as)]
+		es d! f4. g16([ as)]
 		g4.( es16[ f] g8[ a]
 		\once \stemUp b) f r4 b8 b %300
 		b2.~
