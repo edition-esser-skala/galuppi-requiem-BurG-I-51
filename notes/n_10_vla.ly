@@ -630,6 +630,79 @@ IudexErgoViola = {
 		\clef treble
 		\key es \major \time 3/4 \tempoIudexErgo
 			\set Score.currentBarNumber = #272
+		r8 es\fE g es b' b,
+		r es g es b' b,
+		es4 r r
+		r r8 g es c %275
+		r4 r8 f d b
+		r4 r8 es c as
+		r4 r8 d b g
+		as as as as as as
+		g' es f d es a, %280
+		b4 r8 d d d
+		d4 r8 d d d
+		d4 r8 d d d
+		d4 r8 d d d
+		d8.( es32 f) es4 es~ %285
+		es d2
+		es4 r8 f f f
+		es4. es8 es4
+		es d2
+		es4 r r %290
+		R2.*9 %299
+		r4 r8 b\pE d f %300
+		b4 b, b
+		b b b
+		b b b
+		b b b
+		b b b %305
+		b b b
+		b r8 f' d b
+		b4 r8 f' d b
+		g' a b4 r
+		R2.*12 %321
+		f4 r8 f f f
+		g4 r8 g g g
+		as4 r8 as as as
+		f4^\critnote r r %325
+		R2.
+		es4 es a,
+		b r r
+		R2.*3 %331
+		es8 es es4 r
+		d8 d d4 r
+		c8 c c4 r
+		b8 b b4 r %335
+		as8 as as4 r
+		g4. as'!8 g f
+		es4. c8 es f
+		g4. g,8 a? h
+		c4 c c %340
+		d d d
+		g g g
+		d d h
+		c c c
+		g' g g %345
+		c, c c
+		g' g e
+		f f d
+		es! es es
+		f es es8 es %350
+		b4 r b
+		as r as
+		g r g
+		as r as
+		b r b %355
+		es es es
+		f f f
+		es4. f8 g es
+		as4 g f
+		es4. f8 g as %360
+		b4 b,2
+		r8 es\fE g es b' b,
+		es4 d b
+		es as b
+		es,2 r4\fermata \bar "||" %365 finis
 	}
 }
 
