@@ -715,6 +715,62 @@ RexTremendaeViolinoI = {
 		\clef treble
 		\key c \dorian \time 4/4 \tempoRexTremendae
 			\set Score.currentBarNumber = #366
+		R1
+		r2 r4 g''8\fE g
+		g f4 es d4.
+		c16 c c c c c c c c4 h
+		c8[ g] c, r r2 %370
+		r r4 g''8\p g
+		g f4 es d4.
+		c8[ g] c, r c'[ as] c, r
+		r d' d d d4 r
+		es2 d8\mf d4 d8 %375
+		d4\fermata r g8. g16 f8. f16
+		es4 r b'8.\pE b16 b8. b16
+		as8 r g r f r es r
+		d f f f d f f f
+		g r es r f r d r %380
+		b r d r f r as r
+		g g g g g g g g
+		g2 f\trill
+		es8 es, r4 r2
+		r r4 b''8\f b %385
+		b as4 g f4.
+		es16 es es es es es es es es4 d\trill
+		es8[ b] es, r r2
+		r r4 b''8\p b
+		b as g4 f2 %390
+		es8 r b' r c r as r
+		d, f f f d f f f
+		f es4 c b16 a! b8 d
+		d d4 d8 es8. es16 f8. f16
+		es4 r r r8 es %395
+		es es4 f8 g8. h,16 h8. h16
+		h?4 r8 h c4 r8 c
+		c4 r8 c d4 r8 d
+		es g as4 d,2
+		c8.\f g'16 g8. g16 g8. g16 g8. g16 %400
+		f8. f16 f8. f16 g8. g16 g8. g16
+		as4 r c,8.\p c16 c8. c16
+		b8. b16 b8. b16 as4 r8 g
+		f4 r8 f e4 r8 f
+		f e r4 e'8. e16 f8. g16 %405
+		as8. as16 as8. as16 g8. g16 g8. g16
+		g4 e8 c f4 des8 b
+		es4 c8 as des4 b8 ges
+		f4 r8 f' f4 r8 f
+		b, b b' b b b b b %410
+		es, es es es es es es es
+		es es es es es es es es
+		f f f f g g g g
+		g g g g g g g g
+		as as es es g g c, c %415
+		c c as' as g g as as
+		g g des' des e, g as g
+		f2. e4
+		f8 as as as b4 as
+		g8 g g g g2 %420
+		f1\fermata \bar "||" %421 finis
 	}
 }
 

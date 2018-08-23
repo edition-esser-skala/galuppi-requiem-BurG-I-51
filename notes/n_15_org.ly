@@ -1554,9 +1554,9 @@ RexTremendaeCello = {
 		g h a g r h a g c8 c, r c
 		as' as, r as g4 r8 g
 		c4 as g2
-		c8 c' c c b b b b %400
+		c8\fE c' c c b b b b %400
 		as as as as g g g g
-		f4 r f8 f f f
+		f4 r f8\pE f f f
 		f8. e16 e8. e16 f4 r8 es
 		des4 r8 des c4 r8 f
 		c4 r c8. c16 c8. c16 %405
@@ -1618,9 +1618,9 @@ RexTremendaeOrgano = {
 		g4 r8 g c4 r8 c
 		as4 r8 as g4 r8 g
 		c4 as g2
-		c8 c' c c b b b b %400
+		c8\fE c' c c b b b b %400
 		as as as as g g g g
-		f4 r f8 f f f
+		f4 r f8\pE f f f
 		f8. e16 e8. e16 f4 r8 es
 		des4 r8 des c4 r8 f
 		c4 r c8. c16 c8. c16 %405
@@ -1646,11 +1646,11 @@ RexTremendaeOrgano = {
 RexTremendaeBassFigures = \figuremode {
 	r2 r8 <[6]>4 <[_!]>8 %366
 	r2 <4+>4 <6>
-	<6>8 <5> <9 4> <8 3> <5 4> <\l _!> r <6 4! 3>
-	<6>2 <6 4>4 <5 _!>
+	<6>8 <5> <9 4> <8 3> <5 4> <\l _!> r <6 4! [_-]>
+	<6>4 <[_-]>8 <[6]> <6 4>4 <5 _!>
 	r2 r8 <[6]>4 <[_!]>8 %370
 	r2 <4+>4 <6>
-	<6>8 <5> <9 4> <8 3> <5 4> <\l _!> r <6 4! 3>
+	<6>8 <5> <9 4> <8 3> <5 4> <\l _!> r <6 4! [_-]>
 	<6>2 <_->
 	<_!> <7 [_!]>4 <[6] [5]>
 	r4 <7 5> <_!>2 %375
@@ -1661,11 +1661,11 @@ RexTremendaeBassFigures = \figuremode {
 	<6 4>2 <5 3> %380
 	<7->1
 	r
-	r
+	<[7]>
 	r2 r8 <[6]>4.
 	r2 <4!>4 <6> %385
-	<6>8 <[5-]> <9> <8> <4> <3> r4
-	r2 <6 4>4 <5 _!>
+	<6>8 <[5-]> <9 [4]> <8 [3]> <4> <3> r <[2]>
+	<[6]>4. <[6-]>8 <6 4>4 <5 _!>
 	r2 r8 <[6]>4.
 	r2 <4!>4 <6>
 	<6>8 <5-> <9> <8> <4> <3> <4>4 %390
@@ -1697,8 +1697,8 @@ RexTremendaeBassFigures = \figuremode {
 	<5 _->4 <6-> <6! 5->4.. <7>16
 	<[_!]>4 <_-> <9- _!>8 <8> r8. <6 _->16
 	<[_-]>4 <[6]> <5 4> <\l _!>
-	r2 <7- 5>
-	<6 5 _-> <5 4>4 <\l _!> %420
+	<[_-]>2 <7- 5>4 <[_-]>8 <[5-]>
+	<6 5 _->2 <5 4>4 <\l _!> %420
 	r1 %421 finis
 }
 
