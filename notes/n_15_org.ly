@@ -1529,11 +1529,121 @@ RexTremendaeOrgano = {
 		\key c \dorian \time 4/4 \tempoRexTremendae
 			\set Score.currentBarNumber = #366
 		\mvTr c4\fE-\soloE r r8 h'16 a h8 g
+		c8c, c' c, c4 b
+		h c g'4. f8
+		es c f as? g4 g,
+		c r r8 h'16 a h8 g %370
+		c c, c' c, c4 b
+		h c g'4. f8
+		es4 r f r
+		g8 g, g' g, g4 h
+		c fis g8 g, g' g, %375
+		g4\fermata r es'8. es16 f8. f16
+		g4 r b,8. b16 c8. c16
+		d4 es b c
+		b b b b
+		b b b b %380
+		b b b b
+		es es es es
+		a,!2 b
+		es4 r r8 d'16 c d8 b
+		es es, es' es, es4 des %385
+		d es b'4. as?8
+		g es as? c b4 b,
+		es r r8 d'16 c d8 b
+		es es, es' es, es4 des
+		d es b as'? %390
+		g g as as
+		b8 b, b' b, b4 d
+		es es d b8 g
+		r g' g f es8. es16 d8. d16
+		c4 d8 h c4 c %395
+		as as g8. g16 g8. g16
+		g4 r8 g c4 r8 c
+		as4 r8 as g4 r8 g
+		c4 as g2
+		c8 c' c c b b b b %400
+		as as as as g g g g
+		f4 r f8 f f f
+		f8. e16 e8. e16 f4 r8 es
+		des4 r8 des c4 r8 f
+		c4 r c8. c16 c8. c16 %405
+		c8. h16 h8. h16 c8. c16 c8. c16
+		c4 r des r
+		c r b r
+		a! a b des
+		es8. es16 es8. es16 des8. des16 des8. des16 %410
+		c8. c16 c8. c16 as'8. as16 as8. as16
+		g8. g16 g8. g16 g8. g16 g8. g16
+		f8. f16 des8. des16 es8. es16 es8. es16
+		es8. es16 es8. es16 es8. es16 es8. es16
+		as,8. as16 as8. as16 es'8. es16 e8. e16 %415
+		f8. f16 f8. f16 g8. g16 f8. b16
+		c8. c,16 b8. b16 c8. c16 f8. b16
+		f8. g16 as8. b16 c4 c,
+		f8. f16 f8. f16 e4 f8 des
+		b b b b c4 c, %420
+		f1\fermata \bar "||" %421 finis
 	}
 }
 
 RexTremendaeBassFigures = \figuremode {
-	
+	r1 %366
+	r2 <4+>4 <6>
+	<6>8 <5> <9 4> <8 3> <5 4> <\l _!> r <6 4! 3>
+	<6>2 <6 4>4 <5 _!>
+	r1 %370
+	r2 <4+>4 <6>
+	<6>8 <5> <9 4> <8 3> <5 4> <\l _!> r <6 4! 3>
+	<6>2 <_->
+	<_!> <7>
+	r4 <7 5> <_!>2 %375
+	r <5>4 <_->
+	<[6]>2. <7>4
+	<5->1
+	r
+	<6 4>2 <5 3> %380
+	<7->1
+	r
+	r
+	r
+	r2 <4!>4 <6> %385
+	<6>8 <[5-]> <9> <8> <4> <3> r4
+	r2 <6 4>4 <5 _!>
+	r1
+	r2 <4!>4 <6>
+	<6>8 <5-> <9> <8> <4> <3> <4>4 %390
+	<6>1
+	r2 <7->4 <5->
+	<4>8 <3> <6>4 <7 5 _+> <6>
+	r8 <_!>4. <6>4 <6!>
+	r2 <4>4 <3> %395
+	<5> <5>8 <6> <_!>2
+	<_!>4 <8>8 <7> r2
+	r <_!>
+	r4 <5>8 <6> <4>4 <_!>
+	r2 <4!> %400
+	<[6]> <7>4 <6!>
+	<[_-]>2 <_->
+	<6- 4 2>4 <7- 5 3> r2
+	<7>8 <6> r4 <7 5 _!>4. <_->8
+	<6- 4> <5 _!> r2. %405
+	<6- 4>4 <7- 5> <_!>2
+	r <7>8 <6> r4
+	<7>8 <6-> r4 <7! _->8 <6-> r4
+	<6>4 <6>8 <5> <4> <_-> <6> <5->
+	<4> <_-> r4 <4! 2>2 %410
+	<6->1
+	r
+	r
+	r2 <7->
+	r2. <6>8. <5>16 %415
+	<5 _->4 <6-> <6! 5->4.. <7>16
+	r4 <_-> <9- _!>8 <8> r8. <6 _->16
+	r2 <5 4>4 <\l _!>
+	r2 <7- 5>
+	<6 5 _-> <5 4>4 <\l _!> %420
+	r1 %421 finis
 }
 
 % Organo = {
