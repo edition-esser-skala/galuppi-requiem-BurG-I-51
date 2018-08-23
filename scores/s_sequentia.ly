@@ -368,7 +368,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = "3.7 REX TREMENDAE"
+			movement = "3.7 REX TREMENDAE – RECORDARE"
 		}
 		\paper { indent = 3\cm }
 		\score {

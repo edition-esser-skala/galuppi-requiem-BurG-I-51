@@ -672,14 +672,111 @@ LiberScriptusBassoLyrics = \lyricmode {
 RexTremendaeBassoNotes = {
 	\relative c {
 		\clef bass
-		\key c \dorian \time 4/4 \tempoRexTremendae
+		\key c \dorian \time 4/4 \autoBeamOff \tempoRexTremendae
 			\set Score.currentBarNumber = #366
-		
+		R1*4 %369
+		\mvTr c'4.\pE^\soloE c,8 g'4 g %370
+		c, es8([ c)] fis4 g
+		r2 g4. h8
+		c[ es,16 d] es8[ c] as'[ f16 es] f8[ d]
+		h4 g f'8 f4( g16[ f)]
+		es2 d4 r %375
+		R1\fermataMarkup
+		b'8.([ g32 f] es8) es b4 r
+		as'8.([ g32 as)] g8.([ f32 g)] f8.([ es32 f)] es8.([ d32 es)]
+		d8 b'4 as16[ g] b,8 as'4 g16[ f]
+		b,8 g'4 f16[ es] d[ c] b4 r8 %380
+		r4 as'2 f4
+		\appoggiatura f8 g4 es'4. b8 g([ es)]
+		a,!2( b)
+		es r
+		R1*3 %387
+		es'4. es,8 b'4 b
+		es, g8([ es)] a!4 b
+		R1 %390
+		b4. g8 c16[( b as g] as[ g f es]
+		d4) b as'16([ g] as4) as8
+		as? g c4. fis,8 g4
+		g4. h,8 c4 r
+		c'8.([ as32 g)] f4~ f8[ es16 d] es8[ c] %395
+		as4 as g r
+		h'32([ c d8.)] g,8 f es[ c es g]
+		as, as'4 g16[ f] h,8 h'4 a?16[ g]
+		c,8[ c']~ c16[ es, d c] g2
+		c4 r r2 %400
+		R1
+		r4 f8. g16 as8 as r4
+		g4. g8 as as c4~
+		c8 f, b4. e,8 as as
+		as? g c4. g8 as e %405
+		f4. f8 e16([ d)] c8 r4
+		r c'4. b8 b4~
+		b8 as as4. ges8 ges ges
+		f4. es8 es des b'8. as16
+		as?8 ges r4 g4.\trill f16([ es)] %410
+		as8 as r4 c4. des16([ c)]
+		b8 b r4 b4. c16([ b)]
+		as8 as as b16([ as)] g8 g r4
+		es4 g8([ b)] des,16([ c)] des4 r8
+		c4. as'8 g16([ f)] es8 c'8. b16 %415
+		as([ g)] as8 des4. e,8 f8. b16
+		e,16([ d)] c8 des'4. e,8 f8. b16
+		as4.( g16[ f] c2)
+		f,4 r r2
+		R1 %420
+		R\fermataMarkup \bar "||" %421 finis
 	}
 }
 
 RexTremendaeBassoLyrics = \lyricmode {
+	Rex tre -- men -- dae %370
+	ma -- ies -- ta -- tis,
+	qui sal --
+	van -- _ _ _
+	_ dos sal -- vas __
+	gra -- tis: %375
 	
+	Sal -- va me,
+	fons __ pie -- ta -- _
+	_ _ _ _ _ _
+	_ _ _ _ tis, %380
+	sal -- va
+	me, fons pi -- e --
+	ta --
+	tis.
+	
+	Rex tre -- men -- dae %388
+	ma -- ies -- ta -- tis,
+	%390
+	qui sal -- van --
+	dos sal -- vas
+	gra -- tis: Sal -- va me,
+	sal -- va me,
+	sal -- _ _ %395
+	_ va me,
+	fons __ pi -- e -- ta --
+	_ _ _ _ _ _
+	_ _
+	tis. %400
+	
+	Re -- cor -- da -- re
+	Ie -- su pi -- e, quod __
+	sum cau -- sa tu -- ae
+	vi -- ae: Ne me per -- das %405
+	il -- la di -- e,
+	ne me per --
+	das il -- la di -- e,
+	il -- la di -- e. Re -- cor --
+	da -- re Ie -- su %410
+	pi -- e, quod sum
+	cau -- sa, quod sum
+	cau -- sa tu -- ae vi -- ae:
+	Ne me __ per -- das
+	il -- la di -- e, ne me %415
+	per -- das il -- la, il -- a
+	di -- e, il -- la, il -- la
+	di --
+	e. %419 finis
 }
 
 % BassoNotes = {
