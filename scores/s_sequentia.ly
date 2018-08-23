@@ -250,61 +250,116 @@
 % 			\midi { \tempo 4. = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.5 LIBER SCRIPTUS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\LiberScriptusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\LiberScriptusViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\LiberScriptusViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \LiberScriptusSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \LiberScriptusSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \LiberScriptusAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \LiberScriptusAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \LiberScriptusTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \LiberScriptusTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \LiberScriptusBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \LiberScriptusBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\LiberScriptusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\LiberScriptusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.5 LIBER SCRIPTUS"
+			movement = "3.6 IUDEX ERGO"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new Staff \with { aDueText = \markup { \medium \remark "unisono" } } <<
+						\set Staff.instrumentName = \markup { \center-column { "Oboe I, II" } }
+						\partcombine \IudexErgoOboeI \IudexErgoOboeII
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\LiberScriptusViolinoI
+							\IudexErgoViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\LiberScriptusViolinoII
+							\IudexErgoViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\LiberScriptusViola
+						\IudexErgoViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \LiberScriptusSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \LiberScriptusSopranoLyrics
-					
-					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \LiberScriptusAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \IudexErgoAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \LiberScriptusAltoLyrics
+					\new Lyrics \lyricsto Alto \IudexErgoAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \LiberScriptusTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \IudexErgoTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \LiberScriptusTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \LiberScriptusBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \LiberScriptusBassoLyrics
+					\new Lyrics \lyricsto Tenore \IudexErgoTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\LiberScriptusOrgano
+						\IudexErgoOrgano
 					}
 				>>
 				\new FiguredBass {
-					\LiberScriptusBassFigures
+					\IudexErgoBassFigures
 				}
 			>>
 			\layout { }

@@ -80,3 +80,11 @@ DiesIraeOboeII = {
 		f4 c \appoggiatura b a1\fermata \bar "||" %81 finis
 	}
 }
+
+IudexErgoOboeII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoIudexErgo
+			\set Score.currentBarNumber = #272
+	}
+}

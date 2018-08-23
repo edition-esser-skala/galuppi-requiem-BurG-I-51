@@ -619,6 +619,19 @@ LiberScriptusAltoLyrics = \lyricmode {
 	tur.] %271 finis
 }
 
+IudexErgoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \autoBeamOff \tempoIudexErgo
+			\set Score.currentBarNumber = #272
+		
+	}
+}
+
+IudexErgoAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

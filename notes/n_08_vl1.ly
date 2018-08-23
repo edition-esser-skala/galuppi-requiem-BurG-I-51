@@ -643,6 +643,14 @@ LiberScriptusViolinoI = {
 	}
 }
 
+IudexErgoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoIudexErgo
+			\set Score.currentBarNumber = #272
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

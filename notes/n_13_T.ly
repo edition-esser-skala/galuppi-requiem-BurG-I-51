@@ -1209,6 +1209,19 @@ LiberScriptusTenoreLyrics = \lyricmode {
 	tur.] %271 finis
 }
 
+IudexErgoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 3/4 \autoBeamOff \tempoIudexErgo
+			\set Score.currentBarNumber = #272
+		
+	}
+}
+
+IudexErgoTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
