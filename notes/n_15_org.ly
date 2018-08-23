@@ -1520,6 +1520,62 @@ RexTremendaeCello = {
 		\clef "treble_8"
 		\key c \dorian \time 4/4 \tempoRexTremendae
 			\set Score.currentBarNumber = #366
+		r8 es16\fE d es8 c g r r4
+		r16 es' d c r es d c fis4 g
+		\clef bass h,, c g'4. f8
+		es16 c es g f c f as? g4 g,
+		\clef "treble_8" r8 es''16\pE d es8 c g r r4 %370
+		r16 es' d c r es d c fis4 g
+		\clef bass h,, c g'4. f8
+		es4 r f r
+		g8 h16 a h8 g g, r r4
+		c fis g8 g, g' g, %375
+		g4\fermata r es'8. es16 f8. f16
+		g4 r b,8. b16 c8. c16
+		d16 b c d es g f es d b c d es g f es
+		d8 f b,4 b b
+		es8 g b,4 b b %380
+		f'8 as b,4 b b
+		es8 g es4 es es
+		a,!2 b
+		r8 g'16\fE f g8 es b r r4
+		\clef "treble_8" r16 g'' f es r g f es a,!4 b %385
+		\clef bass d,! es b'4. as?8
+		g16 es g b as es as c b4 b,
+		r8 g'16\pE f g8 es b r r4
+		r16 g' f es r g f es a!4 b
+		d,! es b as'? %390
+		g g as as
+		b16 d, c b r d c b b'8 b, d4
+		es es d b8 g
+		r g' g f es8. es16 d8. d16
+		c4 d8 h c c'4 c8 %395
+		c c4 c8 h8. g16 g8. g16
+		g h a g r h a g c8 c, r c
+		as' as, r as g4 r8 g
+		c4 as g2
+		c8 c' c c b b b b %400
+		as as as as g g g g
+		f4 r f8 f f f
+		f8. e16 e8. e16 f4 r8 es
+		des4 r8 des c4 r8 f
+		c4 r c8. c16 c8. c16 %405
+		c8. h16 h8. h16 c8. c16 c8. c16
+		c4 r des r
+		c r b r
+		a! a b des
+		es8. es16 es8. es16 des8. des16 des8. des16 %410
+		c8. c16 c8. c16 as'8. as16 as8. as16
+		g8. g16 g8. g16 g8. g16 g8. g16
+		f8. f16 des8. des16 es8. es16 es8. es16
+		es8. es16 es8. es16 es8. es16 es8. es16
+		as,8. as16 as8. as16 es'8. es16 e8. e16 %415
+		f8. f16 f8. f16 g8. g16 f8. b16
+		c8. c,16 b8. b16 c8. c16 f8. b16
+		f8. g16 as8. b16 c4 c,
+		f8. f16 f8. f16 e4 f8 des
+		b b b b c4 c, %420
+		f1\fermata \bar "||" %421 finis
 	}
 }
 
@@ -1546,11 +1602,11 @@ RexTremendaeOrgano = {
 		b b b b
 		es es es es
 		a,!2 b
-		es4 r r8 d'16 c d8 b
+		es4 r r8 d'16\fE c d8 b
 		es es, es' es, es4 des %385
 		d es b'4. as?8
 		g es as? c b4 b,
-		es r r8 d'16 c d8 b
+		es r r8 d'16\pE c d8 b
 		es es, es' es, es4 des
 		d es b as'? %390
 		g g as as
