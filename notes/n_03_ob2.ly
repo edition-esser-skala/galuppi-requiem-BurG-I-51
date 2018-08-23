@@ -86,5 +86,94 @@ IudexErgoOboeII = {
 		\clef treble
 		\key es \major \time 3/4 \tempoIudexErgo
 			\set Score.currentBarNumber = #272
+		es'2\fE f8.( g32 as)
+		g( f es8.) b'4. d,8
+		es4. d16 c b8 as
+		g32( f es8.) r8 c' c c %275
+		c[ f] b, b b b
+		b[ es] as, as as as
+		as[ d] g, g g g
+		g[ c] f, f f d'
+		es4 as, g %280
+		f8 f'16 g f8 r r4
+		r8 f16 g f8 r r4
+		r8 b16 c b8 r r4
+		r8 b16 c b8 r r4
+		as8.( g32 as) g2 %285
+		f2.\trill
+		es8 b16 c b4. as8
+		g32( f es8.) b'4. as8
+		\appoggiatura g4 f2.\trill
+		es4 r r %290
+		R2.*2
+		es'2\pE f8.( g32 as)
+		g( f es8.) r4 r
+		r8 b'[ b b] b r %295
+		R2.
+		r8 es,[ es es] es r
+		R2.*2
+		r4 r8 b d f %300
+		r b16 c b8 r r4
+		r8 b16 c b8 r r4
+		r8 b16 c b8 r r4
+		r8 b16 c b8 r r4
+		r8 b16 c b8 r r4 %305
+		r8 b16 c b8 r r4
+		b,8 c16 d es8[ c] d r
+		b c16 d es8[ c] d r
+		R2.*2 %310
+		b2\fE c8.( d32 es)
+		d( c b8.) f'4. a,8
+		b4. a?16 g f8 es
+		d'32( c b8.) r4 r
+		R2.*2 %316
+		b2\pE c8.( d32 es)
+		d( c b8.) r4 r
+		r8 f'[ f f] f r
+		R2. %320
+		r8 b,[ b b] b r
+		r4 as'4. d,8
+		es[ es, g b] es r
+		r es,[ as c] es r
+		r as,[ d f] as r %325
+		es2 f8.( g32 as)
+		g8 es[ es es es es]
+		d4 r r
+		es2 f8.( g32 as)
+		g( f es8.) r4 r %330
+		R2.
+		r4 r8 c c c
+		c[ f] b, b b b
+		b[ es] as, as as as
+		as[ d] g, g g g %335
+		g[ c] f, f f f
+		h4 r r
+		c r r
+		es d r
+		r8 es[ es es] es r %340
+		R2.
+		r8 b[ b b] b r
+		R2.
+		r8 g[ g g] g r
+		R2. %345
+		r8 g[ g g] g r
+		R2.*2
+		g'8 b16 c b8 b, b b
+		b4 r8 b b b %350
+		b f'16 g f8 r r4
+		f,8 f'16 g f8 r r4
+		b,8 es16 f es8 r r4
+		c8 es16 f es8 r r4
+		d8 f16 g f8 r r4 %355
+		g,8 b16 c b8 r r4
+		R2.
+		r8 g' g as b g
+		as4 g f
+		es r r %360
+		R2.
+		es2\fE f8.( g32 as)
+		g( f es8.) b'4. as8
+		g16 f es8 f2\trill
+		es4 r r\fermata \bar "||" %365 finis
 	}
 }

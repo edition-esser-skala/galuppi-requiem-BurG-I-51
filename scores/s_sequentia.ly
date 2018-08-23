@@ -318,7 +318,7 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff \with { aDueText = \markup { \medium \remark "unisono" } } <<
+					\new Staff \with { aDueText = \markup { \medium \remarkE "unisono" } } <<
 						\set Staff.instrumentName = \markup { \center-column { "Oboe I, II" } }
 						\partcombine \IudexErgoOboeI \IudexErgoOboeII
 					>>
