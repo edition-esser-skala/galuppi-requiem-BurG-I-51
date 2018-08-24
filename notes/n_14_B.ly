@@ -784,12 +784,105 @@ QuaerensMeBassoNotes = {
 		\clef bass
 		\key f \major \time 2/4 \autoBeamOff \tempoQuaerensMe
 			\set Score.currentBarNumber = #422
-		
+		R2*8 %429
+		\mvTr f4\fE^\tuttiE e %430
+		f c
+		d a
+		b2
+		f'4 f~
+		f es %435
+		d d
+		b h
+		c2
+		c4 r
+		R2*2 %441
+		r4 f~
+		f d
+		es2
+		d4 b'~ %445
+		b g
+		e!2
+		f4 a,
+		b2
+		c~ %450
+		c
+		f,4 r
+		R2
+		f'2
+		f %455
+		a,4 a
+		b4. b8
+		c4 c
+		d4. e8
+		f2 %460
+		f4 e8 e
+		d2
+		c4 r
+		f f
+		c c %465
+		f f
+		d2~
+		d
+		e8[ d] c[ a]
+		e'2 %470
+		a,4 r
+		a' a
+		g g
+		f f
+		b,2 %475
+		f'4 r
+		R2*2
+		R2\fermataMarkup \bar "||" %479 finis
 	}
 }
 
 QuaerensMeBassoLyrics = \lyricmode {
+	Quae -- rens %430
+	me, se --
+	di -- sti
+	las --
+	sus: Re --
+	de -- %435
+	mi -- sti
+	cru -- cem
+	pas --
+	sus:
 	
+	Tan -- %442
+	tus
+	la --
+	bor, tan -- %445
+	tus
+	la --
+	bor non
+	sit
+	cas -- %450
+	
+	sus.
+	
+	Iu -- %454
+	ste %455
+	iu -- dex
+	ul -- ti --
+	o -- nis,
+	do -- num
+	fac %460
+	re -- mis -- si --
+	o --
+	nis,
+	an -- te
+	di -- em %465
+	ra -- ti --
+	o --
+	
+	_ _
+	_ %470
+	nis,
+	an -- te
+	di -- em
+	ra -- ti --
+	o -- %475
+	nis. %476 finis
 }
 
 % BassoNotes = {
