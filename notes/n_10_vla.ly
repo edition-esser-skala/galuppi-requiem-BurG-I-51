@@ -711,6 +711,62 @@ RexTremendaeViola = {
 		\clef treble
 		\key c \dorian \time 4/4 \tempoRexTremendae
 			\set Score.currentBarNumber = #366
+		c4\fE r r8 d16 c d8 h
+		c es c es d2
+		r8 g g4 r8 g g4
+		r8 g as? f es4 d
+		c r r8 d16\p c d8 h %370
+		c es c es d2
+		r8 g g4 r8 g d4
+		es r f r
+		g8 g, g' g, g4 r
+		r2 g'8 g4 g8 %375
+		g4\fermata r es8. es16 as8. as16
+		g4 r d8. d16 es8. es16
+		f8 r es r d r c r
+		b4 b b b
+		b b b b %380
+		b b b b
+		es es es es
+		a,!2 b
+		es4 r r8 f16\f es f8 d
+		es g es g f2 %385
+		r8 b b4 r8 b b4
+		r8 b c as g4 f\trill
+		es r r8 f16\p es f8 d
+		es g es g f2~
+		f8 b,4 b b f'8 %390
+		g r es r es r c r
+		b d b d b4 b
+		b r8 g' fis a g b
+		g g g f es8. es16 d8. d16
+		es8 g f as g g4 g8 %395
+		c, c4 c8 d8. d16 d8. d16
+		r4 r8 d es4 r8 es
+		es4 r8 f g4 r8 g
+		es4. f8 g2
+		g8\fE c, c c c c c c %400
+		c8. c16 c8. c16 b8. b16 b8. b16
+		c4 r f8.\pE f16 f8. f16
+		des8. des16 des8. des16 c4 r8 es
+		des4 r8 des c4 r8 c
+		c4 r c8 c c c %405
+		f f f f e e e e
+		e?4 r des r
+		c r b r
+		a! a b des
+		es8 es es es es es es es %410
+		es es c c c c as' as
+		b b g g g g g g
+		as as des, des b b b b
+		b b b b b b b b
+		c c c c b b g g %415
+		as as f' f e e f f
+		e e f f c c c des
+		c b c des c2
+		c8 c c c des4 c8 des
+		des? des des des c2 %420
+		c1\fermata \bar "||" %421 finis
 	}
 }
 
