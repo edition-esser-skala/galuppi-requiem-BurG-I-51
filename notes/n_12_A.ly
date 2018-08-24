@@ -774,12 +774,101 @@ QuaerensMeAltoNotes = {
 		\clef treble
 		\key f \major \time 2/4 \autoBeamOff \tempoQuaerensMe
 			\set Score.currentBarNumber = #422
-		
+		R2*8 %429
+		\mvTr f4\fE^\tuttiE g %430
+		f e
+		d c
+		d2
+		c
+		d4 g %435
+		fis fis
+		g f
+		f( e8[ d])
+		e4 e~
+		e f %440
+		d( e)
+		f r
+		R2*2
+		r4 f~ %445
+		f g
+		g2
+		f4 f
+		f2
+		e4 f~ %450
+		f e
+		f r
+		R2*3 %455
+		f2
+		f
+		e4 e
+		f4. e16([ d)]
+		c4 c %460
+		d e
+		f f
+		e e
+		f2
+		g~ %465
+		g4 f
+		f f
+		f f
+		e e
+		e2 %470
+		e4 r
+		e f
+		f e
+		f f
+		f2 %475
+		f4 r
+		R2*2
+		R2\fermataMarkup \bar "||" %479
 	}
 }
 
 QuaerensMeAltoLyrics = \lyricmode {
+	[Quae -- rens %430
+	me, se --
+	di -- sti
+	las --
+	sus:]
+	Re -- de -- %435
+	mi -- sti
+	[cru -- cem
+	pas --
+	sus:] Tan --
+	tus %440
+	la --
+	bor,
 	
+	[tan -- %445
+	tus
+	la --
+	bor non
+	sit
+	cas -- _ %450
+	_
+	sus.]
+	
+	Iu -- %456
+	ste
+	iu -- dex
+	ul -- ti --
+	o -- nis, %460
+	do -- num
+	fac re --
+	mis -- si --
+	o --
+	_ %465
+	nis,
+	an -- te
+	di -- em
+	ra -- ti --
+	o -- %470
+	nis,
+	[an -- te
+	di -- em
+	ra -- ti --
+	o -- %475
+	nis.] %476 finis
 }
 
 % AltoNotes = {
