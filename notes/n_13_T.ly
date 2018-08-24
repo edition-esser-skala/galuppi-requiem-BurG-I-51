@@ -1345,12 +1345,105 @@ QuaerensMeTenoreNotes = {
 		\clef "treble_8"
 		\key f \major \time 2/4 \autoBeamOff \tempoQuaerensMe
 			\set Score.currentBarNumber = #422
-		
+		R2*8 %429
+		\mvTr c4\fE^\tuttiE c %430
+		c c
+		a a
+		f( b)
+		a a
+		b4.( c8) %435
+		d4 d
+		d d
+		c2
+		c4 c~
+		c a %440
+		b2
+		a4 r
+		R2*2
+		r4 d~ %445
+		d d
+		c2
+		c4 c
+		d2
+		c~ %450
+		c
+		c4 r
+		c2
+		c
+		a4 a %455
+		c4. c8
+		d2
+		c4 r
+		R2
+		a4. a8 %460
+		h4 c
+		c h
+		c g
+		a a
+		c c %465
+		c c
+		d2~
+		d
+		h4 c
+		h2 %470
+		a4 r
+		c c
+		b! b
+		c c
+		d2 %475
+		c4 r
+		R2*2
+		R2\fermataMarkup \bar "||" %479 finis
 	}
 }
 
 QuaerensMeTenoreLyrics = \lyricmode {
+	[Quae -- rens %430
+	me, se --
+	di -- sti
+	las --
+	sus:] Re --
+	de -- %435
+	mi -- sti
+	[cru -- cem
+	pas --
+	sus:] Tan --
+	tus %440
+	la --
+	bor,
 	
+	[tan -- %445
+	tus
+	la --
+	bor non
+	sit
+	cas -- %450
+	
+	sus.]
+	Iu --
+	ste
+	iu -- dex %455
+	ul -- ti --
+	o --
+	nis,
+	
+	do -- num %460
+	fac re --
+	mis -- si --
+	o -- nis,
+	an -- te
+	di -- em %465
+	ra -- ti --
+	o --
+	
+	_ _
+	_ %470
+	nis,
+	[an -- te
+	di -- em
+	ra -- ti --
+	o -- %475
+	nis.] %476 finis
 }
 
 % TenoreNotes = {

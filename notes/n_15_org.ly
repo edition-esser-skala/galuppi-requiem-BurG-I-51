@@ -1814,7 +1814,7 @@ QuaerensMeBassFigures = \figuremode {
 	<9>4 <8>
 	r2
 	<6!>4 <5>
-	<_+> <6>
+	<[5!] _+> <6>
 	<5! 4> <\l _+> %470
 	r2
 	r4 <6>
