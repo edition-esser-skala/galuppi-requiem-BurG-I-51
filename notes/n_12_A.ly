@@ -769,6 +769,19 @@ IudexErgoAltoLyrics = \lyricmode {
 	rus? %362 finis
 }
 
+QuaerensMeAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/4 \autoBeamOff \tempoQuaerensMe
+			\set Score.currentBarNumber = #422
+		
+	}
+}
+
+QuaerensMeAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

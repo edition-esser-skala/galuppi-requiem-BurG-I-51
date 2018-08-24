@@ -779,6 +779,19 @@ RexTremendaeBassoLyrics = \lyricmode {
 	e. %419 finis
 }
 
+QuaerensMeBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/4 \autoBeamOff \tempoQuaerensMe
+			\set Score.currentBarNumber = #422
+		
+	}
+}
+
+QuaerensMeBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -366,54 +366,121 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.7 REX TREMENDAE – RECORDARE"
+% 		}
+% 		\paper { indent = 3\cm }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\RexTremendaeViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\RexTremendaeViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\RexTremendaeViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \RexTremendaeBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \RexTremendaeBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \RexTremendaeCelloIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\RexTremendaeCello
+% 					}
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\RexTremendaeOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\RexTremendaeBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.7 REX TREMENDAE – RECORDARE"
+			movement = "3.8 QUAERENS ME"
 		}
-		\paper { indent = 3\cm }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = "Tromba I, II"
+						\partcombine \QuaerensMeTrombaI \QuaerensMeTrombaII
+					>>
+				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\RexTremendaeViolinoI
+							\QuaerensMeViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\RexTremendaeViolinoII
+							\QuaerensMeViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\RexTremendaeViola
+						\QuaerensMeViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \RexTremendaeBassoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \QuaerensMeSopranoNotes }
 					}
-					\new Lyrics \lyricsto Basso \RexTremendaeBassoLyrics
+					\new Lyrics \lyricsto Soprano \QuaerensMeSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \QuaerensMeAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \QuaerensMeAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \QuaerensMeTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \QuaerensMeTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \QuaerensMeBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \QuaerensMeBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \RexTremendaeCelloIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\RexTremendaeCello
-					}
-					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\RexTremendaeOrgano
+						\QuaerensMeOrgano
 					}
 				>>
 				\new FiguredBass {
-					\RexTremendaeBassFigures
+					\QuaerensMeBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

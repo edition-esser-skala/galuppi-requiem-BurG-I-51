@@ -1340,6 +1340,19 @@ IudexErgoTenoreLyrics = \lyricmode {
 	rus? %362 finis
 }
 
+QuaerensMeTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 2/4 \autoBeamOff \tempoQuaerensMe
+			\set Score.currentBarNumber = #422
+		
+	}
+}
+
+QuaerensMeTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

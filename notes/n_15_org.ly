@@ -1702,6 +1702,19 @@ RexTremendaeBassFigures = \figuremode {
 	r1 %421 finis
 }
 
+QuaerensMeOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/4 \tempoQuaerensMe
+			\set Score.currentBarNumber = #422
+		\mvTr f4\fE-\tuttiE c
+	}
+}
+
+QuaerensMeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

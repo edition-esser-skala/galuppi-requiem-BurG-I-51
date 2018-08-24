@@ -772,6 +772,14 @@ RexTremendaeViolinoII = {
 	}
 }
 
+QuaerensMeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/4 \tempoQuaerensMe
+			\set Score.currentBarNumber = #422
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

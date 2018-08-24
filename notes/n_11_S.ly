@@ -667,6 +667,19 @@ LiberScriptusSopranoLyrics = \lyricmode {
 	tur.] %271 finis
 }
 
+QuaerensMeSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/4 \autoBeamOff \tempoQuaerensMe
+			\set Score.currentBarNumber = #422
+		
+	}
+}
+
+QuaerensMeSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
