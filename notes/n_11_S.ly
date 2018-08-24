@@ -672,12 +672,104 @@ QuaerensMeSopranoNotes = {
 		\clef treble
 		\key f \major \time 2/4 \autoBeamOff \tempoQuaerensMe
 			\set Score.currentBarNumber = #422
-		
+		R2*8 %429
+		\mvTr a'4\fE^\tuttiE b %430
+		a g
+		f f
+		f2
+		f
+		g4 es' %435
+		a, a
+		b as
+		as?( g8[ f)]
+		g4 r
+		R2*2 %441
+		r4 a!~
+		a b
+		g ( a)
+		b b~ %445
+		b b
+		b2
+		a4 c~
+		c b~
+		b a %450
+		g2
+		a4 r
+		R2*2
+		c2 %455
+		c
+		b4 b
+		g4. g8
+		b2
+		a4 r %460
+		R2
+		a4 d
+		g, c
+		c d
+		e2 %465
+		a,
+		a4 a
+		h a
+		gis a
+		a( gis) %470
+		a r
+		a a
+		b! b
+		a a
+		b2 %475
+		a4 r
+		R2*2
+		R2\fermataMarkup \bar "||" %479 finis
 	}
 }
 
 QuaerensMeSopranoLyrics = \lyricmode {
+	[Quae -- rens %430
+	me, se --
+	di -- sti
+	las --
+	sus:]
+	Re -- de -- %435
+	mi -- sti
+	[cru -- cem
+	pas --
+	sus:]
 	
+	Tan -- %442
+	tus
+	la --
+	bor, [tan -- %445
+	tus
+	la --
+	bor non __
+	sit __
+	_ %450
+	cas --
+	
+	sus.]
+	
+	Iu -- %455
+	ste
+	iu -- dex
+	ul -- ti --
+	o --
+	nis, %460
+	
+	do -- num
+	fac re --
+	mis -- si --
+	o -- %465
+	nis,
+	an -- te
+	di -- em
+	ra -- ti --
+	o -- %470
+	nis,
+	[an -- te
+	di -- em
+	ra -- ti --
+	o -- %475
+	nis.] %476 finis
 }
 
 % SopranoNotes = {

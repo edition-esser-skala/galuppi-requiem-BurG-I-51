@@ -1776,10 +1776,10 @@ QuaerensMeBassFigures = \figuremode {
 	r
 	r
 	<6 4>4 <5 3>
-	r2 %430
-	r
-	<5>
-	r
+	r4 <[7]> %430
+	r2
+	<5>4 <[6]>
+	r2
 	r
 	<6 4 2>4 <5>8 <6> %435
 	<_+>2
@@ -1793,15 +1793,15 @@ QuaerensMeBassFigures = \figuremode {
 	<6>2 %445
 	r
 	<6 5>
-	r
-	<9>4 <8>
+	r4 <[6]>
+	<9> <8>
 	<7 5 3> <6 4> %450
 	<5 4> <\l 3>
 	r2
 	r
 	r
 	r %455
-	r
+	<[6]>
 	r
 	r
 	<6>
@@ -1822,9 +1822,9 @@ QuaerensMeBassFigures = \figuremode {
 	r2
 	r %475
 	r
-	r
-	r
-	r %479 finis
+	r4 <[6]>
+	r q
+	r2 %479 finis
 }
 
 % Organo = {
