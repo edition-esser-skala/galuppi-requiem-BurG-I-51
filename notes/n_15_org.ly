@@ -1708,11 +1708,123 @@ QuaerensMeOrgano = {
 		\key f \major \time 2/4 \tempoQuaerensMe
 			\set Score.currentBarNumber = #422
 		\mvTr f4\fE-\tuttiE c
+		f c
+		d a
+		b g %425
+		f8 f' e c
+		d4 e
+		f b,
+		c2
+		f4 c %430
+		f c
+		d a
+		b2
+		f'4 f~
+		f es %435
+		d d
+		b h
+		c2
+		c4 r
+		R2*2 %441
+		r4 f~
+		f d
+		es2
+		d4 b'~ %445
+		b g
+		e!2
+		f4 a,
+		b2
+		c~ %450
+		c
+		f,4 f'
+		c c
+		f f
+		f f %455
+		a, a
+		b b
+		c c
+		d4. e8
+		f4 f~ %460
+		f e
+		d d
+		c c
+		f f
+		c c %465
+		f f
+		d d
+		d d
+		e8 d c a
+		e'4 e, %470
+		a a'
+		a a
+		g g
+		f f
+		b,2 %475
+		f'4 f
+		f a,8 c
+		f4 a,8 c
+		f,4 r\fermata \bar "||" %479 finis
 	}
 }
 
 QuaerensMeBassFigures = \figuremode {
-	
+	r2 %422
+	r
+	r
+	r4 <5>8 <6> %425
+	r2
+	r
+	r
+	<6 4>4 <5 3>
+	r2 %430
+	r
+	<5>
+	r
+	r
+	<6 4 2>4 <5>8 <6> %435
+	<_+>2
+	<6>4 <7- 5>
+	<[6-] 4> <5 _!>
+	r2
+	r2*2 %441
+	r2
+	r4 <6>
+	<3> <4>
+	<6>2 %445
+	r
+	<6 5>
+	r
+	<9>4 <8>
+	<7 5 3> <6 4> %450
+	<5 4> <\l 3>
+	r2
+	r
+	r
+	r %455
+	r
+	r
+	r
+	<6>
+	r %460
+	<6 4! 2>4 <[6]>
+	<7> <6!>
+	r2
+	<5>4 <6>
+	r2 %465
+	<9>4 <8>
+	r2
+	<6!>4 <5>
+	<_+> <6>
+	<5! 4> <\l _+> %470
+	r2
+	r4 <6>
+	<7 _-> <6>
+	r2
+	r %475
+	r
+	r
+	r
+	r %479 finis
 }
 
 % Organo = {
