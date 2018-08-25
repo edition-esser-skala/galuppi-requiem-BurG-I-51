@@ -775,6 +775,63 @@ QuaerensMeViola = {
 		\clef treble
 		\key f \major \time 2/4 \tempoQuaerensMe
 			\set Score.currentBarNumber = #422
+		c4\fE c
+		c c
+		a2
+		d4. b8 %425
+		c2
+		a4 g
+		a8 c d4
+		c2
+		c4 c %430
+		c c
+		a4. c8
+		f,4 d'
+		c c
+		d es %435
+		a, a
+		b h
+		c2
+		c4 r
+		R2*2 %441
+		r4 c~
+		c d
+		b c
+		d8 f f4 %445
+		f g
+		g e
+		f8 c c4
+		b d
+		c2~ %450
+		c
+		c4 a
+		g e'8 g
+		f c a c
+		f,4 a8 c %455
+		c4 c
+		b d
+		c e
+		f4. g8
+		a4 a %460
+		g4. c,8
+		d4 f
+		e g
+		a a
+		g g %465
+		g f
+		a a
+		f f
+		e e
+		e2 %470
+		c4 a
+		a c
+		d b
+		c a
+		b2 %475
+		c4 c
+		c a8 c
+		a4 a8 c
+		f,4 r\fermata \bar "||" %479 finis
 	}
 }
 
