@@ -182,16 +182,16 @@ QuaerensMeCornoI = {
 		\clef treble
 		\key c \major \time 2/4 \tempoQuaerensMe
 			\set Score.currentBarNumber = #422
-		e'4\fE d
-		e d
+		e'4\fE \pao d
+		e \pao d
 		c2~
 		c4 d %425
 		e d
 		c d
 		c2~
 		c4 d
-		e d %430
-		e d
+		e \pao d %430
+		e \pao d
 		c2~
 		c~
 		c
