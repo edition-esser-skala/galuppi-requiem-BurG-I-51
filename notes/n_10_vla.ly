@@ -837,10 +837,10 @@ QuaerensMeViola = {
 
 IngemiscoViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \dorian \time 3/4 \tempoIngemisco
 			\set Score.currentBarNumber = #480
-		d4\p d d
+		\mvTr d4\p-\markup { \remarkE "pizzicato" } d d
 		d d d
 		d d g
 		e e e
