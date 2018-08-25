@@ -772,7 +772,7 @@ RexTremendaeViola = {
 
 QuaerensMeViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 2/4 \tempoQuaerensMe
 			\set Score.currentBarNumber = #422
 		c4\fE c
