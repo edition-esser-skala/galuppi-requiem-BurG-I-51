@@ -480,7 +480,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

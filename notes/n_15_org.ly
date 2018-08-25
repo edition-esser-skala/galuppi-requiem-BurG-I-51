@@ -1770,11 +1770,11 @@ QuaerensMeOrgano = {
 QuaerensMeBassFigures = \figuremode {
 	r2 %422
 	r
-	r
-	r4 <5>8 <6> %425
+	r4 <[6]>
+	r <5>8 <6> %425
+	r4 <[6]>
+	r <[6]>
 	r2
-	r
-	r
 	<6 4>4 <5 3>
 	r4 <[7]> %430
 	r2

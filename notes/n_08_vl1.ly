@@ -779,6 +779,64 @@ QuaerensMeViolinoI = {
 		\clef treble
 		\key f \major \time 2/4 \tempoQuaerensMe
 			\set Score.currentBarNumber = #422
+		f'16\fE a g f e c c' b %422
+		a c b a g e f g
+		f a g f c' b a g
+		d f e d b g' f e %425
+		f8.( e32 d) c8.( d32 e)
+		f16 a g f e d c b
+		a32( g f8.)~ f16 g a b
+		a4 g
+		f16 a' g f e c c' b %430
+		a c b a g e f g
+		f a g f c' b a g
+		d f e d b' a g f
+		a, a' g f a, c b a
+		g d' c b g es' d c %435
+		d a g fis d d' e fis
+		g d c b as' f es d
+		c8 as' g f
+		e16 g f e c'8 c,
+		e16 g f e f8 f, %440
+		d'16 f e d g8 g,
+		a!16 c b a f'8 c
+		a16 b c a b8 f
+		g16 b a g c8 f,
+		b16 d c b d f e d %445
+		b' d, c b b' g a b
+		g c, d e g, a b g
+		a c b a f' c b a
+		d f e d b d c b
+		e, g f e f a g f %450
+		e8 c c' b
+		a16 c b a f' a g f
+		e g f e g c, d e
+		a, c b a f' a g f
+		c a b c f, g a f %455
+		f' c d e f a g f
+		d f e d b d c b
+		e, g f e c' e, d c
+		f8 f' b, d
+		c16 a g f f' a g f %460
+		d h c d c e f g
+		f d e f h, d c h
+		e g f e c' g f e
+		f a g f d f e d
+		e g f e c g f e %465
+		a c b a f' a g f
+		f, a g f d' f e d
+		h c d h a g f a
+		gis4 a~
+		a gis %470
+		a16 c h a c e d c
+		a c d e f a g f
+		b! g a b e, g f e
+		a c, b a f' a, g f
+		f'2 %475
+		r16 a g f a, c b a
+		f' c a c f,8 r
+		f'16 c a c f,8 r
+		f4 r\fermata \bar "||" %479 finis
 	}
 }
 
