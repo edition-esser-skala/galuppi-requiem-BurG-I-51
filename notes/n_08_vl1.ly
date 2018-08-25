@@ -857,7 +857,7 @@ IngemiscoViolinoI = {
 		r b b b b b
 		b?[ g] g' r e r %490
 		f r d r b r
-		gis4.\fE a8 a b
+		gis4.\f a8 a b
 		a a a4 g
 		f e2\trill
 		d8 a''[\p a a a a] %495
@@ -915,7 +915,7 @@ IngemiscoViolinoI = {
 		a4 f' f
 		f8 b, a4 gis %550
 		a2 r4
-		r8 f'\fE f f f f
+		r8 f' f f f f
 		r a a a a a
 		r b b b b b
 		r a a a a a %555

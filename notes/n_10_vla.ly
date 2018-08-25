@@ -840,6 +840,92 @@ IngemiscoViola = {
 		\clef treble
 		\key d \dorian \time 3/4 \tempoIngemisco
 			\set Score.currentBarNumber = #480
+		d4\p d d
+		d d d
+		d d g
+		e e e
+		f f f
+		d d d %485
+		c e e
+		f c c
+		c c c
+		b g' g
+		g e cis %490
+		d f f
+		e\f e e
+		d d d
+		d2 cis4
+		d\p d d %495
+		d d d
+		d d d
+		d d d
+		cis e g
+		f f d %500
+		a' a h!
+		a e cis
+		a' a a
+		a a a
+		d, d d %505
+		c! c d
+		c c c
+		c c c
+		d d f
+		e e e %510
+		d d d
+		c c c
+		c c c
+		d d e
+		f f f %515
+		f g a
+		b r r
+		R2.*3 %520
+		f4\p f f
+		f f f
+		f f d
+		c c c
+		c c f %525
+		fis fis fis
+		g d d
+		e a a
+		a a a
+		a a a %530
+		a e e
+		d f f
+		a a a
+		g d b
+		g g' d %535
+		c es es
+		d d d
+		g, g g
+		g a a
+		b d g %540
+		\appoggiatura g8 fis4 fis fis
+		g g d
+		e! a a
+		a d, d
+		g d d %545
+		a' e cis
+		d f f
+		e e e
+		d a a
+		b a gis %550
+		a2 r4
+		d4 d d
+		d d d
+		d d g
+		e e e %555
+		f f f
+		d d d
+		c e e
+		f c c
+		c c c %560
+		b g' g
+		g e cis
+		d f f
+		e\f e e
+		d d d %565
+		d2 cis4
+		d r r\fermata \bar "||" %567 finis
 	}
 }
 

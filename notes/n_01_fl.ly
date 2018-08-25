@@ -79,7 +79,7 @@ IngemiscoFlauto = {
 		a16 f e d d'4 d
 		d8 b a4 gis %550
 		a2\fermata r4
-		d4.\fE f16 e d8 d
+		d4. f16 e d8 d
 		d4. f16 e d8 d
 		b'4. g16 f e8 d
 		\appoggiatura d8 cis4 r8 a' a g16 a %555

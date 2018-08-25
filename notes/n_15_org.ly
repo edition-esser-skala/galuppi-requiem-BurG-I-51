@@ -1904,7 +1904,7 @@ IngemiscoOrgano = {
 		d d d
 		b' a gis %550
 		a2.\fermata
-		d,4\fE d d
+		d,4 d d
 		d d d
 		g g g
 		a a a %555
@@ -1916,7 +1916,7 @@ IngemiscoOrgano = {
 		g g g
 		g e cis
 		d d d
-		d cis cis
+		d\fE cis cis
 		d f g %565
 		a a,2
 		d4 r r\fermata \bar "||" %567 finis
@@ -1938,7 +1938,7 @@ IngemiscoBassFigures = \figuremode {
 	<5>2 <6->4
 	<4\+> <\t>8 <6>4 <7->8
 	r4 <6> <_->
-	<6 4> <5 _+>2
+	<6 4> <5 \t> <\t _+>
 	r2. %495
 	r
 	<_->
@@ -1958,8 +1958,8 @@ IngemiscoBassFigures = \figuremode {
 	q
 	<2>
 	<6>
-	<_->
-	r %515
+	<5 _->2 <6>4
+	r2. %515
 	r4 <7 _-> <6 5->
 	r2 <5>8 <6!>
 	<6>2 <6>8 <5->
@@ -2010,7 +2010,7 @@ IngemiscoBassFigures = \figuremode {
 	<5>2 <6->4
 	<4\+>4 <\t>8 <6>4 <7->8
 	r4 <6> <_-> %565
-	<6 4> <5 _+>2
+	<6 4>4 <5 \t> <\t _+>
 	r2. %567 finis8
 }
 
