@@ -424,8 +424,8 @@
 			<<
 				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = "Tromba I, II"
-						\partcombine \QuaerensMeTrombaI \QuaerensMeTrombaII
+						\set Staff.instrumentName = "Corno I, II"
+						\partcombine \QuaerensMeCornoI \QuaerensMeCornoII
 					>>
 				>>
 				\new StaffGroup <<

@@ -43,11 +43,3 @@ TubaMirumTrombaII = {
 		c\fermata \bar "||" %162 finis
 	}
 }
-
-QuaerensMeTrombaII = {
-	\relative c' {
-		\clef treble
-		\key f \major \time 2/4 \tempoQuaerensMe
-			\set Score.currentBarNumber = #422
-	}
-}

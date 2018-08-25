@@ -176,3 +176,59 @@ DiesIraeCornoI = {
 		e\fermata \bar "||" %81 finis
 	}
 }
+
+QuaerensMeCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/4 \tempoQuaerensMe
+			\set Score.currentBarNumber = #422
+		e'4\fE d
+		e d
+		c2~
+		c4 d %425
+		e d
+		c d
+		c2~
+		c4 d
+		e d %430
+		e d
+		c2~
+		c~
+		c
+		d %435
+		e4 r
+		R2*5 %441
+		c2~
+		c
+		R
+		c4 r %445
+		c r
+		R2
+		c~
+		c4 f
+		d e %450
+		d2
+		c4 r
+		R2*4 %456
+		c4 f
+		d g
+		c, r
+		c r %460
+		R2
+		c4 r
+		g2
+		R
+		g %465
+		r4 e'
+		e r
+		R2*4 %471
+		r4 c
+		d f
+		e g
+		f2 %475
+		e4 e
+		e r
+		e r
+		e r\fermata \bar "||" %479 finis
+	}
+}

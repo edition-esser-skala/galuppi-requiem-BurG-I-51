@@ -176,3 +176,11 @@ DiesIraeCornoII = {
 		c\fermata \bar "||" %81 finis
 	}
 }
+
+QuaerensMeCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/4 \tempoQuaerensMe
+			\set Score.currentBarNumber = #422
+	}
+}
