@@ -1827,6 +1827,19 @@ QuaerensMeBassFigures = \figuremode {
 	r2 %479 finis
 }
 
+IngemiscoOrgano = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 3/4 \tempoIngemisco
+			\set Score.currentBarNumber = #480
+		\mvTr d4\pE-\markup { \remark "Bassi pizzicati e senza Organo" } d d
+	}
+}
+
+IngemiscoBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

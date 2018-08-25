@@ -191,6 +191,7 @@ tempoLiberScriptus = \tempoMarkup "[Tempo deest]"
 tempoIudexErgo = \tempoMarkup "Andantino"
 tempoRexTremendae = \tempoMarkup "Maestoso"
 tempoQuaerensMe = \tempoMarkup "Allegretto"
+tempoIngemisco = \tempoMarkup "Andantino"
 
 
 % modify the Scheme function 'format-bass-figure'

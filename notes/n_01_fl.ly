@@ -3,3 +3,11 @@
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 \version "2.18.0"
+
+IngemiscoFlauto = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 3/4 \tempoIngemisco
+			\set Score.currentBarNumber = #480
+	}
+}

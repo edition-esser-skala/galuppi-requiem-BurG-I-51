@@ -835,6 +835,14 @@ QuaerensMeViola = {
 	}
 }
 
+IngemiscoViola = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 3/4 \tempoIngemisco
+			\set Score.currentBarNumber = #480
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % 		\clef treble

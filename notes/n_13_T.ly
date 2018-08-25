@@ -1446,6 +1446,19 @@ QuaerensMeTenoreLyrics = \lyricmode {
 	nis.] %476 finis
 }
 
+IngemiscoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \dorian \time 3/4 \autoBeamOff \tempoIngemisco
+			\set Score.currentBarNumber = #480
+		
+	}
+}
+
+IngemiscoTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -416,71 +416,118 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.8 QUAERENS ME – IUSTE IUDEX"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Corno I, II"
+% 						\partcombine \QuaerensMeCornoI \QuaerensMeCornoII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\QuaerensMeViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\QuaerensMeViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\QuaerensMeViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \QuaerensMeSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \QuaerensMeSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \QuaerensMeAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \QuaerensMeAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \QuaerensMeTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \QuaerensMeTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \QuaerensMeBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \QuaerensMeBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuaerensMeOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\QuaerensMeBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.8 QUAERENS ME – IUSTE IUDEX"
+			movement = "3.9 INGEMISCO"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Corno I, II"
-						\partcombine \QuaerensMeCornoI \QuaerensMeCornoII
-					>>
-				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Flauto traverso" "solo" } }
+					\IngemiscoFlauto
+				}
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\QuaerensMeViolinoI
+							\IngemiscoViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuaerensMeViolinoII
+							\IngemiscoViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\QuaerensMeViola
+						\IngemiscoViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \QuaerensMeSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \QuaerensMeSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \QuaerensMeAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \QuaerensMeAltoLyrics
-					
-					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \QuaerensMeTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \IngemiscoTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \QuaerensMeTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \QuaerensMeBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \QuaerensMeBassoLyrics
+					\new Lyrics \lyricsto Tenore \IngemiscoTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuaerensMeOrgano
+						\IngemiscoOrgano
 					}
 				>>
 				\new FiguredBass {
-					\QuaerensMeBassFigures
+					\IngemiscoBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

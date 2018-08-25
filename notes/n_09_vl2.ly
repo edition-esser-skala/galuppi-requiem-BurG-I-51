@@ -838,6 +838,14 @@ QuaerensMeViolinoII = {
 	}
 }
 
+IngemiscoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 3/4 \tempoIngemisco
+			\set Score.currentBarNumber = #480
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble
