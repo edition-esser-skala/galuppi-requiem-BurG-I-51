@@ -1844,10 +1844,10 @@ IngemiscoOrgano = {
 		g g g
 		g e cis %490
 		d d d
-		d cis cis
+		d\fE cis cis
 		d f g
 		a a,2
-		d4 d d %495
+		d4\pE d d %495
 		d d d
 		g g g
 		f f f
@@ -1873,14 +1873,14 @@ IngemiscoOrgano = {
 		a8 f f'4 e
 		f d b
 		c c c %520
-		f f f
+		f\fE f f
 		f f f
 		b b b
 		c c c
 		f, f f %525
 		fis fis fis
 		g g g
-		a a a
+		a\pE a a
 		a a a
 		a a, a %530
 		a a a
@@ -1904,7 +1904,7 @@ IngemiscoOrgano = {
 		d d d
 		b' a gis %550
 		a2.\fermata
-		d,4 d d
+		d,4\fE d d
 		d d d
 		g g g
 		a a a %555
@@ -1926,20 +1926,20 @@ IngemiscoOrgano = {
 IngemiscoBassFigures = \figuremode {
 	r2. %480
 	r
+	<_->
+	<_+>
+	r
+	<_-> %485
 	r
 	r
-	r
-	r %485
-	r
-	r
-	r
-	r
-	r %490
-	r
-	r
-	r
-	r
-	r %495
+	<7->
+	<_->
+	<_->4 <\t> <6>8 <5> %490
+	<5>2 <6->4
+	<4\+> <\t>8 <6>4 <7->8
+	r4 <6> <_->
+	<6 4> <5 _+>2
+	r2. %495
 	r
 	<_->
 	<6>
@@ -1970,8 +1970,8 @@ IngemiscoBassFigures = \figuremode {
 	r
 	r
 	r %525
-	r
-	r
+	<6>
+	<_->
 	<5 _+>
 	<6 4>
 	<\t \t>4 <5 _+>2 %530
@@ -1998,20 +1998,20 @@ IngemiscoBassFigures = \figuremode {
 	q2 q4 \bassFigureExtendersOff
 	r2.
 	r
+	<_->
+	<_+> %555
 	r
-	r %555
-	r
-	r
-	r
-	r
-	r %560
+	<_->
 	r
 	r
-	r
-	r
-	r %565
-	r
-	r %567 finis8
+	<7-> %560
+	<_->
+	<_->4 <\t> <6>8 <5>
+	<5>2 <6->4
+	<4\+>4 <\t>8 <6>4 <7->8
+	r4 <6> <_-> %565
+	<6 4> <5 _+>2
+	r2. %567 finis8
 }
 
 % Organo = {
