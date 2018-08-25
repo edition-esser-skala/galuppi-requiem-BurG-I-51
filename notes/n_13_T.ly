@@ -1451,12 +1451,119 @@ IngemiscoTenoreNotes = {
 		\clef "treble_8"
 		\key d \dorian \time 3/4 \autoBeamOff \tempoIngemisco
 			\set Score.currentBarNumber = #480
-		
+		R2.*15 %494
+		\mvTr d4.\pE^\soloE f16([ e)] d8 d%495
+		d4.( f16[ e] d8) d
+		b2.
+		a4 r r
+		cis4.( d16[ e] g,8) g
+		g4 f2 %500
+		d'4 d2
+		d4 cis r
+		e4. cis16([ h)] a8 a
+		d2.
+		b %505
+		b?4 a2
+		a4 g r
+		g' c, r
+		f b, r
+		e a, r %510
+		d g, r
+		e'4.( g8[ e)] c
+		f([ e16 f)] f,4 r
+		b4. g16[ a] b8[ g]
+		a4. f16[ g] a8[ f] %515
+		f'2 es4
+		d4. b16[ c] d8[ e]
+		f4. e16[ d] c8[ b]
+		a4. b16[ a] b8 a16([ g)]
+		f4( g2) %520
+		f4 r r
+		R2.*6 %527
+		e'4. g16([ f)] e8 e
+		f4.( a16[ g] f8) f
+		f4 e r %530
+		a,4.( b16[ a] g8) e
+		f d r4 r
+		d'4.( es16[ d] c8) a
+		b g g'4. f16([ es)]
+		d8 d d4. es16([ f)] %535
+		f8 es c4. d16([ es)]
+		es8 d g,4. as16[ g]
+		h!8 c4 d c16[ h]
+		es4~ es8[ c b? a]
+		b4. c16[ d] b8 b %540
+		b? a r4 r
+		b4 g r
+		cis a r
+		d16([ cis)] d4. r4
+		b16([ a)] b4. r4 %545
+		cis4. d16[ e] cis8 cis
+		f[ e16 f] d8[ c16 d] b8[ a16 b]
+		gis4. a8[ a b]
+		f[ e16 d] d'2~
+		d2.~ %550
+		d8 d, f4(\fermata e\trill)
+		d2 r4
+		R2.*14 %566
+		R2.\fermataMarkup \bar "||" %567 finis
 	}
 }
 
 IngemiscoTenoreLyrics = \lyricmode {
+	In -- ge -- mi -- sco, %495
+	tam -- quam
+	re --
+	us,
+	cul -- pa
+	ru -- bet %500
+	vul -- tus
+	me -- us,
+	sup -- pli -- can -- ti
+	par --
+	ce, %505
+	par -- ce,
+	De -- us,
+	cul -- pa
+	ru -- bet
+	vul -- tus %510
+	me -- us,
+	sup -- pli --
+	can -- ti
+	par -- _ _
+	_ _ _ %515
+	_ ce,
+	par -- _ _
+	_ _ _
+	_ _ _ ce,
+	De -- %520
+	us.
 	
+	In -- ge -- mi -- sco, %528
+	tam -- quam
+	re -- us, %530
+	cul -- pa
+	ru -- bet,
+	cul -- pa
+	ru -- bet vul -- tus
+	me -- us, sup -- pli -- %535
+	can -- ti, sup -- pli --
+	can -- ti par -- _
+	_ _ _ _
+	_
+	_ _ _ ce, %540
+	De -- us,
+	cul -- pa
+	ru -- bet
+	vul -- tus
+	me -- us, %545
+	par -- _ _ _
+	_ _ _
+	_ _
+	_ _
+	%550
+	ce De --
+	us. %552 finis
 }
 
 % TenoreNotes = {
