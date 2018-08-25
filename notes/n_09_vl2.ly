@@ -843,6 +843,92 @@ IngemiscoViolinoII = {
 		\clef treble
 		\key d \dorian \time 3/4 \tempoIngemisco
 			\set Score.currentBarNumber = #480
+		r8 f'^\markup { \whiteout \remark "con il sordino e sempre piano" } f f f f
+		r f f f f f
+		r b b b b b
+		r a a a a a
+		r a a a a a
+		r b b b b b %485
+		r b? b b b b
+		r a a a a a
+		r a, a a a a
+		r b b b b b
+		b?[ g] g' r e r %490
+		f r d r b r
+		gis4.\fE a8 a b
+		a a a4 g
+		f e2\trill
+		d8 f'[\p f f f f] %495
+		r f f f f f
+		d4 r r
+		r8 d d cis16 d a4
+		r8 g' g f16 g cis,4
+		r8 a' a g16 a f4 %500
+		r8 d d d d d
+		cis4 r r
+		r8 e e d16 e cis4
+		r8 d d cis16 d a4
+		r8 d d c16 d b4 %505
+		r8 c c b?16 c a4
+		r8 c c b?16 c g4
+		r8 g' g f16 g e4
+		r8 f f e16 f d4
+		r8 e e d16 e c4 %510
+		r8 d d c16 d b4
+		r8 e e e e e
+		f4 r r
+		r r8 b, b a16 b
+		a4 r8 c c b?16 c %515
+		a4 b c
+		d r r
+		R2.*3 %520
+		r8 a\p a a a a
+		r a a a a a
+		r b b b b b
+		g g' g f16 g e4
+		r8 f f e16 f c4 %525
+		r8 a' a g16 a d,4
+		r8 d d c16 d b8 g'16 f
+		e8 cis cis cis cis cis
+		d d d d d d
+		d4 cis r %530
+		r8 e e d16 e cis4
+		r8 d d c16 d a4
+		r8 d d c16 d a4
+		r8 b b a16 b g4
+		r8 d' d c16 d h4 %535
+		r8 c c h!16 c g4
+		r8 h! h a16 h d,4
+		r8 g' g f16 g d4
+		r8 es es d16 es c4
+		r8 b b a16 b g4 %540
+		r8 a a g16 a d,4
+		r8 d' d c16 d b4
+		r8 e! e d16 e cis4
+		r8 d d c16 d a4
+		r8 b b a16 b g4 %545
+		r8 cis cis h16 cis e,4
+		f'8 r d r b r
+		gis4. a8 a b
+		a4 f' f
+		f8 b, a4 gis %550
+		a2 r4
+		r8 d\fE d d d d
+		r f f f f f
+		r b b b b b
+		r a a a a a %555
+		r a a a a a
+		r b b b b b
+		r b? b b b b
+		r a a a a a
+		r a, a a a a %560
+		r b b b b b
+		b?[ g] g' r e r
+		f r d r b r
+		gis4.\f a8 a b
+		a a a4 g %565
+		f e2\trill
+		d4 r r\fermata \bar "||" %567 finis
 	}
 }
 
