@@ -489,10 +489,12 @@
 		}
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Flauto traverso" "solo" } }
-					\IngemiscoFlauto
-				}
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Flauto traverso" "solo" } }
+						\IngemiscoFlauto
+					}
+				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {

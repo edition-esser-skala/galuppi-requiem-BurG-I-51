@@ -91,9 +91,9 @@ IngemiscoFlauto = {
 		d32( cis d8.) d32( cis d8.) d32( cis d8.)
 		g4. b8 a g
 		f e16 f d8 cis16 d b8 a16 b
-		gis4. a8 a b
+		gis4.\f a8 a b
 		f e16 f d8 d'~ d16 b a g %565
 		f8 e16 d e2
-		d4 r r \bar "||" %567 finis
+		d4 r r\fermata \bar "||" %567 finis
 	}
 }

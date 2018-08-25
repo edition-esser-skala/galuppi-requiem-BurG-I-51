@@ -1873,14 +1873,14 @@ IngemiscoOrgano = {
 		a8 f f'4 e
 		f d b
 		c c c %520
-		f\fE f f
+		f f f
 		f f f
 		b b b
 		c c c
 		f, f f %525
 		fis fis fis
 		g g g
-		a\pE a a
+		a a a
 		a a a
 		a a, a %530
 		a a a
@@ -1930,7 +1930,7 @@ IngemiscoBassFigures = \figuremode {
 	<_+>
 	r
 	<_-> %485
-	r
+	<7->
 	r
 	<7->
 	<_->
