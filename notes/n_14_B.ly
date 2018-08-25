@@ -885,6 +885,19 @@ QuaerensMeBassoLyrics = \lyricmode {
 	nis. %476 finis
 }
 
+QuiMariamBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 2/4 \autoBeamOff \tempoQuiMariam
+			\set Score.currentBarNumber = #568
+		
+	}
+}
+
+QuiMariamBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

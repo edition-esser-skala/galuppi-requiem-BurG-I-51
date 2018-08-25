@@ -2014,6 +2014,19 @@ IngemiscoBassFigures = \figuremode {
 	r2. %567 finis8
 }
 
+QuiMariamOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 2/4 \tempoQuiMariam
+			\set Score.currentBarNumber = #568
+		\mvTr b'4\pE-\soloE a
+	}
+}
+
+QuiMariamBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

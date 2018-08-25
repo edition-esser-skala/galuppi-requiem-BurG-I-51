@@ -871,6 +871,19 @@ QuaerensMeAltoLyrics = \lyricmode {
 	nis.] %476 finis
 }
 
+QuiMariamAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/4 \autoBeamOff \tempoQuiMariam
+			\set Score.currentBarNumber = #568
+		
+	}
+}
+
+QuiMariamAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

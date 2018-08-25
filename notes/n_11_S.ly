@@ -772,6 +772,19 @@ QuaerensMeSopranoLyrics = \lyricmode {
 	nis.] %476 finis
 }
 
+QuiMariamSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/4 \autoBeamOff \tempoQuiMariam
+			\set Score.currentBarNumber = #568
+		
+	}
+}
+
+QuiMariamSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
