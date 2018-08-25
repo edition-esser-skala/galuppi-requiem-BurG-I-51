@@ -1833,6 +1833,93 @@ IngemiscoOrgano = {
 		\key d \dorian \time 3/4 \tempoIngemisco
 			\set Score.currentBarNumber = #480
 		\mvTr d4\pE-\markup { \remark "Bassi pizzicati e senza Organo" } d d
+		d d d
+		g g g
+		a a a
+		d, d d
+		g g g %485
+		c, c c
+		f f f
+		fis fis fis
+		g g g
+		g e cis %490
+		d d d
+		d cis cis
+		d f g
+		a a,2
+		d4 d d %495
+		d d d
+		g g g
+		f f f
+		e e e
+		d d d %500
+		d d gis
+		a a, a
+		a a a
+		f' f fis
+		g g g %505
+		e f! h,!
+		c c c
+		e e e
+		d d d
+		c c c %510
+		b! b b
+		b b b
+		a a a
+		g g g
+		f f f %515
+		f g a
+		b? b b
+		a8 f f'4 e
+		f d b
+		c c c %520
+		f f f
+		f f f
+		b b b
+		c c c
+		f, f f %525
+		fis fis fis
+		g g g
+		a a a
+		a a a
+		a a, a %530
+		a a a
+		d d d
+		fis fis fis
+		g g g
+		g g g %535
+		c, c c
+		g' g g
+		g g g
+		c, fis fis
+		g g g %540
+		d d d
+		g g g
+		g g g
+		f f f
+		g g g %545
+		a a a
+		d, d d
+		d cis cis
+		d d d
+		b' a gis %550
+		a2.\fermata
+		d,4 d d
+		d d d
+		g g g
+		a a a %555
+		d, d d
+		g g g
+		c, c c
+		f f f
+		fis fis fis %560
+		g g g
+		g e cis
+		d d d
+		d cis cis
+		d f g %565
+		a a,2
+		d4 r r \bar "||" %567 finis
 	}
 }
 
