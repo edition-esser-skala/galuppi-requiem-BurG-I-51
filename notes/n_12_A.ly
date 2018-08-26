@@ -876,12 +876,136 @@ QuiMariamAltoNotes = {
 		\clef treble
 		\key b \major \time 2/4 \autoBeamOff \tempoQuiMariam
 			\set Score.currentBarNumber = #568
-		
+		\mvTr f4\pE^\soloE f
+		f f
+		g f %570
+		g f
+		R2
+		f4 f
+		e f
+		g g %575
+		c,2
+		c4 r
+		R2
+		f
+		f %580
+		f
+		e
+		e4. f16([ g)]
+		a4 a
+		d,4. e16([ fis)] %585
+		g4 g
+		as as
+		g g
+		R2
+		a!4 a %590
+		b2(
+		c)
+		b4 r
+		R2
+		f %595
+		f
+		f
+		f4 r
+		R2*4 %602
+		d4 d
+		es es
+		es f8([ es)] %605
+		d4 d
+		g( a!)
+		b2
+		b4( a)
+		b r %610
+		R2*4
+		r4 d,~ %615
+		d8([ es16 f] es8) d
+		d c r4
+		R2*2
+		r4 f8 f %620
+		f2
+		f4 f8 f
+		f f es! es
+		d d r4
+		es4. d16([ c)] %625
+		d8 d g4~
+		g8 a16([ g)] fis8 fis
+		a4. g16([ fis)]
+		g2
+		g %630
+		fis4 g
+		a g
+		fis2
+		g
+		g4( fis) %635
+		g r
+		R2*5 %641
+		R2\fermataMarkup \bar "||" %641 finis
 	}
 }
 
 QuiMariamAltoLyrics = \lyricmode {
+	[Qui Ma -- %568
+	ri -- am
+	ab -- sol -- %570
+	vi -- sti,]
 	
+	[et la --
+	tro -- nem
+	ex -- au -- %575
+	di --
+	sti,]
+	
+	spem
+	de -- %580
+	di --
+	sti,
+	mi -- hi
+	quo -- que
+	spem de -- %585
+	di -- sti,
+	mi -- hi
+	quo -- que
+	
+	spem de -- %590
+	di --
+	
+	sti,
+	
+	et %595
+	la --
+	tro --
+	nem,
+	
+	mi -- hi %603
+	quo -- que,
+	mi -- hi %605
+	quo -- que
+	spem __
+	de --
+	di --
+	sti. %610
+	
+	Sed __ %615
+	tu
+	bo -- nus,
+	
+	sed tu %620
+	bo --
+	nus, sed tu
+	bo -- nus fac be --
+	ni -- gne,
+	ne per -- %625
+	en -- ni cre --
+	mer i -- gne,
+	ne per --
+	en --
+	ni %630
+	cre -- mer,
+	cre -- mer
+	i --
+	gne,
+	i -- %635
+	gne. %636 finis
 }
 
 % AltoNotes = {

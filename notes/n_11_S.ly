@@ -841,16 +841,16 @@ QuiMariamSopranoNotes = {
 }
 
 QuiMariamSopranoLyrics = \lyricmode {
-	Qui Ma -- %568
+	[Qui Ma -- %568
 	ri -- am
 	ab -- sol -- %570
-	vi -- sti,
+	vi -- sti,]
 	
-	et la --
+	[et la --
 	tro -- nem
 	ex -- au -- %575
 	di --
-	sti,
+	sti,]
 	mi -- hi
 	quo -- que
 	%580
