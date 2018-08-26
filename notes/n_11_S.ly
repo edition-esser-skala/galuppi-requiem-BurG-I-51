@@ -777,12 +777,128 @@ QuiMariamSopranoNotes = {
 		\clef treble
 		\key b \major \time 2/4 \autoBeamOff \tempoQuiMariam
 			\set Score.currentBarNumber = #568
-		
+		\mvTr d'4\pE^\soloE c
+		d d
+		b b %570
+		b b
+		R2
+		d4 d
+		c c
+		b b %575
+		b( a)
+		a r
+		a4. g16([ f)]
+		d'4 c
+		R2 %580
+		a4 a
+		g g
+		c2
+		c
+		c %585
+		h4 r
+		h? h
+		c c
+		R2
+		c4 c %590
+		d2(
+		es)
+		d4 r
+		R2*4 %597
+		a4 a
+		b b
+		b2 %600
+		b
+		b
+		b4 r
+		R2
+		c4 c %605
+		c b
+		b( c)
+		d2
+		c
+		b4 r %610
+		R2*6 %616
+		r4 a~
+		a8[( b16 c] b8) a
+		a g c c
+		c2 %620
+		d4 d8 d
+		d c16([ b)] d8 d
+		c c c c
+		b b a g
+		g g r4 %625
+		R2*4
+		b4. a16([ g)] %630
+		a4 b
+		c b
+		a2
+		b
+		a %635
+		g4 r
+		R2*5 %641
+		R2\fermataMarkup \bar "||" %641 finis
 	}
 }
 
 QuiMariamSopranoLyrics = \lyricmode {
+	Qui Ma -- %568
+	ri -- am
+	ab -- sol -- %570
+	vi -- sti,
 	
+	et la --
+	tro -- nem
+	ex -- au -- %575
+	di --
+	sti,
+	mi -- hi
+	quo -- que
+	%580
+	spem de --
+	di -- sti,
+	spem
+	de --
+	di -- %585
+	sti,
+	mi -- hi
+	quo -- que
+	
+	spem de -- %590
+	di --
+	
+	sti,
+	
+	ex -- au -- %598
+	di -- sti,
+	mi -- %600
+	hi
+	quo --
+	que,
+	
+	mi -- hi %605
+	quo -- que
+	spem __
+	de --
+	di --
+	sti. %610
+	
+	Sed __ %617
+	tu
+	bo -- nus, sed tu
+	bo -- %620
+	nus, sed tu
+	bo -- nus fac be --
+	ni -- gne, sed tu
+	bo -- nus fac be --
+	ni -- gne, %625
+	
+	ne per -- %630
+	en -- ni
+	cre -- mer
+	i --
+	gne,
+	i -- %635
+	gne. %636 finis
 }
 
 % SopranoNotes = {
