@@ -2019,12 +2019,160 @@ QuiMariamOrgano = {
 		\clef bass
 		\key b \major \time 2/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #568
-		\mvTr b'4\pE-\soloE a
+		\mvTr b'4\p-\soloE a
+		b b,
+		es d %570
+		es b
+		b b
+		b' b
+		b a
+		g e %575
+		f2
+		f4 f
+		f f
+		f f
+		f4. a16 g %580
+		f4 f
+		c' c,
+		e c
+		f f
+		fis d %585
+		g g
+		f! f
+		es! es
+		es? es
+		es? es %590
+		d b'~
+		b a
+		b d,
+		es b
+		f' f %595
+		f f
+		f f
+		f es
+		d d16 es d c
+		b4 b %600
+		b b
+		b b
+		b' as
+		g g
+		a! a %605
+		b b,
+		es2
+		d4 es
+		f2
+		b,4 b %610
+		b b
+		b b
+		f' f
+		b a
+		b b %615
+		b b
+		f f
+		f f
+		c c
+		c f %620
+		b, b
+		b b
+		a fis'
+		g d8 es
+		c4 c' %625
+		g g
+		d d
+		d d
+		es c
+		b g %630
+		d'2~
+		d
+		d4 c
+		b g
+		d'2 %635
+		g,
+		g4 g
+		a b
+		c c
+		c b8 g %640
+		c4 d
+		g,2\fermata \bar "||" %642 finis
 	}
 }
 
 QuiMariamBassFigures = \figuremode {
-	
+	r4 <[6]> %568
+	r2
+	r4 <[6]> %570
+	r2
+	r
+	r
+	<6 4! 2>4 <6>
+	r <[6] [5]> %575
+	<4> <3>
+	r2
+	r
+	<6 4>4 <5 3>
+	r2 %580
+	r
+	<_!>
+	<[6]>4 <[_!]>
+	r2
+	<6 5>4 <7 [_+]> %585
+	<_!>2
+	<4! _->
+	<6>
+	r
+	<6 4!> %590
+	<6>
+	<4 2>4 <5>
+	r <[6]>
+	r2
+	r %595
+	r
+	r
+	r4 <4>
+	<[6]>2
+	r %600
+	r
+	r
+	r4 <4>
+	<6>2
+	<5>4 <6>8 <5> %605
+	<9>4 <8>
+	<5 3> <6 4!>
+	<[6]> <7 5>
+	<5 4> <\l 3>
+	r2 %610
+	r
+	r
+	<4>8 <3> r4
+	r <6>8 <5>
+	<5 4> <\l 3> r4 %615
+	r <4>8 <3>
+	<6 4> <5 3> r4
+	r <6 4>8 <5 3>
+	<6 4> <[5] _!> r4
+	<6 4>8 <5 _!> r4 %620
+	r2
+	r
+	<6>4 <7 5>
+	r <_+>
+	r2 %625
+	<5 4>8 <\l 3> r4
+	<4> <_+>
+	r2
+	<[6]>
+	q %630
+	<5 _+>4 <6 4>
+	<7 5 _+> <6 4>
+	<_+> <4+>
+	<6>2
+	<4>4 <_+> %635
+	r2
+	r
+	<6+>4 <6>
+	<5>8 <6> <6> <5>
+	<_+>4 <[6]> %640
+	<6 5> <_+>
+	r2 %642 finis
 }
 
 % Organo = {

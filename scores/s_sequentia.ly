@@ -534,7 +534,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = "3.10 QUI MARIAM"
+			movement = "3.10 QUI MARIAM – PRECES MEAE"
 		}
 		\score {
 			<<
