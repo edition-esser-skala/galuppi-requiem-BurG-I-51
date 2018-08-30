@@ -2208,7 +2208,7 @@ InterOvesOrgano = {
 		d c' a fis? g, g' d b
 		g f' d h c c' g es
 		c b' g e f, f' c as %670
-		f es' c a fis8. fis16 fis8. fis16
+		f es' c a fis8.[ fis16 fis8. fis16]
 		g8 g' d b g g' g, g'
 		es4 es b8 b' b, b'
 		f4 f f,8 f' f, f'
