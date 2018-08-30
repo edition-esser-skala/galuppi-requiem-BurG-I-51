@@ -934,6 +934,81 @@ QuiMariamViola = {
 		\clef treble
 		\key b \major \time 2/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #568
+		b'4\p a
+		b b,
+		es d %570
+		es b
+		b b
+		b' b
+		b a
+		g e %575
+		f2
+		f4 f
+		f f
+		f f
+		f4. a16 g %580
+		f4 f
+		c' c,
+		e c
+		f f
+		fis d %585
+		g g
+		f! f
+		es! es
+		es es
+		es es %590
+		d b'~
+		b a
+		b d,
+		es b
+		f' f %595
+		f f
+		f f
+		f es
+		d d16 es d c
+		b4 b %600
+		b b
+		b b
+		b' as
+		g g
+		a! a %605
+		b b,
+		es2
+		d4 es
+		f2
+		b,4 b %610
+		b b
+		b b
+		f' f
+		b a
+		b b %615
+		b b
+		f f
+		f f
+		c c
+		c f %620
+		b, b
+		b b
+		a fis'
+		g d8 es
+		c4 c' %625
+		g g
+		d d
+		d d
+		es c
+		b g %630
+		d'2~
+		d
+		d4 c
+		b g
+		d'2 %635
+		g,\fE
+		g4 g
+		a b
+		c c
+		c b8 g %640
+		c4 d
+		g,2\fermata \bar "||" %642 finis
 	}
 }
 
