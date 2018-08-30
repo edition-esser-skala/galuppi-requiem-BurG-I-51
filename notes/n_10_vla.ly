@@ -931,7 +931,7 @@ IngemiscoViola = {
 
 QuiMariamViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 2/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #568
 		b'4\p a
