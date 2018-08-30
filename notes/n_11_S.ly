@@ -906,12 +906,87 @@ InterOvesSopranoNotes = {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoInterOves
 			\set Score.currentBarNumber = #643
-		
+		R1*7 %649
+		\mvTr a'2\fE^\tuttiE g %650
+		a8([ f] c'4. b8) b4
+		a b a2
+		g4 e'8 e f4 f,
+		d'2 d
+		d4 d r2 %655
+		r4 a8 a a4 a
+		a4. a8 g4 g
+		g g g2
+		g c4. c8
+		c4 b a a %660
+		b b r2
+		b4. b8 b4 r8 b
+		a4 c c( d
+		c2) a4 r
+		R1*2 %666
+		r2 a
+		a4.( b16[ c]) b2
+		h es
+		e4.( f16[ g]) f2 %670
+		f es4 es
+		d2 d4 r
+		es b b8. b16 b8 b
+		a4 a r2
+		a4 a gis8. gis16 gis8 gis %675
+		a4 a r2
+		b4. b8 c c d e
+		f4 c c8 b a g
+		f4 f f e
+		r2 f8 g a b %680
+		c4 c c4.( b8)
+		a2 g
+		a b
+		a b4 b
+		b a4. b8 c4~ %685
+		c d g, a
+		g1
+		f\fermata \bar "||" %688 finis
 	}
 }
 
 InterOvesSopranoLyrics = \lyricmode {
-	
+	In -- ter %650
+	o -- ves
+	lo -- cum prae --
+	sta, et ab hae -- dis
+	me se --
+	que -- stra, %655
+	[et ab hae -- dis
+	me se -- que -- stra,
+	me se -- que] --
+	stra, [sta -- tu --
+	ens in par -- te %660
+	dex -- tra,
+	sta -- tu -- ens in
+	par -- te dex --
+	tra.]
+
+	[Con -- %667
+	fu -- ta --
+	tis ma --
+	le -- di -- %670
+	ctis, ma -- le --
+	di -- ctis,
+	flam -- mis a -- cri -- bus ad --
+	di -- ctis,
+	flam -- mis a -- cri -- bus ad -- %675
+	di -- ctis,]
+	vo -- ca me cum be -- ne --
+	di -- ctis, vo -- ca me cum
+	be -- ne -- di -- ctis,
+	vo -- ca me cum %680
+	be -- ne -- di --
+	ctis, vo --
+	ca me
+	cum be -- ne --
+	di -- _ _ _ %685
+	_ _ _
+	_
+	ctis. %688 finis
 }
 
 % SopranoNotes = {
