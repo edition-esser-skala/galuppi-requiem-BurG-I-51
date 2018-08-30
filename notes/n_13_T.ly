@@ -1571,12 +1571,87 @@ InterOvesTenoreNotes = {
 		\clef "treble_8"
 		\key f \major \time 4/4 \autoBeamOff \tempoInterOves
 			\set Score.currentBarNumber = #643
-		
+		R1*7 %649
+		\mvTr c2\fE^\tuttiE c %650
+		a b
+		c4 d c2
+		c r
+		r d4. c8
+		h4 h r2 %655
+		r4 c8 c c4 c
+		c4. c8 h4 c
+		c d c2
+		c e4. e8
+		e4 e c c %660
+		d d r2
+		d4. d8 d4 r8 b
+		c4 c8([ b)] a4( b
+		g2) f4 r
+		R1*2 %666
+		r2 d'
+		d d
+		d c
+		c c %670
+		c c4 c
+		c( b8[ a)] b4 r
+		b es es8. d16 d8 d
+		c4 c r2
+		d4 d h8. h16 h8 h %675
+		c4 c r2
+		d4. d8 c c b b
+		a4 a r2
+		R1
+		c2 c %680
+		c1
+		f,8 g a b c4 c
+		c1
+		c2 d
+		g,4 c4.( b8[ a g)] %685
+		a4 b2 a8[ b]
+		c1
+		c\fermata \bar "||" %688 finis
 	}
 }
 
 InterOvesTenoreLyrics = \lyricmode {
+	In -- ter %650
+	o -- ves
+	lo -- cum prae --
+	sta,
+	me se --
+	que -- stra, %655
+	[et ab hae -- dis
+	me se -- que -- stra,
+	me se -- que] --
+	stra, [sta -- tu --
+	ens in par -- te %660
+	dex -- tra,
+	sta -- tu -- ens in
+	par -- te dex --
+	tra.]
+
+	[Con -- %667
+	fu -- ta --
+	tis ma --
+	le -- di -- %670
+	ctis, ma -- le --
+	di -- ctis,
+	flam -- mis a -- cri -- bus ad --
+	di -- ctis,
+	flam -- mis a -- cri -- bus ad -- %675
+	di -- ctis,]
+	vo -- ca me cum be -- ne --
+	di -- ctis,
 	
+	vo -- ca %680
+	me,
+	vo -- ca me cum be -- ne --
+	di --
+	ctis, cum
+	be -- ne -- %685
+	di -- _ _
+	_
+	ctis. %688 finis
 }
 
 % TenoreNotes = {
