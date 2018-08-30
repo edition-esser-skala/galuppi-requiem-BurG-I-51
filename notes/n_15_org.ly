@@ -2181,11 +2181,101 @@ InterOvesOrgano = {
 		\key f \major \time 4/4 \tempoInterOves
 			\set Score.currentBarNumber = #643
 		\mvTr f4\fE-\tuttiE r a g
+		f r8 f e4 r8 e
+		c d e c f g a f %645
+		c' c, f f, b' b16 a g f e d
+		c8 c c c f f f f
+		b, b c c d4 a8 b
+		c4 c, f8 f f f
+		f f' f f c' c, c c %650
+		f f f f g g g g
+		a4 d,8 e f f f f
+		c2 r4 a'8 a
+		b b, b b' b b b as
+		g g g g e e e e %655
+		f f f f f f, f f'
+		f f f f f f e e
+		c c h h c2
+		c c'8 c c c
+		c c c e, f f f f %660
+		b b b b b b b b
+		b b b b b b b g
+		a a e e f f d b
+		c2 f,8 f' f f
+		f f f f es es es es %665
+		d4 es cis cis
+		d d d8 d' a fis
+		d c' a fis? g, g' d b
+		g f' d h c c' g es
+		c b' g e f, f' c as %670
+		f es' c a fis8. fis16 fis8. fis16
+		g8 g' d b g g' g, g'
+		es4 es b8 b' b, b'
+		f4 f f,8 f' f, f'
+		d4 d e,8 e' e, e' %675
+		a,4 a a8 a' a, a'
+		b, b' b, b' a a g g
+		f f c a f4 r
+		f r g c
+		f,8 f' f, f' f,4 r %680
+		f8 f' f, f' c c' c, c'
+		f, g a b c b a g
+		f4 r8 f c4 r8 c
+		f es d c b b' b, b'
+		c,1~ %685
+		c~
+		c
+		f,\fermata \bar "||" %688 finis
 	}
 }
 
 InterOvesBassFigures = \figuremode {
-	
+	r1 %643
+	r2 <[6]>
+	r4 <[6]> r q %645
+	r1
+	<7>
+	r4 <6 4>8 <5 3> r4 <6>8 <6 5>
+	<6 4>4 <5 3> r2
+	r <5 4>4 <\l 3> %650
+	r2 <7>4 <6>
+	<[6]> <6>8 <6 5> r2
+	r2. <6>4
+	r1
+	<_!>2 <[6]> %655
+	r1
+	r2 <4!>4 <6>
+	r <6 5> <4> <3>8 <2>
+	<3>1
+	r4 <7->8 <[6] [5-]> <9>4 <8> %660
+	r1
+	r
+	<[6]>4 <6>8 <5> r4 <6>
+	<[4]> <[3]> r2
+	r <6 4 2> %665
+	<7 5 _+>4 <5> <7 5>2
+	<6 4> <[5] _+>
+	<[7] [_+]>1
+	<7 _!>2 <_->
+	<[7] _!> <_-> %670
+	<7- _!> <7- 5>
+	<4>4 <6 4> r2
+	r1
+	r
+	r2 <[5!] _+> %675
+	r1
+	r2. <5>8 <6>
+	r1
+	r2 <7>4 q
+	<5 4> <\l 3>2. %680
+	r1
+	r
+	r2 <7 4>4 <\l 3>
+	r1
+	<7 5 3>4 <6 4>2. %685
+	r1
+	<4>2 <3>
+	r1 %688 finis
 }
 
 % Organo = {
