@@ -890,12 +890,132 @@ QuiMariamBassoNotes = {
 		\clef bass
 		\key b \major \time 2/4 \autoBeamOff \tempoQuiMariam
 			\set Score.currentBarNumber = #568
-		
+		\mvTr b'4\pE^\soloE a
+		b b,
+		es d %570
+		es b
+		R2
+		b'4 b
+		b a
+		g e %575
+		f2
+		f4 r
+		f4. g16([ a)]
+		b4 a
+		R2 %580
+		f4 f
+		c' c,
+		R2*5 %587
+		es!2
+		es
+		es %590
+		d4 b'~
+		b a
+		b d,
+		es b
+		f' f %595
+		R2*2
+		f4 es
+		d d
+		R2*3 %602
+		b'4 as
+		g g
+		a! a %605
+		b b,
+		es2
+		d4( es)
+		f2
+		b,4 r %610
+		R2
+		b'8([ a16 g] f8) b
+		b a r4
+		b8([ a16 g] f8) es
+		es d r4 %615
+		R2*3
+		r4 e8 e
+		f e a g16([ f)] %620
+		b8 b, b' b
+		b2
+		a4 fis8 fis
+		g g d es
+		c c c'4~ %625
+		c8 b16([ a)] b8 b
+		a4. b16([ c)]
+		d8 d, r4
+		es4. d16([ c)]
+		b4 g %630
+		d'2
+		d
+		d4 c
+		b g
+		d'2 %635
+		g,4 r
+		R2*5 %461
+		R2\fermataMarkup \bar "||" %642 finis
 	}
 }
 
 QuiMariamBassoLyrics = \lyricmode {
+	Qui Ma -- %568
+	ri -- am
+	ab -- sol -- %570
+	vi -- sti,
 	
+	et la --
+	tro -- nem
+	ex -- au -- %575
+	di --
+	sti,
+	mi -- hi
+	quo -- que
+	%580
+	spem de --
+	di -- sti,
+	
+	spem %588
+	de --
+	di -- %590
+	sti, mi --
+	hi
+	quo -- que
+	spem de --
+	di -- sti, %595
+	
+	ex -- au -- %598
+	di -- sti,
+	
+	mi -- hi %603
+	quo -- que,
+	mi -- hi %605
+	quo -- que
+	spem
+	de --
+	di --
+	sti. %610
+	
+	Pre -- ces
+	me -- ae
+	non __ sunt
+	di -- gnae: %615
+	
+	Sed tu %619
+	bo -- nus fac be -- %620
+	ni -- gne, sed tu
+	bo --
+	nus, sed tu
+	bo -- nus fac be --
+	ni -- gne, ne __ %625
+	per -- en -- ni
+	cre -- mer
+	i -- gne,
+	ne per --
+	en -- ni %630
+	cre --
+	mer,
+	cre -- mer
+	i -- gne,
+	i -- %635
+	gne. %636 finis
 }
 
 % BassoNotes = {
