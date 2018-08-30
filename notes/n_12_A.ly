@@ -1013,12 +1013,87 @@ InterOvesAltoNotes = {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoInterOves
 			\set Score.currentBarNumber = #643
-		
+		R1*7 %649
+		\mvTr f2.\fE^\tuttiE e4 %650
+		c4( f2) e4
+		f4. g8 a([ g] f4)
+		e2 r
+		r f4. f8
+		g4 g r2 %655
+		r4 f8 f f4 f
+		f4. f8 d4 e
+		e f f( e8[ d])
+		e2 g4. g8
+		g4 g g f %660
+		f f r2
+		f4. f8 f4 r8 e
+		f4 g f2~
+		f8([ g16 f] e4) f r
+		R1*2 %666
+		r2 fis
+		fis?4.( g16[ a)] g2
+		g g
+		g as %670
+		a a4 a
+		g2 g4 r
+		g g f8. f16 f8 f
+		f4 f r2
+		f4 f e8. e16 e8 e %675
+		e4 e f2
+		f f4 r
+		R1
+		f8 e d c b4 b
+		b a a'2 %680
+		a g4 e
+		f f e e
+		f2 g
+		f2. f4
+		e f4.( g8[ f e]) %685
+		f[ e] d4. e8 f4~
+		f e8[ d] e2
+		f1\fermata \bar "||" %688 finis
 	}
 }
 
 InterOvesAltoLyrics = \lyricmode {
+	In -- ter %650
+	o -- ves
+	lo -- cum prae --
+	sta,
+	me se --
+	que -- stra, %655
+	[et ab hae -- dis
+	me se -- que -- stra,
+	me se -- que] --
+	stra, [sta -- tu --
+	ens in par -- te %660
+	dex -- tra,
+	sta -- tu -- ens in
+	par -- te dex --
+	tra.]
+
+	[Con -- %667
+	fu -- ta --
+	tis ma --
+	le -- di -- %670
+	ctis, ma -- le --
+	di -- ctis,
+	flam -- mis a -- cri -- bus ad --
+	di -- ctis,
+	flam -- mis a -- cri -- bus ad -- %675
+	di -- ctis,] vo --
+	ca me,
 	
+	vo -- ca me cum be -- ne --
+	di -- ctis, vo -- %680
+	ca me cum
+	be -- ne -- di -- ctis,
+	vo -- ca
+	me cum
+	be -- ne -- %685
+	di -- _ _ _
+	_ _
+	ctis. %688 finis
 }
 
 % AltoNotes = {
