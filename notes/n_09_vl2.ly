@@ -937,6 +937,68 @@ QuiMariamViolinoII = {
 		\clef treble
 		\key b \major \time 2/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #568
+		R2*3 %570
+		r4 r8 f'\fE
+		\tuplet 3/2 4 { f b a b[ d, f] }
+		b,16 c d es f8 r
+		R2*3 %576
+		r4 r8 c
+		\tuplet 3/2 4 { c[ f e] f a, c }
+		f,16 g a b c8 r
+		R2 %580
+		r8 c[\p a c]
+		R2
+		r8 g'[ e g]
+		R2
+		r8 a[ fis a] %585
+		g,4 r
+		R2*2
+		r8 g'[ es! g]
+		r a[ f! a] %590
+		b b, r4
+		R2*3
+		r4 r8 c\fE %595
+		\tuplet 3/2 4 { c[ f e] f a, c }
+		f,16 g a b c8 r
+		R2*2
+		r4 r8 f %600
+		\tuplet 3/2 4 { f[ b a] b d, f }
+		b,16 c d es f8 r
+		R2*6 %608
+		r4 r8 f
+		\tuplet 3/2 4 { f[ b a] b d, f } %610
+		b,16 c d es f8 r
+		R2
+		r8 c\p[ a c]
+		d[ f c f]
+		b,[ f' d f] %615
+		f,4 r
+		r8 c'[ a c]
+		f,4 r
+		r8 g'[ e g]
+		c,4 r %620
+		r8 f[ d f]
+		b,4 r
+		R2
+		r8 d[ fis, g]
+		es[ c es'] r %625
+		R2
+		r8 a[ fis a]
+		d,,[ d' fis, a]
+		g[ g' es g]
+		d,[ d' b d] %630
+		fis,4 r8 b
+		fis4 r8 g
+		a4 r
+		R2
+		r4 r8 d\fE %635
+		\tuplet 3/2 4 { d[ g fis] g b, d }
+		g,16 a b c d8 b
+		c4 r8 b
+		g a r es'
+		d fis g4 %640
+		g fis
+		g8 d g,4\fermata \bar "||" %642 finis
 	}
 }
 
