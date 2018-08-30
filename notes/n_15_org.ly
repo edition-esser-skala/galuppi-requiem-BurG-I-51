@@ -2040,8 +2040,8 @@ QuiMariamOrgano = {
 		g g
 		f! f
 		es! es
-		es? es
-		es? es %590
+		es es
+		es es %590
 		d b'~
 		b a
 		b d,
@@ -2087,7 +2087,7 @@ QuiMariamOrgano = {
 		d4 c
 		b g
 		d'2 %635
-		g,
+		g,\fE
 		g4 g
 		a b
 		c c
