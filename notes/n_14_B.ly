@@ -1018,6 +1018,19 @@ QuiMariamBassoLyrics = \lyricmode {
 	gne. %636 finis
 }
 
+InterOvesBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \autoBeamOff \tempoInterOves
+			\set Score.currentBarNumber = #643
+		
+	}
+}
+
+InterOvesBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

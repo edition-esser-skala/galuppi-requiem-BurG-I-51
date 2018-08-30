@@ -1566,6 +1566,19 @@ IngemiscoTenoreLyrics = \lyricmode {
 	us. %552 finis
 }
 
+InterOvesTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 4/4 \autoBeamOff \tempoInterOves
+			\set Score.currentBarNumber = #643
+		
+	}
+}
+
+InterOvesTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

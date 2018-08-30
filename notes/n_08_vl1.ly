@@ -1004,6 +1004,15 @@ QuiMariamViolinoI = {
 	}
 }
 
+InterOvesViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoInterOves
+			\set Score.currentBarNumber = #643
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

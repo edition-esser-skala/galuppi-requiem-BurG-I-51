@@ -193,6 +193,7 @@ tempoRexTremendae = \tempoMarkup "Maestoso"
 tempoQuaerensMe = \tempoMarkup "Allegretto"
 tempoIngemisco = \tempoMarkup "Andantino"
 tempoQuiMariam = \tempoMarkup "Allegretto"
+tempoInterOves = \tempoMarkup "Allegro"
 
 
 % modify the Scheme function 'format-bass-figure'

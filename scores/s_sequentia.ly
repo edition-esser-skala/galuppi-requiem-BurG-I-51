@@ -532,59 +532,126 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.10 QUI MARIAM – PRECES MEAE"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\QuiMariamViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\QuiMariamViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\QuiMariamViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \QuiMariamSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \QuiMariamSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \QuiMariamAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \QuiMariamAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \QuiMariamBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \QuiMariamBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuiMariamOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\QuiMariamBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.10 QUI MARIAM – PRECES MEAE"
+			movement = "3.11 INTER OVES – CONFUTATIS"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = "Corno I, II"
+						\partcombine \InterOvesCornoI \InterOvesCornoII
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\QuiMariamViolinoI
+							\InterOvesViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuiMariamViolinoII
+							\InterOvesViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\QuiMariamViola
+						\InterOvesViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \QuiMariamSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \InterOvesSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \QuiMariamSopranoLyrics
+					\new Lyrics \lyricsto Soprano \InterOvesSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \QuiMariamAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \InterOvesAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \QuiMariamAltoLyrics
+					\new Lyrics \lyricsto Alto \InterOvesAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \InterOvesTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \InterOvesTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \QuiMariamBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \InterOvesBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \QuiMariamBassoLyrics
+					\new Lyrics \lyricsto Basso \InterOvesBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuiMariamOrgano
+						\InterOvesOrgano
 					}
 				>>
 				\new FiguredBass {
-					\QuiMariamBassFigures
+					\InterOvesBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

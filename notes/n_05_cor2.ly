@@ -232,3 +232,12 @@ QuaerensMeCornoII = {
 		c r\fermata \bar "||" %479 finis
 	}
 }
+
+InterOvesCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoInterOves
+			\set Score.currentBarNumber = #643
+		
+	}
+}

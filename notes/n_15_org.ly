@@ -2175,6 +2175,19 @@ QuiMariamBassFigures = \figuremode {
 	r2 %642 finis
 }
 
+InterOvesOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoInterOves
+			\set Score.currentBarNumber = #643
+		\mvTr f4\fE-\tuttiE r a g
+	}
+}
+
+InterOvesBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
