@@ -1042,7 +1042,7 @@ InterOvesAltoNotes = {
 		e4 e f2
 		f f4 r
 		R1
-		f8 e d c b4 b
+		f8 es d c b4 b
 		b a a'2 %680
 		a g4 e
 		f f e e

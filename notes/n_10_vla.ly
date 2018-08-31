@@ -1014,7 +1014,7 @@ QuiMariamViola = {
 
 InterOvesViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 4/4 \tempoInterOves
 			\set Score.currentBarNumber = #643
 		R1

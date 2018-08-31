@@ -1019,7 +1019,7 @@ InterOvesViolinoII = {
 		f c a c b4 a16 c a c f, f' f f
 		e e c e g g e g a,8 f' c f
 		d b' f b f f d f
-		h,16 h h h h h h h h h h h h h h h %655
+		h,16 h h h h h h h b? b b b b b b b %655
 		a a a a a a a a a a a a a a a a
 		a a a a a a a a h h h h c c c c
 		c8 e d g16 f e8 g c, g'
