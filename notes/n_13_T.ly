@@ -1659,11 +1659,65 @@ OroSupplexTenoreINotes = {
 		\clef "treble_8"
 		\key f \dorian \time 4/4 \autoBeamOff \tempoOroSupplex
 			\set Score.currentBarNumber = #689
+		R1*6 %694
+		\mvTr as4\pE^\soloE b as as %695
+		as g f f
+		des'4. g,8 c c r4
+		r2 c4. c8
+		c b4( as8) g16([ f)] es8 r4
+		c'4. c8 c4 b %700
+		c4. c8 c4 b
+		es4. f16([ es)] des4. es16([ des)]
+		c4. des16([ c)] b8 b r4
+		R1
+		r2 es8 des c des %705
+		b as as g c4. des8
+		c4( b) as r
+		R1
+		r2 c4. as8
+		des4. c8 h4. h8 %710
+		c c r4 r f~
+		f8 des b b r4 es~
+		es8 c as as r4 b8 as
+		g g r4 as8 g fis fis
+		r4 d'4. g,8 c4~ %715
+		c8 f, f' f f e r4
+		as,4. g16([ f)] b8 b r4
+		b8 c16([ b)] as4. g8 f4
+		e8[ c] f4~ f8[ g16 f] e4
+		f r r2 %720
+		R1*2
+		R1\fermataMarkup \bar "||" %723 finis
 	}
 }
 
 OroSupplexTenoreILyrics = \lyricmode {
+	O -- ro sup -- plex %695
+	et ac -- cli -- nis,
+	cor con -- tri -- tum
+	qua -- si,
+	qua -- si __ ci -- nis,
+	cor con -- tri -- tum %700
+	qua -- si ci -- nis:
+	Ge -- re cu -- ram
+	me -- i fi -- nis,
 	
+	ge -- re cu -- ram %705
+	me -- i fi -- nis, me -- i
+	fi -- nis.
+	
+	O -- ro
+	sup -- plex et ac -- %710
+	cli -- nis, cor __
+	con -- tri -- tum qua --
+	si ci -- nis: Ge -- re
+	cu -- ram me -- i fi -- nis,
+	ge -- re cu -- %715
+	ram me -- i fi -- nis,
+	ge -- re cu -- ram
+	me -- i fi -- _ _
+	_ _ _
+	nis. %720 finis
 }
 
 OroSupplexTenoreIINotes = {
@@ -1671,6 +1725,7 @@ OroSupplexTenoreIINotes = {
 		\clef "treble_8"
 		\key f \dorian \time 4/4 \autoBeamOff \tempoOroSupplex
 			\set Score.currentBarNumber = #689
+		R1*6 %694
 	}
 }
 
