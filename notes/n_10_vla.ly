@@ -1068,7 +1068,7 @@ InterOvesViola = {
 
 OroSupplexViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \dorian \time 4/4 \tempoOroSupplex
 			\set Score.currentBarNumber = #689
 		as'4\fE b as as
@@ -1105,7 +1105,7 @@ OroSupplexViola = {
 		f r8 as f4 r8 f %720
 		e4 f8 g as g f4~
 		f g8 f e4. f8
-		f1\fermata^\critnote \bar "||" %723 finis
+		f1\fermata-\critnote \bar "||" %723 finis
 	}
 }
 
