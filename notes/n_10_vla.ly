@@ -1017,7 +1017,52 @@ InterOvesViola = {
 		\clef treble
 		\key f \major \time 4/4 \tempoInterOves
 			\set Score.currentBarNumber = #643
-		
+		R1
+		r4 r8 c\fE c4 r8 c
+		c16 c c c c c c c c c c c c c c c %645
+		c c c c c c c c b8 b'16 a g f e d
+		c8 c c c c4 r8 c
+		b d c c a4 c8 d
+		c2 c4 r8 c
+		c c c c c c c c %650
+		c c c c b b b b
+		a4 f8 g a c c c
+		c2 r
+		R1
+		d8 d d d e e e e %655
+		c c c c f f f f
+		f f f f g g g g
+		g c, d d c2
+		c c8 c c c
+		c c c c c c c c %660
+		d d d d d b b b
+		b b d d d d d g
+		c, c c c c c d d
+		c2 c4 c
+		c8 c c c c c c c %665
+		c4 b e! e
+		d d d r8 d
+		d4 r8 d d4 r8 d
+		d4 r8 d es4 r8 c
+		c4 r8 c c4 r8 f
+		f es c a! fis8.[ a'16 a8. a16]
+		g4 r g8 g, g' g,
+		es'4 es b'8 b, b' b,
+		f'4 f f8 f, f' f,
+		d'4 d e!8 e,! e' e,
+		a'4 a a8 a, a' a,
+		b' b, b' b, a a g g
+		f f' c a f4 r
+		R1
+		c'4 r8 c c4 r8 c
+		c4 r8 c c4 r8 c
+		a b c d c4 r
+		r r8 f g4 r8 c,
+		c4 r b'8 b, b' b,
+		c4 c~ c8 b a g
+		a4 b2 a8 b
+		c1
+		c\fermata \bar "||"
 	}
 }
 
