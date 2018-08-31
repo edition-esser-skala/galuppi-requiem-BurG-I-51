@@ -1105,6 +1105,20 @@ InterOvesBassoLyrics = \lyricmode {
 	ctis. %688 finis
 }
 
+OroSupplexBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \dorian \time 4/4 \autoBeamOff \tempoOroSupplex
+			\set Score.currentBarNumber = #689
+		R1*6 %694
+		
+	}
+}
+
+OroSupplexBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

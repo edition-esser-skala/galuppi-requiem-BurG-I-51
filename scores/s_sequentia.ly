@@ -678,16 +678,16 @@
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Tenore I"
-						\new Voice = "TenoreI" { \dynamicUp \OroSupplexTenoreINotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \OroSupplexTenoreNotes }
 					}
-					\new Lyrics \lyricsto TenoreI \OroSupplexTenoreILyrics
+					\new Lyrics \lyricsto Tenore \OroSupplexTenoreLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Tenore II"
-						\new Voice = "TenoreII" { \dynamicUp \OroSupplexTenoreIINotes }
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \OroSupplexBassoNotes }
 					}
-					\new Lyrics \lyricsto TenoreII \OroSupplexTenoreIILyrics
+					\new Lyrics \lyricsto Basso \OroSupplexBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
