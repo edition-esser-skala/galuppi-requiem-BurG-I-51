@@ -245,7 +245,7 @@ InterOvesCornoI = {
 		d4 r8 g16 f e c e g e c e g
 		a8 g16 f e8 d c4. d8
 		d2 c4 r8 g
-		e4 r8 e' d4 r8 d %650
+		e4 r8 e' \pao d4 r8 \pao d %650
 		e e16 f g8 e f d16 e f8 d
 		c4 r g2~
 		g r
