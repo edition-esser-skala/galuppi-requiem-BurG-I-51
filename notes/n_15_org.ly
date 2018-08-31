@@ -2365,11 +2365,188 @@ LacrimosaOrgano = {
 		\key b \major \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #724
 		\mvTr b4\fE-\tuttiE r a r
+		d es e f %725
+		b2. a4
+		b2 g
+		e4 e f2
+		f r
+		f2. e4 %730
+		f2 d
+		h4 h c2
+		c r
+		c4\p r r8 c c c
+		f4 r r8 f f f %735
+		fis4 fis g g
+		es! es d r8 d\f
+		g g, g' g f f, f' f
+		es es, es' es f f, f' f
+		es es, es' es d d, d' d %740
+		c c, c' c b' b, b' b
+		b,4 b' as as
+		g2. f4
+		es2 b\fermata \bar "||"
+		\time 3/4 \tempoHuicErgo \newSpacingSection
+			b'2 b4 %745
+		b2 b,4
+		b'2 b4
+		b2 b,4
+		b'2.
+		a %750
+		g
+		f~
+		\once \tieDashed f~
+		f\fermata
+		\tempoPieIesu f4 f f %755
+		f f f
+		f f es!
+		d2.
+		g4 g g
+		g g g %760
+		e e e
+		f2.\fermata \bar "||"
+		\tempoDonaEis \newSpacingSection f4. g8 a b
+		c2 b4
+		a2. %765
+		b
+		a4 g2
+		f2 f4~
+		f e2
+		d2. %770
+		c4 f2
+		d e4
+		f2.
+		c
+		f %775
+		e4. d8 c4
+		d2.
+		a2 h4
+		c2.~
+		c2 c'4~ %780
+		c h2
+		c2 e,?4
+		f2.
+		c
+		d %785
+		a'
+		a
+		d,2 c4
+		b2.
+		a4 a' g %790
+		fis2.
+		g2 f4
+		e? c b
+		a a'4. g8
+		f4. g8 a b %795
+		c4. b8 a4
+		g2.
+		f
+		f4. g8 a b
+		c4 c,4. d8 %800
+		e? c f2~
+		f4 e?2
+		f4 f2
+		f4. g8 a b
+		c2 b4 %805
+		a4. b8 c4
+		f,4. e?8 d c
+		b4. c8 d4
+		a2 b4
+		c2.~ %810
+		c
+		f,\fermata \bar "||" %812 FINIS
 	}
 }
 
 LacrimosaBassFigures = \figuremode {
-	
+	r2 <[6]> %724
+	<6>4 <5> <6 5>2 %725
+	r2 <6 4 2>4 <7 5>
+	<4> <3> <5>2
+	<6 5> <5 4>4 <\l 3>8 <\l 2>
+	<5 3>1
+	r2 <6 4 2>4 <6 4> %730
+	<4> <3> <5>2
+	<7 5> <6 4>4 <5 [_!]>8 <4 2>
+	<[5] _!>1
+	r2 r8 <7>4.
+	r2 r8 <7->4. %735
+	<7>1
+	<5>4 <6> <5 4> <\l _+>
+	r2 <4 !>
+	<[6]> <_->
+	<4!> <6> %740
+	<6>1
+	r2 <6 4 2>
+	<6>2 <6 4 2->4 <6 _->
+	r2 <6 4>4 <5 3>
+	r2. %745
+	r
+	r
+	r
+	<6 3>2 <\l 4!>4
+	<6>2. %750
+	<7 5>4 <6! 4>2
+	r2.
+	<6 4>
+	<5 3>
+	r %755
+	r
+	r2 <6 4 2>4
+	<7 5 _+>2.
+	r
+	r %760
+	<6 5>
+	<5 4>2 <\l 3>4
+	r2.
+	r2 <3>8 <4!>
+	<6>2 <5->4 %765
+	<3>2 <4!>4
+	<6> <7> <6!>
+	r2.
+	<6 4>
+	<7>4 <6->2 %770
+	<7 5 _!>2.
+	<6>2 <6 5>4
+	r2.
+	<4>4 <_!>2
+	r2. %775
+	<[6]>2.
+	<5>
+	<6>2 <7 5>4
+	r2.
+	r %780
+	<5 3>4 <6>2
+	<9>4 <8> <[6]>
+	r2.
+	r
+	r %785
+	<4>4 <[5!] _+>2
+	r2.
+	r2 <6>4
+	<7> <6>2
+	<[5!] _+>2 <[\t] [\t]>4 %790
+	<6>2 <5>4
+	<_!>2 <4!>4
+	<[6]>2.
+	r
+	r %795
+	r
+	<7>4 <6>2
+	r2.
+	r
+	r %800
+	<[6]>
+	<4 2>4 <6 5>2
+	r2.
+	r
+	r %805
+	r
+	r
+	r
+	<[6]>
+	<7 5 3>4 <6 4>2 %810
+	<5 4>4 <\l 3>2
+	r2. %812 FINIS
 }
 
 % Organo = {
