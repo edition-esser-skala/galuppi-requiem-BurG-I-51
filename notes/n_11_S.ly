@@ -989,6 +989,19 @@ InterOvesSopranoLyrics = \lyricmode {
 	ctis. %688 finis
 }
 
+LacrimosaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #724
+		
+	}
+}
+
+LacrimosaSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

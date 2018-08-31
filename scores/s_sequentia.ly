@@ -654,53 +654,120 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.12 ORO SUPPLEX"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\OroSupplexViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\OroSupplexViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\OroSupplexViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \OroSupplexTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \OroSupplexTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \OroSupplexBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \OroSupplexBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\OroSupplexOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\OroSupplexBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.12 ORO SUPPLEX"
+			movement = "3.13 LACRIMOSA"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = "Corno I, II"
+						\partcombine \LacrimosaCornoI \LacrimosaCornoII
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\OroSupplexViolinoI
+							\LacrimosaViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\OroSupplexViolinoII
+							\LacrimosaViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\OroSupplexViola
+						\LacrimosaViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \OroSupplexTenoreNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \LacrimosaSopranoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \OroSupplexTenoreLyrics
+					\new Lyrics \lyricsto Soprano \LacrimosaSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \LacrimosaAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \LacrimosaAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \LacrimosaTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \LacrimosaTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \OroSupplexBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \LacrimosaBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \OroSupplexBassoLyrics
+					\new Lyrics \lyricsto Basso \LacrimosaBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\OroSupplexOrgano
+						\LacrimosaOrgano
 					}
 				>>
 				\new FiguredBass {
-					\OroSupplexBassFigures
+					\LacrimosaBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

@@ -1171,6 +1171,19 @@ OroSupplexBassoLyrics = \lyricmode {
 	nis. %720 finis
 }
 
+LacrimosaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #724
+		
+	}
+}
+
+LacrimosaBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

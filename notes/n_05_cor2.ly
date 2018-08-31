@@ -275,3 +275,11 @@ InterOvesCornoII = {
 		e\fermata \bar "||" %688 finis
 	}
 }
+
+LacrimosaCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoLacrimosa
+			\set Score.currentBarNumber = #724
+	}
+}

@@ -1096,6 +1096,19 @@ InterOvesAltoLyrics = \lyricmode {
 	ctis. %688 finis
 }
 
+LacrimosaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #724
+		
+	}
+}
+
+LacrimosaAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

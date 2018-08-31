@@ -1720,6 +1720,19 @@ OroSupplexTenoreLyrics = \lyricmode {
 	nis. %720 finis
 }
 
+LacrimosaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #724
+		
+	}
+}
+
+LacrimosaTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
