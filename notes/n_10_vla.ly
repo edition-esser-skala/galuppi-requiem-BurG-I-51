@@ -1071,6 +1071,41 @@ OroSupplexViola = {
 		\clef treble
 		\key f \dorian \time 4/4 \tempoOroSupplex
 			\set Score.currentBarNumber = #689
+		as'4\fE b as as
+		as g as as %690
+		as as as g
+		g f8 as f2
+		r8 f des f e4. g8
+		as2 g\fermata
+		f4\p g as as %695
+		as g as as
+		f r8 g g f r as
+		e4 r8 g as4 r8 c
+		c b r f g b r g
+		as es as4 r8 as g b %700
+		c4 r8 es, c4 r8 g'
+		es g c,4 des8 f b,4
+		c8 es as,4 b8 des g,4
+		as8 c f,4 g8 b es,4
+		f8 des' des des es es es f %705
+		des des es es es es c des
+		as4 g as r8 es'\fE
+		es4 r es es
+		e8 e g e f as as4
+		as4.\pE f8 d!4 r8 d %710
+		es g g4 as4. c8
+		b4 r8 des, des b b' b
+		as4 r8 c, c as as' as
+		g4 r8 b es,4 d8 fis
+		fis?4 g~ g8 g g e %715
+		f4 r8 c b4 r8 e
+		f4 r8 as b4 r8 b
+		g4 as8 f des4 r8 f
+		e4 f2 e4
+		f r8 as f4 r8 f %720
+		e4 f8 g as g f4~
+		f g8 f e4. f8
+		f1\fermata^\critnote \bar "||" %723 finis
 	}
 }
 
