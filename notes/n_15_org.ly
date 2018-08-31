@@ -2284,11 +2284,79 @@ OroSupplexOrgano = {
 		\key f \dorian \time 4/4 \tempoOroSupplex
 			\set Score.currentBarNumber = #689
 		\mvTr f4\fE-\soloE e f des
+		c c r8 as f as %690
+		r b des b es!4 es
+		as as8 f des4 des
+		b b c4. b8
+		as4 f c'2
+		f4\pE e f des %695
+		c c r8 as f as
+		r b des b r as' c as
+		r g b g r f as f
+		des4 des es8 es g es
+		r as c as r es g es %700
+		r as c as r es g es
+		r c' as4 r8 b g4
+		r8 as f4 r8 g es4
+		r8 f des4 r8 es c4
+		r8 des b4 g'8 es as f %705
+		des4 es as4. des,8
+		es2 as,8\fE as' c as
+		es es g es des4 des
+		c c f\pE f
+		f f g4. f8 %710
+		es c c'4. as8 f f
+		b4 b4. g8 es es
+		as4 as4. f8 des des
+		es4 es8 des c c d d
+		d c h h c4. b?8 %715
+		as4 as g g
+		f f' des4. c16 b
+		c4 c des4. c16 b
+		c1
+		f,8\fE f' as f b b, des b %720
+		c b as g f g as b
+		c1
+		f,\fermata \bar "||" %723 finis
 	}
 }
 
 OroSupplexBassFigures = \figuremode {
-	
+	r4 <7- 5> r <5> %689
+	<6 4> <5 _!> r8 <[6]>4. %690
+	r8 <7 [_-]>4. <9 4>4 <8 3>
+	<7> <6>8 <5> <7>4 <6>
+	<_->2 <9- _!>8 <8>4 <4!>8
+	<6>2 <5 4>4 <\l _!>
+	r <7- 5> r <5> %695
+	<6 4> <5 _!> r8 <[6]>4.
+	r8 <5 _->4 <6 [_-]>8 r <7> <6>4
+	r4. <6!>8 r2
+	<7>8 <6> <6> <5> r4 <[6]>
+	r q <6 4> <6 3> %700
+	r <[6]> r q
+	r2 r8 <_->4.
+	r1
+	r
+	r8 <6>4. r8 <7-> r <6-> %705
+	<6> <5> <5 4> <\l 3> r2
+	<6 4>4 <5 3> r <[6]>
+	r q <6 4 2>2
+	<7 5 _!>1
+	<6->4 <5> <_!>2 %710
+	<[6]>4 <5>8 <6> r2
+	<_->4 <5>8 <6> r2
+	r4 <5>8 <6> r4 <6 5>
+	r2 <6>8 <6> <_+>4
+	r2 <9>8 <8> r <4!> %715
+	<[6]>2 <7>8 <6!>4.
+	r2 <6>
+	<7 _!>4 <6 4> <5 4>8 <6 3>4.
+	<7 5 _!>4 <6 4> <5 4> <\l _!>
+	r <[6]> <[_-]> <[6]> %720
+	<[_!]> <6>8 <6!> r <6!> <6>4
+	<5 4>2 <\l _!>
+	r1 %723 finis
 }
 
 % Organo = {
