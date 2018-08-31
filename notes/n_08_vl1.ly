@@ -1042,8 +1042,8 @@ InterOvesViolinoI = {
 		g, b' b b b b b b b f d f b f d f
 		a, c' c c c c c c c c, a c f c a c
 		f, a' a a a a a a gis h, gis h e h gis h %675
-		c e e e e e e e a,4 r
-		b r r8 a' b4
+		c e e e e e e e a,,4 r
+		b r r8 a'' b4
 		a4 r r2
 		f8 es d c b g' g b,
 		b4 a8 c f4 r8 f %680

@@ -1007,7 +1007,52 @@ InterOvesViolinoII = {
 		\clef treble
 		\key f \major \time 4/4 \tempoInterOves
 			\set Score.currentBarNumber = #643
-		
+		R1
+		r4 r8 a''\fE g16 c e, c' c, c' g c
+		e, e e e e e e e f f f f f f f f %645
+		e e e e f f f f d4 r8 d
+		e16 g e g b g e g f4 r8 f
+		f f4 e8 f f4 f8
+		f4 e f16 c a c f, c' a c
+		f, f' f f f f f f f f f f e e e e %650
+		f f f f f f f f f f f f e e e e
+		f c a c b4 a16 c a c f, f' f f
+		e e c e g g e g a,8 f' c f
+		d b' f b f f d f
+		h,16 h h h h h h h h h h h h h h h %655
+		a a a a a a a a a a a a a a a a
+		a a a a a a a a h h h h c c c c
+		c8 e d g16 f e8 g c, g'
+		c,16 g' e g c, g' e g e e e e e e e e
+		e e e e e e e e c4 r8 f %660
+		d16 f d f b, f d f b, d' d d d d d d
+		d d b b f f d d b d' d d d d b b
+		a c a c g g' e g f c a c f,8 f'
+		f4 e f16 a, a a a a a a
+		a a a a a a a a a a a a a a a a %665
+		a4 g8 g' g4 g
+		g g fis r8 fis
+		fis?4 r8 fis b4 r8 b,
+		h4 r8 d c4 r8 es
+		e4 r8 g f4 r8 as %670
+		a es c a! fis8.[ c'16 c8. c16]
+		b4 r g16 d' b d g d b d
+		g, g' g g g g g g f f d f b f d f
+		a, a' a a a a a a a c, a c f c a c
+		f, f' f f f f f f e h gis h e h gis h %675
+		c c c c c c c c a,4 r
+		b r r8 f''4 e8
+		f4 r8 c c b a g
+		f4 r r2
+		r f8 g a b %680
+		c4 c c4. b8
+		a f' r f e g r g
+		a f a,4 r8 g g g
+		f4 r r8 d' d4
+		g,8 b a4. b8 c4~ %685
+		c d g, a
+		g1
+		f\fermata \bar "||" %688 finis
 	}
 }
 
