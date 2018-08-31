@@ -1061,6 +1061,41 @@ OroSupplexViolinoII = {
 		\clef treble
 		\key f \dorian \time 4/4 \tempoOroSupplex
 			\set Score.currentBarNumber = #689
+		c'4\fE des c f
+		f e f f %690
+		f f f es
+		c4. c8 c4 b
+		des2~ des8 c c e
+		f2. e4\fermata
+		c4\p des c f %695
+		f e f8 c c4
+		des2 c8 c' as4
+		b2 as8 c f,4
+		r8 f des f b, g' es b'
+		c4 r8 es, c4 r8 g' %700
+		as c as4 r8 as g b
+		c4 r8 es, des4 r8 des
+		c4 r8 c b4 r8 b
+		as4. as8 g4 r8 g
+		f f' f f g g as as %705
+		f f b, b c c es f
+		c4 b as r8 c'\f
+		b4 r g g
+		g8 g e g as c c4
+		r8 des,\pE f c^\critnote h g' d? g %710
+		g,4 r8 es' c4 r8 as'
+		des, f des f g4 r8 g
+		c,8 es c es f4 r8 f
+		es b' g4 as8 c fis, a
+		d4. g,8 es4. g8 %715
+		as! f f4~ f8 e g b
+		as c as f f b f4
+		e f~ f8 b b4
+		g as g2
+		f4\fE r8 c des4 r8 des %720
+		g,4 as8 b c b as4
+		g1
+		f\fermata \bar "||" %723 finis
 	}
 }
 
