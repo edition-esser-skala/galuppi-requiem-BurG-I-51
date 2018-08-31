@@ -1044,25 +1044,25 @@ InterOvesViola = {
 		d d d r8 d
 		d4 r8 d d4 r8 d
 		d4 r8 d es4 r8 c
-		c4 r8 c c4 r8 f
+		c4 r8 c c4 r8 f %670
 		f es c a! fis8.[ a'16 a8. a16]
 		g4 r g8 g, g' g,
 		es'4 es b'8 b, b' b,
 		f'4 f f8 f, f' f,
-		d'4 d e!8 e,! e' e,
+		d'4 d e!8 e,! e' e, %675
 		a'4 a a8 a, a' a,
 		b' b, b' b, a a g g
 		f f' c a f4 r
 		R1
-		c'4 r8 c c4 r8 c
+		c'4 r8 c c4 r8 c %680
 		c4 r8 c c4 r8 c
 		a b c d c4 r
 		r r8 f g4 r8 c,
 		c4 r b'8 b, b' b,
-		c4 c~ c8 b a g
+		c4 c~ c8 b a g %685
 		a4 b2 a8 b
 		c1
-		c\fermata \bar "||"
+		c\fermata \bar "||" %688 finis
 	}
 }
 

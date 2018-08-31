@@ -238,6 +238,40 @@ InterOvesCornoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoInterOves
 			\set Score.currentBarNumber = #643
-		
+		c'4\fE e8 f g4 f
+		e8 d e c d g, g g
+		g1 %645
+		r4 r8 c c4 r8 f
+		d4 r8 g16 f e c e g e c e g
+		a8 g16 f e8 d c4. d8
+		d2 c4 r8 g
+		e4 r8 e' d4 r8 d %650
+		e e16 f g8 e f d16 e f8 d
+		c4 r g2~
+		g r
+		c4 r8 c c4 r8 c
+		d4 r8 d d4 r8 d %655
+		e e16 f g8 e e4 r8 e
+		e e16 f g8 e d4 r8 d
+		d4 r g, r8 g
+		g4 r8 d' d4 r8 d
+		d4 r8 g16 f e c e g e c e g %660
+		a4 r8 c, c4 c
+		c2 r
+		c4 d e f
+		d2 c8 e16 f g8 e
+		e4 e r2 %665
+		R1*12 %677
+		c4 r8 c c e16 f g8 f
+		e4 r r2
+		c4 r8 c c e16 f g8 f %680
+		e4 r8 e d4 r
+		R1
+		c4 e d f
+		e2 f
+		d4 e r8 g, g4 %685
+		g r r8 g g4
+		g1
+		e\fermata \bar "||" %688 finis
 	}
 }
