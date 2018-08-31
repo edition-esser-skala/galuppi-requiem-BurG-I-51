@@ -194,6 +194,7 @@ tempoQuaerensMe = \tempoMarkup "Allegretto"
 tempoIngemisco = \tempoMarkup "Andantino"
 tempoQuiMariam = \tempoMarkup "Allegretto"
 tempoInterOves = \tempoMarkup "Allegro"
+tempoOroSupplex = \tempoMarkup "[Tempo deest]"
 
 
 % modify the Scheme function 'format-bass-figure'

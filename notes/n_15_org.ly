@@ -2278,6 +2278,19 @@ InterOvesBassFigures = \figuremode {
 	r1 %688 finis
 }
 
+OroSupplexOrgano = {
+	\relative c {
+		\clef bass
+		\key f \dorian \time 4/4 \tempoOroSupplex
+			\set Score.currentBarNumber = #689
+		\mvTr f4\fE-\soloE e f des
+	}
+}
+
+OroSupplexBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

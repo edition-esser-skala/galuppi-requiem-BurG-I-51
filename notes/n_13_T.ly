@@ -1654,6 +1654,30 @@ InterOvesTenoreLyrics = \lyricmode {
 	ctis. %688 finis
 }
 
+OroSupplexTenoreINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \dorian \time 4/4 \autoBeamOff \tempoOroSupplex
+			\set Score.currentBarNumber = #689
+	}
+}
+
+OroSupplexTenoreILyrics = \lyricmode {
+	
+}
+
+OroSupplexTenoreIINotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \dorian \time 4/4 \autoBeamOff \tempoOroSupplex
+			\set Score.currentBarNumber = #689
+	}
+}
+
+OroSupplexTenoreIILyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -587,71 +587,120 @@
 % 			\midi { \tempo 4 = 120 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.11 INTER OVES – CONFUTATIS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Corno I, II"
+% 						\partcombine \InterOvesCornoI \InterOvesCornoII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\InterOvesViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\InterOvesViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\InterOvesViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \InterOvesSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \InterOvesSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \InterOvesAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \InterOvesAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \InterOvesTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \InterOvesTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \InterOvesBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \InterOvesBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\InterOvesOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\InterOvesBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.11 INTER OVES – CONFUTATIS"
+			movement = "3.12 ORO SUPPLEX"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Corno I, II"
-						\partcombine \InterOvesCornoI \InterOvesCornoII
-					>>
-				>>
-				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\InterOvesViolinoI
+							\OroSupplexViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\InterOvesViolinoII
+							\OroSupplexViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\InterOvesViola
+						\OroSupplexViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \InterOvesSopranoNotes }
+						\set Staff.instrumentName = "Tenore I"
+						\new Voice = "TenoreI" { \dynamicUp \OroSupplexTenoreINotes }
 					}
-					\new Lyrics \lyricsto Soprano \InterOvesSopranoLyrics
+					\new Lyrics \lyricsto TenoreI \OroSupplexTenoreILyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \InterOvesAltoNotes }
+						\set Staff.instrumentName = "Tenore II"
+						\new Voice = "TenoreII" { \dynamicUp \OroSupplexTenoreIINotes }
 					}
-					\new Lyrics \lyricsto Alto \InterOvesAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \InterOvesTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \InterOvesTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \InterOvesBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \InterOvesBassoLyrics
+					\new Lyrics \lyricsto TenoreII \OroSupplexTenoreIILyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\InterOvesOrgano
+						\OroSupplexOrgano
 					}
 				>>
 				\new FiguredBass {
-					\InterOvesBassFigures
+					\OroSupplexBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }

@@ -1058,6 +1058,14 @@ InterOvesViolinoI = {
 	}
 }
 
+OroSupplexViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \dorian \time 4/4 \tempoOroSupplex
+			\set Score.currentBarNumber = #689
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
