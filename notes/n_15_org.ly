@@ -2305,7 +2305,7 @@ OroSupplexOrgano = {
 		es es g es des4 des
 		c c f\pE f
 		f f g4. f8 %710
-		es c c'4. as8 f f
+		es! c c'4. as8 f f
 		b4 b4. g8 es es
 		as4 as4. f8 des des
 		es4 es8 des c c d d

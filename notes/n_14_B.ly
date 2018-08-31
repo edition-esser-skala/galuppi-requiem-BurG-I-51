@@ -1111,12 +1111,64 @@ OroSupplexBassoNotes = {
 		\key f \dorian \time 4/4 \autoBeamOff \tempoOroSupplex
 			\set Score.currentBarNumber = #689
 		R1*6 %694
-		
+		\mvTr f4\pE^\soloE e f des %695
+		c c as as
+		R1
+		b'4. e,8 as as r4
+		R1
+		as4. as8 as4 g %700
+		as4. as8 as4 g
+		R1
+		r2 b4. c16([ b)]
+		as4. b16([ as)] g4. as16([ g)]
+		f8 f r4 g8 es as f %705
+		des des es es as4. des,8
+		es2 as,4 r
+		R1
+		r2 f'4 f
+		f f g4. f8 %710
+		es! c c'4. as8 f f
+		r4 b4. g8 es es
+		r4 as4. f8 des des
+		r4 es8 des c c r4
+		d8 c h h c4. b?8 %715
+		as4 as g g
+		f8 f r4 des'4. c16([ b)]
+		c4. c8 des4. c16([ b)]
+		c1
+		f,4 r r2 %720
+		R1*2
+		R1\fermataMarkup \bar "||" %723 finis
 	}
 }
 
 OroSupplexBassoLyrics = \lyricmode {
+	O -- ro sup -- plex %695
+	et ac -- cli -- nis,
 	
+	cor con -- tri -- tum,
+	
+	cor con -- tri -- tum %700
+	qua -- si ci -- nis:
+	
+	Ge -- re
+	cu -- ram me -- i
+	fi -- nis, ge -- re cu -- ram %705
+	me -- i fi -- nis, me -- i
+	fi -- nis.
+	
+	O -- ro
+	sup -- plex et ac -- %710
+	cli -- nis, cor con -- tri -- tum
+	qua -- si ci -- nis,
+	qua -- si ci -- nis:
+	Ge -- re cu -- ram
+	me -- i fi -- nis, ge -- re %715
+	cu -- ram me -- i
+	fi -- nis, ge -- re
+	cu -- ram me -- i
+	fi --
+	nis. %720 finis
 }
 
 % BassoNotes = {
