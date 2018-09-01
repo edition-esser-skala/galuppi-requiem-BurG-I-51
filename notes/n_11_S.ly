@@ -994,12 +994,162 @@ LacrimosaSopranoNotes = {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #724
-		
+			R1*2 %725
+		\mvTr b'2\fE^\tuttiE c
+		b b
+		b4 b b( a8[ g])
+		a2 r
+		a b~ %730
+		b4 a2 a4
+		a a a( g8[ f])
+		g2 r
+		R1*3 %736
+		r2 a
+		b h
+		c r4 c~
+		c c d2( %740
+		es) d4 r
+		r b2 b4
+		b b as as \noBreak
+		g8.([ as16] b2) b4\fermata \bar "||"
+		\time 3/4 \tempoHuicErgo \newSpacingSection
+			b2 b4 \noBreak %745
+		b2 b4
+		b2 b4
+		b2 b4
+		d2.
+		c %750
+		d4 c2~
+		c2.
+		b
+		a\fermata
+		\tempoPieIesu a2. %755
+		a
+		a2 a4
+		a4. a8 a4
+		b2.
+		b %760
+		b2 b4 \noBreak
+		b4. a8 a4\fermata \bar "||"
+		\tempoDonaEis \newSpacingSection R2.*8 %770
+		c2.
+		b
+		a
+		g2 r4
+		R2.*2 %776
+		f4. g8 a b
+		c2 d4
+		c2.~
+		c4 g g %780
+		r d'2~
+		d4 c2
+		c2.
+		c
+		a2 a4 %785
+		a e? e
+		a2.
+		a
+		a4 g2
+		a4 r r %790
+		r d c
+		h h r
+		R2.*3 %795
+		g2 a4
+		d, g2
+		c,4 c'4. b8
+		a2 a4
+		g r r %800
+		c c r
+		R2.
+		c2 c4
+		c2.
+		c %805
+		c
+		c2 c4
+		d2.
+		c2 b4~
+		b a2 %810
+		g2.
+		f\fermata \bar "|." %812 FINIS
 	}
 }
 
 LacrimosaSopranoLyrics = \lyricmode {
+	[La -- cri -- %726
+	mo -- sa
+	di -- es il --
+	la,
+	la -- cri -- %730
+	mo -- sa
+	di -- es il --
+	la,]
 	
+	iu -- %737
+	di -- can --
+	dus ho --
+	mo re -- %740
+	us,
+	iu -- di --
+	can -- dus ho -- mo
+	re -- us.
+	[Hu -- ic %745
+	er -- go
+	par -- ce
+	De -- us,
+	par --
+	ce %750
+	De -- _
+	
+	_
+	us.]
+	[Pi -- %755
+	e
+	Ie -- su
+	Do -- mi -- ne,
+	pi --
+	e %760
+	Ie -- su
+	Do -- mi -- ne:]
+	
+	Do -- %771
+	na
+	e --
+	is,
+	
+	do -- na e -- is %777
+	re -- _
+	_
+	qui -- em, %780
+	do --
+	na
+	e --
+	is
+	re -- qui -- %785
+	em, do -- na
+	e --
+	is
+	re -- qui --
+	em, %790
+	do -- na
+	e -- is,
+	
+	do -- na %796
+	e -- is
+	re -- _ _
+	_ qui --
+	em, %800
+	do -- na
+	
+	e -- is
+	re --
+	qui -- %805
+	em.
+	A -- men,
+	a --
+	_ _
+	_ %810
+	_
+	men. %812 FINIS
 }
 
 % SopranoNotes = {

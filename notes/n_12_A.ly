@@ -1106,7 +1106,7 @@ LacrimosaAltoNotes = {
 }
 
 LacrimosaAltoLyrics = \lyricmode {
-	
+% 	qua resurget ex favilla
 }
 
 % AltoNotes = {

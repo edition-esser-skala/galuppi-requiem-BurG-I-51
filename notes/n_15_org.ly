@@ -2383,10 +2383,10 @@ LacrimosaOrgano = {
 		es es, es' es d d, d' d %740
 		c c, c' c b' b, b' b
 		b,4 b' as as
-		g2. f4
+		g2. f4 \noBreak
 		es2 b\fermata \bar "||"
 		\time 3/4 \tempoHuicErgo \newSpacingSection
-			b'2 b4 %745
+			b'2 b4 \noBreak %745
 		b2 b,4
 		b'2 b4
 		b2 b,4
