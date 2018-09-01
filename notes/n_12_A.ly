@@ -1101,12 +1101,178 @@ LacrimosaAltoNotes = {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #724
-		
+		R1*2 %725
+		\mvTr f2\fE^\tuttiE g
+		f g
+		g4 g f2
+		f r
+		f g %730
+		f f
+		f4 f f( e8[ d)]
+		e2 r
+		R1
+		\mvTr f4.\pE^\solo g16([ f)] es!8 es r4 %735
+		es es d d
+		g g g fis
+		R1
+		\mvTr g2\fE^\tutti as
+		a b %740
+		c4 a b2
+		f4 f2 f4
+		g g es f \noBreak
+		g2. f4\fermata \bar "||"
+		\time 3/4 \tempoHuicErgo \newSpacingSection
+			f2 f4 \noBreak %745
+		f2 f4
+		f2 f4
+		f2 f4
+		f2( g4)
+		a2. %750
+		b
+		a
+		f
+		f\fermata
+		\tempoPieIesu f %755
+		f
+		f2 f4
+		fis4. fis8 fis4
+		g2.
+		g %760
+		g2 g4 \noBreak
+		f4. f8 f4\fermata \bar "||"
+		\tempoDonaEis \newSpacingSection R2.*5 %767
+		a2.
+		g
+		f %770
+		e4 f2~
+		f g4
+		c,2 f4~
+		f e2
+		f4.( g8 a4) %775
+		g2.
+		f~
+		f2 f4
+		e?2 e4~
+		e e?2 %780
+		g2.
+		g
+		a2 a4
+		g4. f8 e?4
+		r r d~ %785
+		d cis2
+		e? e4
+		f2( e?4
+		d2) d4
+		cis cis cis %790
+		d d r
+		R2.
+		c!4. c8 d e?
+		f2.~
+		f2 f4 %795
+		e? r f~
+		f e?2
+		f2.
+		f
+		e?4. f8 g4~ %800
+		g f2
+		g2 g4
+		f r r
+		a2.
+		g %805
+		a2 g4
+		a4. g8[ f e?]
+		f2.~
+		f2 f4
+		e? f2~ %810
+		f4 e2
+		f2.\fermata \bar "|." %812 FINIS
 	}
 }
 
 LacrimosaAltoLyrics = \lyricmode {
-% 	qua resurget ex favilla
+	[La -- cri -- %726
+	mo -- sa
+	di -- es il --
+	la,
+	la -- cri -- %730
+	mo -- sa
+	di -- es il --
+	la,]
+	
+	qua re -- sur -- get %735
+	ex fa -- vil -- la,
+	ex fa -- vil -- la
+	
+	iu -- di --
+	can -- dus %740
+	ho -- mo re --
+	us, iu -- di --
+	can -- dus ho -- mo
+	re -- us.
+	[Hu -- ic %745
+	er -- go
+	par -- ce
+	De -- us,
+	par --
+	ce %750
+	De --
+	_
+	_
+	us.]
+	[Pi -- %755
+	e
+	Ie -- su
+	Do -- mi -- ne,
+	pi --
+	e %760
+	Ie -- su
+	Do -- mi -- ne:]
+	
+	Do -- %768
+	na
+	e -- %770
+	is re --
+	qui --
+	em, do --
+	na
+	e -- %775
+	is
+	[re] --
+	qui --
+	em, do --
+	na, %780
+	do --
+	na
+	e -- is
+	re -- qui -- em,
+	do -- %785
+	na
+	e -- is
+	re --
+	qui --
+	em, do -- na %790
+	e -- is,
+	
+	do -- na e -- is
+	re --
+	qui -- %795
+	em, do --
+	na
+	e --
+	is
+	re -- _ _ %800
+	_
+	_ qui --
+	em.
+	A --
+	_ %805
+	_ men,
+	a -- _
+	_
+	men,
+	a -- _ %810
+	_
+	men. %812 FINIS
 }
 
 % AltoNotes = {

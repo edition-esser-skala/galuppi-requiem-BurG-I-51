@@ -994,7 +994,7 @@ LacrimosaSopranoNotes = {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #724
-			R1*2 %725
+		R1*2 %725
 		\mvTr b'2\fE^\tuttiE c
 		b b
 		b4 b b( a8[ g])
