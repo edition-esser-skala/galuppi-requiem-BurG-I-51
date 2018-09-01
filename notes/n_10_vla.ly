@@ -1111,7 +1111,7 @@ OroSupplexViola = {
 
 LacrimosaViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #724
 		b4\fE r c r
