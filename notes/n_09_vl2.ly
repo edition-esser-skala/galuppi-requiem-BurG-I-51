@@ -1104,6 +1104,92 @@ LacrimosaViolinoII = {
 		\clef treble
 		\key b \major \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #724
+		r2 r4 f\fE
+		b2. a4 %725
+		b8 d d4 r8 es es4
+		r8 d d4 r8 d d4
+		r8 e! e4 r8 c c4
+		c8 a16 g f g a b a8 a16 g f g a b
+		a8 c c4 r8 g' g4 %730
+		r8 c, c4 r8 f f4
+		r8 f f4 f e8 d
+		e c16 d e f g a e8 c16 d e f g a
+		e8. e16 e4 r8 e\p e e
+		f8. f16 f4 r8 es es es %735
+		es4 es d d
+		es es a, r8 fis'\f
+		g4 r8 g g4 r8 g
+		g4 r8 g as4 r8 as
+		a4 r8 a b4 r8 b %740
+		es,4 r8 es d4 r8 d
+		d1
+		es2 c4 d \noBreak
+		es2. d4\fermata \bar "||"
+		\time 3/4 \tempoHuicErgo
+			b'8 b,16 c d8 es f d \noBreak %745
+		b b,16 c d8 es f d
+		b'' b,16 c d8 es f d
+		b b,16 c d8 es f d
+		f'4 d e
+		f a, c %750
+		b g e'
+		f8 f,16 g a8 b c a
+		b b,16 c d8 es f d \noBreak
+		a2.\fermata
+		\tempoPieIesu a'4 a a \noBreak %755
+		a a a
+		a a a
+		a4. a8 a4
+		g b b
+		b b b %760
+		b b b \noBreak
+		b4. a8 a4\fermata \bar "||"
+		\tempoDonaEis R2.*5 %767
+		r8 f' c f a f
+		r g c, g' c g
+		r f d f b f %770
+		r e c f a f
+		r f d f g c,
+		r a' f a c f,
+		r g e g c g
+		r f c f a f %775
+		r g e? g c g
+		r f d f a f
+		r f c f d f
+		r e? c e g c,
+		r g' e? g c g %780
+		r g d g h g
+		r g e? g c g
+		r f c f a f
+		r g e? g c g
+		r f d f a f %785
+		r e? cis e a e
+		r cis a cis e? a,
+		r f' d f a e?
+		r d b d g d
+		r cis a cis e? a, %790
+		r d a d fis d
+		r h g h d h
+		r c g c e? c
+		r f c f a f
+		f,4. g8 a b %795
+		c g' e? g c a
+		r b, g b g' e?
+		r a f a c f,
+		f,4. g8 a b
+		c g' e? g c g %800
+		r e? c f a f
+		r d c g' c g
+		r a f a c a
+		f,4. g8 a b
+		c g' e? g c g %805
+		r f c d e? g
+		f c' a g f e?
+		d e? f4. e16 d
+		c8 f a, f' d f
+		e? c f2~ %810
+		f4 e?2
+		f2.\fermata \bar "|." %812 FINIS
 	}
 }
 
