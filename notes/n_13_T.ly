@@ -1743,7 +1743,7 @@ LacrimosaTenoreNotes = {
 		d2. d4
 		es2 c4( d) \noBreak
 		es2. d4\fermata \bar "||"
-		\time 3/4 \tempoHuicErgo \newSpacingSection
+		\time 3/4 \tempoHuicErgo
 			d2 d4 \noBreak %745
 		d2 d4
 		d2 d4
@@ -1762,7 +1762,7 @@ LacrimosaTenoreNotes = {
 		d %760
 		c2 c4 \noBreak
 		c4. c8 c4\fermata \bar "||"
-		\tempoDonaEis \newSpacingSection R2. \noBreak
+		\tempoDonaEis R2. \noBreak
 		c4. c8 d e
 		f2 es4 %765
 		d2 e4

@@ -1012,7 +1012,7 @@ LacrimosaSopranoNotes = {
 		r b2 b4
 		b b as as \noBreak
 		g8.([ as16] b2) b4\fermata \bar "||"
-		\time 3/4 \tempoHuicErgo \newSpacingSection
+		\time 3/4 \tempoHuicErgo
 			b2 b4 \noBreak %745
 		b2 b4
 		b2 b4
@@ -1031,7 +1031,7 @@ LacrimosaSopranoNotes = {
 		b %760
 		b2 b4 \noBreak
 		b4. a8 a4\fermata \bar "||"
-		\tempoDonaEis \newSpacingSection R2.*8 %770
+		\tempoDonaEis R2.*8 %770
 		c2.
 		b
 		a

@@ -1189,7 +1189,7 @@ LacrimosaBassoNotes = {
 		b'4 b as as
 		g2. f4 \noBreak
 		es2 b\fermata \bar "||"
-		\time 3/4 \tempoHuicErgo \newSpacingSection
+		\time 3/4 \tempoHuicErgo
 			b'2 b4 \noBreak %745
 		b2 b,4
 		b'2 b4
@@ -1208,7 +1208,7 @@ LacrimosaBassoNotes = {
 		g %760
 		e2 e4 \noBreak
 		f4. f8 f4\fermata \bar "||"
-		\tempoDonaEis \newSpacingSection f4. g8 a b \noBreak
+		\tempoDonaEis f4. g8 a b \noBreak
 		c2 b4
 		a2. %765
 		b

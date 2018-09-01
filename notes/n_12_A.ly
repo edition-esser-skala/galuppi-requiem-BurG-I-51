@@ -1121,7 +1121,7 @@ LacrimosaAltoNotes = {
 		f4 f2 f4
 		g g es f \noBreak
 		g2. f4\fermata \bar "||"
-		\time 3/4 \tempoHuicErgo \newSpacingSection
+		\time 3/4 \tempoHuicErgo
 			f2 f4 \noBreak %745
 		f2 f4
 		f2 f4
@@ -1140,7 +1140,7 @@ LacrimosaAltoNotes = {
 		g %760
 		g2 g4 \noBreak
 		f4. f8 f4\fermata \bar "||"
-		\tempoDonaEis \newSpacingSection R2.*5 %767
+		\tempoDonaEis R2.*5 %767
 		a2.
 		g
 		f %770
