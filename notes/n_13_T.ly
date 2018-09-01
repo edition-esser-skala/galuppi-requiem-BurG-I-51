@@ -1725,12 +1725,180 @@ LacrimosaTenoreNotes = {
 		\clef "treble_8"
 		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #724
-		
+		R1*2 %725
+		\mvTr d2\fE^\tuttiE es~
+		es4 d2 d4
+		c c c2
+		c r
+		c d %730
+		c d
+		d4 d c2
+		c r
+		\mvTr c4.\pE^\soloE d16([ c)] b8 b r4
+		R1 %735
+		c4 c b b
+		b c d a
+		R1*3 %740
+		r2 \mvTr d4\fE^\tutti d
+		d2. d4
+		es2 c4( d) \noBreak
+		es2. d4\fermata \bar "||"
+		\time 3/4 \tempoHuicErgo \newSpacingSection
+			d2 d4 \noBreak %745
+		d2 d4
+		d2 d4
+		d2 d4
+		d2( e4)
+		f2. %750
+		f4 e2
+		f4 c2
+		d2.
+		c\fermata
+		\tempoPieIesu c %755
+		c
+		c2 c4
+		c4. c8 c4
+		b2.
+		d %760
+		c2 c4 \noBreak
+		c4. c8 c4\fermata \bar "||"
+		\tempoDonaEis \newSpacingSection R2. \noBreak
+		c4. c8 d e
+		f2 es4 %765
+		d2 e4
+		f2 e4
+		f r r
+		r r c~
+		c b!2 %770
+		b4 a2
+		R2.
+		r4 c c
+		c2( b4)
+		a2 c4~ %775
+		c c2
+		a4 a r
+		a2 a4
+		g2 r4
+		R2.*2 %781
+		e'?2.
+		c4 f2
+		e?4 g2(
+		f) f4 %785
+		e? r r
+		cis2 cis4
+		d a2
+		b b4
+		e, r r %790
+		R2.
+		r4 g f
+		e? e r
+		R2.
+		a4. b8 c d %795
+		c2.(
+		b2) b4
+		a a4. b8
+		c2.
+		c4 r r %800
+		r a a
+		b2 b4
+		a r r
+		f'2.
+		e? %805
+		f2 e?4
+		f c r
+		r r b
+		c a d
+		g, c2 %810
+		c2.
+		c\fermata \bar "|." %812 FINIS
 	}
 }
 
 LacrimosaTenoreLyrics = \lyricmode {
+	[La -- cri -- %726
+	mo -- sa
+	di -- es il --
+	la,
+	la -- cri -- %730
+	mo -- sa
+	di -- es il --
+	la,]
+	qua re -- sur -- get
+	%735
+	ex fa -- vil -- la,
+	ex fa -- vil -- la
 	
+	iu -- di -- %741
+	can -- dus
+	ho -- mo __
+	re -- us.
+	[Hu -- ic %745
+	er -- go
+	par -- ce
+	De -- us,
+	par --
+	ce %750
+	De -- _
+	_ _
+	_
+	us.]
+	[Pi -- %755
+	e
+	Ie -- su
+	Do -- mi -- ne,
+	pi --
+	e %760
+	Ie -- su
+	Do -- mi -- ne:]
+	
+	Do -- na e -- is
+	re -- _ %765
+	_ _
+	_ qui --
+	em,
+	do --
+	na %770
+	e -- is,
+	
+	do -- na
+	e --
+	is, do -- %775
+	na
+	e -- is
+	re -- qui --
+	em,
+	
+	do -- %782
+	na e --
+	is re --
+	qui -- %785
+	em,
+	do -- na
+	e -- is
+	re -- qui --
+	em, %790
+	
+	do -- na
+	e -- is,
+	
+	do -- na e -- is %795
+	re --
+	qui --
+	em, do -- na
+	e --
+	is, %800
+	e -- is
+	re -- qui --
+	em.
+	A --
+	_ %805
+	_ _
+	_ men,
+	a --
+	_ _ _
+	_ men, %810
+	a --
+	men. %812 FINIS
 }
 
 % TenoreNotes = {
