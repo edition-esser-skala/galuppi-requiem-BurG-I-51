@@ -281,5 +281,63 @@ LacrimosaCornoII = {
 		\clef treble
 		\key c \major \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #724
+		R1*21 \bar "||" %744
+		\time 3/4 \tempoHuicErgo c'2.~ \noBreak %745
+		c~
+		c~
+		c~
+		c2 d4
+		e2. %750
+		f
+		e2 c4
+		c2. \noBreak
+		c\fermata
+		\tempoPieIesu c4 r r \noBreak %755
+		c r r
+		c r r
+		R2.
+		d4 r r
+		d r r %760
+		d r r \noBreak
+		c2.\fermata \bar "||"
+		\tempoDonaEis R2.*5 %767
+		c4 c c
+		d d d
+		c c c %770
+		d c c
+		c f d
+		c c c
+		d d d
+		c c c %775
+		d r r
+		c r r
+		c r r
+		d d d
+		d r r %780
+		d d d
+		d r r
+		c c c
+		d d d
+		c r r %785
+		R2.*8 %793
+		c4 r r
+		c r r %795
+		d d c
+		f f d
+		e c c
+		c r r
+		d d d %800
+		d r r
+		d d d
+		c c c
+		c r r
+		d r r %805
+		c r r
+		c r r
+		R2.
+		c4 c c
+		g r g %810
+		g2.
+		e\fermata \bar "|." %812 FINIS
 	}
 }
