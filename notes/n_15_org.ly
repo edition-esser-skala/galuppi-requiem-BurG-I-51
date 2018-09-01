@@ -2394,17 +2394,17 @@ LacrimosaOrgano = {
 		a %750
 		g
 		f~
-		\once \tieDashed f~
+		\once \tieDashed f~ \noBreak
 		f\fermata
-		\tempoPieIesu f4 f f %755
+		\tempoPieIesu f4 f f \noBreak %755
 		f f f
 		f f es!
 		d2.
 		g4 g g
 		g g g %760
-		e e e
+		e e e \noBreak
 		f2.\fermata \bar "||"
-		\tempoDonaEis \newSpacingSection f4. g8 a b
+		\tempoDonaEis \newSpacingSection f4. g8 a b \noBreak
 		c2 b4
 		a2. %765
 		b
@@ -2453,7 +2453,7 @@ LacrimosaOrgano = {
 		a2 b4
 		c2.~ %810
 		c
-		f,\fermata \bar "||" %812 FINIS
+		f,\fermata \bar "|." %812 FINIS
 	}
 }
 
@@ -2485,7 +2485,7 @@ LacrimosaBassFigures = \figuremode {
 	r
 	<[5] 3>2 <6 4!>4
 	<6>2. %750
-	<7 5>4 <6! 4>2
+	<7 5>4 <6! 4 [3]>2
 	r2.
 	<6 4>
 	<5 3>

@@ -995,7 +995,7 @@ LacrimosaSopranoNotes = {
 		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #724
 		R1*2 %725
-		\mvTr b'2\fE^\tuttiE c
+		\mvDll b'2\fE^\tuttiE c
 		b b
 		b4 b b( a8[ g])
 		a2 r
@@ -1021,9 +1021,9 @@ LacrimosaSopranoNotes = {
 		c %750
 		d4 c2~
 		c2.
-		b
+		b \noBreak
 		a\fermata
-		\tempoPieIesu a2. %755
+		\tempoPieIesu a2. \noBreak %755
 		a
 		a2 a4
 		a4. a8 a4
@@ -1056,8 +1056,8 @@ LacrimosaSopranoNotes = {
 		R2.*3 %795
 		g2 a4
 		d, g2
-		c,4 c'4. b8
-		a2 a4
+		c,4( c'4. b8
+		a2) a4
 		g r r %800
 		c c r
 		R2.
@@ -1135,8 +1135,8 @@ LacrimosaSopranoLyrics = \lyricmode {
 	
 	do -- na %796
 	e -- is
-	re -- _ _
-	_ qui --
+	re --
+	qui --
 	em, %800
 	do -- na
 	

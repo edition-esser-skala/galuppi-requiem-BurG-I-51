@@ -1176,12 +1176,172 @@ LacrimosaBassoNotes = {
 		\clef bass
 		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #724
-		
+		R1*2 %725
+		\mvDll b'2.\fE^\tuttiE a4
+		b2 g
+		e4 e f2
+		f r
+		f2. e4 %730
+		f2 d
+		h4 h c2
+		c r
+		R1*8 %741
+		b'4 b as as
+		g2. f4 \noBreak
+		es2 b\fermata \bar "||"
+		\time 3/4 \tempoHuicErgo \newSpacingSection
+			b'2 b4 \noBreak %745
+		b2 b,4
+		b'2 b4
+		b2 b,4
+		b'2.
+		a %750
+		g
+		f~
+		f \noBreak
+		f\fermata
+		\tempoPieIesu f \noBreak %755
+		f
+		f2 es!4
+		d4. d8 d4
+		g2.
+		g %760
+		e2 e4 \noBreak
+		f4. f8 f4\fermata \bar "||"
+		\tempoDonaEis \newSpacingSection f4. g8 a b \noBreak
+		c2 b4
+		a2. %765
+		b
+		a4 g4. g8
+		f4 r f~
+		f e2
+		d2. %770
+		c4 f f
+		d2 e4
+		f2 r4
+		c2.
+		f %775
+		e4.( d8 c4)
+		d2.
+		a2 h4
+		c2 r4
+		r r c'~ %780
+		c h2
+		c2 e,?4
+		f2 f4
+		c r r
+		r d d %785
+		a'2.
+		a
+		d,2( c4
+		b2) b4
+		a a' g %790
+		fis fis r
+		R2.
+		r4 c b!
+		a a r
+		f'4. g8 a b %795
+		c4.( b8 a4
+		g2) g4
+		f r r
+		f4. g8 a b
+		c4 c,4. d8 %800
+		e?[ c] f2~
+		f4 e?2
+		f4 r r
+		f4. g8[ a b]
+		c2 b4 %805
+		a4. b8 c4
+		f,4. e?8[ d c]
+		b4. c8 d4
+		a2 b4
+		c2.~ %810
+		c
+		f,\fermata \bar "|." %812 FINIS
 	}
 }
 
 LacrimosaBassoLyrics = \lyricmode {
+	La -- cri -- %726
+	mo -- sa
+	di -- es il --
+	la,
+	la -- cri -- %730
+	mo -- sa
+	di -- es il --
+	la,
 	
+	iu -- di -- can -- dus %742
+	ho -- mo
+	re -- us.
+	Hu -- ic %745
+	er -- go
+	par -- ce
+	De -- us,
+	par --
+	ce %750
+	De --
+	_
+	
+	us.
+	Pi -- %755
+	e
+	Ie -- su
+	Do -- mi -- ne,
+	pi --
+	e %760
+	Ie -- su
+	Do -- mi -- ne:
+	Do -- na e -- is
+	re -- _
+	_ %765
+	_
+	_ _ qui --
+	em, do --
+	na
+	e -- %770
+	is, [e -- is]
+	re -- qui --
+	em,
+	do --
+	na %775
+	e --
+	is
+	re -- qui --
+	em,
+	do -- %780
+	na
+	e -- is
+	re -- qui --
+	em,
+	do -- na %785
+	e --
+	is
+	re --
+	qui --
+	em, do -- na %790
+	e -- is,
+	
+	do -- na
+	e -- is,
+	do -- na e -- is %795
+	re --
+	qui --
+	em,
+	do -- na e -- is
+	re -- _ _ %800
+	_ _
+	qui --
+	em.
+	A -- _
+	_ _ %805
+	_ _ _
+	_ _
+	_ _ _
+	_ men,
+	a -- %810
+	
+	men. %812 FINIS
 }
 
 % BassoNotes = {

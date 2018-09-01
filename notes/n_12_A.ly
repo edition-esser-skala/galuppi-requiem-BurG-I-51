@@ -1102,7 +1102,7 @@ LacrimosaAltoNotes = {
 		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #724
 		R1*2 %725
-		\mvTr f2\fE^\tuttiE g
+		\mvDll f2\fE^\tuttiE g
 		f g
 		g4 g f2
 		f r
@@ -1130,9 +1130,9 @@ LacrimosaAltoNotes = {
 		a2. %750
 		b
 		a
-		f
+		f \noBreak
 		f\fermata
-		\tempoPieIesu f %755
+		\tempoPieIesu f \noBreak %755
 		f
 		f2 f4
 		fis4. fis8 fis4

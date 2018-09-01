@@ -1726,7 +1726,7 @@ LacrimosaTenoreNotes = {
 		\key b \major \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #724
 		R1*2 %725
-		\mvTr d2\fE^\tuttiE es~
+		\mvDll d2\fE^\tuttiE es~
 		es4 d2 d4
 		c c c2
 		c r
@@ -1752,9 +1752,9 @@ LacrimosaTenoreNotes = {
 		f2. %750
 		f4 e2
 		f4 c2
-		d2.
+		d2. \noBreak
 		c\fermata
-		\tempoPieIesu c %755
+		\tempoPieIesu c \noBreak %755
 		c
 		c2 c4
 		c4. c8 c4
