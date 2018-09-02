@@ -1268,19 +1268,14 @@ DomineIesuSopranoLyrics = \lyricmode {
 	ius.] %53 finis
 }
 
-% Hostias et preces tibi, Domine, laudis offerimus:
-% tu suscipe pro animabus illis, quarum hodie memoriam facimus:
-% fac eas, Domine, de morte transire ad vitam,
-% quam olim Abrahæ promisisti et semini eius.)
-
 HostiasSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoHostias
 			\set Score.currentBarNumber = #54
-		R1*21 %74
+		R1*21 \noBreak %74
 		R1\fermataMarkup \bar "||" %75
-		\time 3/4 \tempoQuamOlim \mvTr c'2.\fE^\tuttiE
+		\time 3/4 \tempoQuamOlim \mvTr c'2.\fE^\tuttiE \noBreak
 		h2 h4
 		a4. a8 a4
 		h2 a4

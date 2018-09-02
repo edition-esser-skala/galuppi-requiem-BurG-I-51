@@ -1470,5 +1470,5 @@ HostiasBassoNotes = {
 }
 
 HostiasBassoLyrics = \lyricmode {
-	
+% 	Hostias et preces tibi, Domine, laudis offerimus:
 }

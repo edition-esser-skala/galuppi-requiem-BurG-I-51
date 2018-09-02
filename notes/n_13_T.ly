@@ -2022,10 +2022,60 @@ HostiasTenoreNotes = {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoHostias
 			\set Score.currentBarNumber = #54
-		
+		R1*5 %58
+		r2 r4 \mvTr c\pE^\solo
+		c8. h!16 h4 r8 d h g %60
+		a a a d, c'4. h16([ a)]
+		h8. h16 h8 d e4 e8 e
+		e8. d16 d4 r c
+		c8. h16 h4 r2
+		R1 %65
+		r4 r8 g' g g g8. f16
+		e8 e e16([ f g e] f8) c r c
+		h!4 c8 c c4 c8 c
+		c4 h8 d e d r d
+		e4 f8 f e4( d) %70
+		c2 r
+		R1*3 \noBreak
+		R1\fermataMarkup \bar "||" %75
+		\time 3/4 \tempoQuamOlim \mvTr e2.\fE^\tuttiE \noBreak
+		h2 h4
+		c4. c8 c4
+		d2 c4
+		h h c %80
+		c4. c8 c4
+		h gis a
+		d4. d8 d4
+		d c2
+		h2. %85
+		a\fermata \bar "|." %86 FINIS
 	}
 }
 
 HostiasTenoreLyrics = \lyricmode {
+	Tu %59
+	sus -- ci -- pe pro a -- ni -- %60
+	ma -- bus il -- lis, qua -- rum
+	ho -- di -- e me -- mo -- ri -- am
+	fa -- ci -- mus, tu
+	sus -- ci -- pe:
+	%65
+	Fac e -- as, Do -- mi --
+	ne, de mor -- te, de
+	mor -- te tran -- si -- re, tran --
+	si -- re ad vi -- tam, tran --
+	si -- re ad vi -- %70
+	tam.
 	
+	[Quam %76
+	o -- lim
+	A -- bra -- hae
+	pro -- mi --
+	si -- sti, et %80
+	se -- mi -- ni
+	e -- ius, et
+	se -- mi -- ni
+	e -- _
+	_ %85
+	ius.] %86 FINIS
 }

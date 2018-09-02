@@ -1396,9 +1396,9 @@ HostiasAltoNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoHostias
 			\set Score.currentBarNumber = #54
-		R1*21 %74
+		R1*21 \noBreak %74
 		R1\fermataMarkup \bar "||" %75
-		\time 3/4 \tempoQuamOlim \mvTr g'2.\fE^\tuttiE
+		\time 3/4 \tempoQuamOlim \mvTr g'2.\fE^\tuttiE \noBreak
 		e2 e4
 		e4. e8 e4
 		f2 fis4

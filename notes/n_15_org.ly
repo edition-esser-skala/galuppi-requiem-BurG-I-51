@@ -2690,9 +2690,9 @@ HostiasOrgano = {
 		c, h
 		a g
 		g g
-		g g
+		g g \noBreak
 		g r\fermata \bar "||" %75
-		\time 3/4 \tempoQuamOlim \mvTr c'8\fE-\tuttiE c c c c c
+		\time 3/4 \tempoQuamOlim \mvTr c'8\fE-\tuttiE c c c c c \noBreak
 		gis gis gis gis gis gis
 		a a a a a a
 		d, d d d dis dis
@@ -2722,7 +2722,7 @@ HostiasBassFigures = \figuremode {
 	<6 4>4 <5 3>2.
 	r1
 	<4!>4 <[6]> r <6 4>
-	<7 5> r2.
+	<7 5> <5 3> <6 4>8 <5 3>4.
 	r4 <6> <6 4> <5 3> %70
 	r2 <[6]>
 	<5>4 <6+> r2
@@ -2732,7 +2732,7 @@ HostiasBassFigures = \figuremode {
 	r2.
 	<[6]>
 	r
-	<6>2 <5 [_+]>4
+	<6>2 <[7] 5 [_+]>4
 	<4> <_+>2 %80
 	r2.
 	<[6]>4 <[_+]> <6>
