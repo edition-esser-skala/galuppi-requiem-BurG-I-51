@@ -1265,7 +1265,7 @@ DomineIesuViola = {
 
 HostiasViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoHostias
 			\set Score.currentBarNumber = #54
 		r4 r8 a\fE g4 r8 g
