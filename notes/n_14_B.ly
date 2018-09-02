@@ -1348,12 +1348,116 @@ DomineIesuBassoNotes = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 4/4 \autoBeamOff \tempoDomineIesu
-		
+		\mvTr a'4.\fE^\tuttiE a8 a4 r
+		e4. e8 e4 r
+		\time 3/4 \tempoDomineIesuB a4. a,8 a4
+		a'2 a4
+		g2 g4 %5
+		f2.
+		e4. e8 e4
+		cis4. cis8 cis4
+		d4. d8 d4
+		g4. g8 g g %10
+		g4. g8 g4
+		c2 f,4
+		g g g
+		g g g
+		g g, g' %15
+		g f2
+		e d4
+		c c r
+		c'4. c8 c4
+		c e, f %20
+		g g g
+		c c, c
+		f4. f8 f4
+		f2 f4
+		h,4. h8 h4 %25
+		c c c
+		c c2
+		g4 g r
+		g' g g
+		gis2 a4 %30
+		e2 e4
+		r r a
+		a4. a8 a4
+		fis2 fis4
+		g4. g8 g4 %35
+		e4. e8 e e
+		dis4 dis h
+		e2 fis4
+		g g e
+		a( fis) dis %40
+		e2.
+		h\fermata
+		h'
+		h2 a4
+		g4. g8 g4 %45
+		a2 a4
+		f f f
+		d4. d8 d4
+		a' a a
+		e4. e8 e4 %50
+		\once \slurDown a,4.( h8[ c d]
+		e2.)
+		a,\fermata \bar "||" %53 finis
 	}
 }
 
 DomineIesuBassoLyrics = \lyricmode {
+	Do -- mi -- ne,
+	Do -- mi -- ne,
+	Do -- mi -- ne
+	Ie -- su
+	Chri -- ste, %5
+	Rex
+	glo -- ri -- ae,
+	li -- be -- ra
+	a -- ni -- mas
+	o -- mni -- um fi -- %10
+	de -- li -- um
+	de -- fun --
+	cto -- rum de
+	poe -- nis in --
+	fer -- ni, et %15
+	de pro --
+	fun -- do
+	la -- cu:
+	Li -- be -- ra
+	e -- as de %20
+	o -- re le --
+	o -- nis, ne_ab --
+	sor -- be -- at
+	e -- as
+	tar -- ta -- rus, %25
+	ne ca -- dant
+	in ob --
+	scu -- rum,
+	ne ca -- dant
+	in ob -- %30
+	scu -- rum.
+	Sed
+	si -- gni -- fer
+	san -- ctus
+	Mi -- cha -- el %35
+	re -- prae -- sen -- tet
+	e -- as in
+	lu -- cem
+	san  -- ctam, in
+	lu -- cem %40
+	san  --
+	ctam:
+	Quam
+	o -- lim
+	A -- bra -- hae %45
+	pro -- mi --
+	si -- sti, et
+	se -- mi -- ni
+	e -- ius, et
+	se -- mi -- ni %50
+	e --
 	
+	ius. %53 finis
 }
 
 % BassoNotes = {
