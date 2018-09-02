@@ -398,5 +398,33 @@ HostiasCornoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoHostias
 			\set Score.currentBarNumber = #54
+		e'4\fE r d r
+		e r d r %55
+		R1
+		e4\pE r d r
+		g,1~
+		g2 r
+		R1*2 %61
+		r2 d'
+		r d
+		r d
+		R1 %65
+		g,2 r
+		g r
+		R1*3 %70
+		d'2\fE r
+		r r4 d
+		d2 r4 d
+		d2 r4 d \noBreak
+		d2 r\fermata \bar "||" %75
+		\time 3/4 \tempoQuamOlim R2.*2
+		e4 r r
+		R2.
+		r4 r e %80
+		e r r
+		r r e
+		e r r
+		R2.*2 %85
+		e2.\fermata \bar "|." %86 FINIS
 	}
 }

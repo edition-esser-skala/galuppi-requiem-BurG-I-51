@@ -2687,7 +2687,7 @@ HostiasOrgano = {
 		f4 e a g
 		fis? g g8 g, g'4
 		c a8 f g2 %70
-		c, h
+		c,\fE h
 		a g
 		g g
 		g g \noBreak
