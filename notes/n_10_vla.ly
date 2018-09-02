@@ -1207,6 +1207,59 @@ DomineIesuViola = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoDomineIesu
+		\mvDll a4\fE r a r
+		h r h r
+		\time 3/4 \tempoDomineIesuB a8 a c c e e
+		c c e e a a
+		e e g g h h %5
+		a a f f d d
+		e e gis gis h h
+		e, e cis cis a a
+		d d fis fis a a
+		g g d d h h %10
+		d d h h g g
+		e' e g g f f
+		h, h d d g g
+		d d h h g g
+		h h d d h h %15
+		g g d' d h h
+		e e g g h, h
+		c c e e g g
+		e e g g c c
+		g g e e c c %20
+		g g h h d d
+		c c e e g g
+		f f a a f f
+		c c a a f f
+		d' d h h d d %25
+		c c e e g g
+		e e g g c, c
+		d d h h g g
+		g' g d d h h
+		gis gis h h c c %30
+		h h gis gis h h
+		a a c c e e
+		c c e e a a
+		d, d fis fis a a
+		d, d g g h h %35
+		g g e e g g
+		h, h dis dis fis fis
+		e e g g fis fis
+		e e g g h h
+		a a fis fis dis dis %40
+		e e e e e e
+		dis2.\fermata
+		h'8 h fis fis h h
+		dis, dis h h dis dis
+		e e g g h h %45
+		e, e a a e e
+		a a f f c c
+		d d f f a a
+		c, c a a c c
+		h h gis gis e' e %50
+		e c a h c d
+		e2.
+		e\fermata \bar "||" %53 finis
 	}
 }
 
