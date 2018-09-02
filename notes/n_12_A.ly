@@ -1279,12 +1279,116 @@ DomineIesuAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoDomineIesu
-		
+		\mvTr a'4.\fE^\tuttiE a8 a4 r
+		gis4. gis8 gis4 r
+		\time 3/4 \tempoDomineIesuB a4. a8 a4
+		a2 a4
+		h2 h4 %5
+		a2.
+		gis4. gis8 gis4
+		a4. a8 a4
+		fis4. fis8 fis4
+		g4. g8 g g %10
+		g4. g8 g4
+		g2 a4
+		g g g
+		g g g
+		g g g %15
+		g g2
+		g f4
+		e e r
+		g4. g8 g4
+		g g f %20
+		d d d
+		e e e
+		f4. f8 f4
+		f2 f4
+		f4. f8 f4 %25
+		f e e
+		e e2
+		d4 d r
+		g g g
+		f2 e4 %30
+		e2 e4
+		r r e
+		e4. e8 e4
+		d2 d4
+		d4. d8 d4 %35
+		e4. e8 e e
+		fis4 fis fis
+		g2 a4
+		g g g
+		a2 a4 %40
+		a( g8[ fis] g4)
+		fis2.\fermata
+		fis
+		fis?2 fis4
+		g4. g8 g4 %45
+		e2 e4
+		f f f
+		f4. f8 f4
+		e e e
+		e4. e8 e4 %50
+		e2.~
+		e
+		e\fermata \bar "||" %53 finis
 	}
 }
 
 DomineIesuAltoLyrics = \lyricmode {
+	[Do -- mi -- ne,
+	Do -- mi -- ne,
+	Do -- mi -- ne
+	Ie -- su
+	Chri -- ste, %5
+	Rex
+	glo -- ri -- ae,
+	li -- be -- ra
+	a -- ni -- mas
+	o -- mni -- um fi -- %10
+	de -- li -- um
+	de -- fun --
+	cto -- rum de
+	poe -- nis in --
+	fer -- ni, et %15
+	de pro --
+	fun -- do
+	la -- cu:
+	Li -- be -- ra
+	e -- as de %20
+	o -- re le --
+	o -- nis, ne_ab --
+	sor -- be -- at
+	e -- as
+	tar -- ta -- rus, %25
+	ne ca -- dant
+	in ob --
+	scu -- rum,
+	ne ca -- dant
+	in ob -- %30
+	scu -- rum.
+	Sed
+	si -- gni -- fer
+	san -- ctus
+	Mi -- cha -- el %35
+	re -- prae -- sen -- tet
+	e -- as in
+	lu -- cem
+	san  -- ctam, in
+	lu -- cem %40
+	san  --
+	ctam:
+	Quam
+	o -- lim
+	A -- bra -- hae %45
+	pro -- mi --
+	si -- sti, et
+	se -- mi -- ni
+	e -- ius, et
+	se -- mi -- ni %50
+	e --
 	
+	ius.] %53 finis
 }
 
 % AltoNotes = {
