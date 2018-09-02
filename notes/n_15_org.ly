@@ -2554,11 +2554,115 @@ DomineIesuOrgano = {
 		\clef bass
 		\key a \minor \time 4/4 \tempoDomineIesu
 		\mvTr a1\fE-\tuttiE
+		e'
+		\time 3/4 \tempoDomineIesuB a8 a a a a a
+		a a a a a a
+		g g g g g g %5
+		f f f f f f
+		e e e e e e
+		cis cis cis cis cis cis
+		d d d d d d
+		g g g g g g %10
+		g g g g g g
+		c c c c f, f
+		g g g g g g
+		g g g g g g
+		g g g g g g %15
+		g g f f f f
+		e e e e d d
+		c c c c c c
+		c c c c c c
+		c c e e f f %20
+		g g g g g g
+		c, c c c c c
+		f f f f f f
+		f f f f f f
+		h, h h h h h %25
+		c c c c c c
+		c c c c c c
+		g g g g g g
+		g' g g g g g
+		gis gis gis gis a a %30
+		e e e e e e
+		a a a a a a
+		a a a a a a
+		fis fis fis fis fis fis
+		g g g g g g %35
+		e e e e e e
+		dis dis dis dis h h
+		e e e e fis fis
+		g g g g e e
+		a a fis fis dis dis %40
+		e e e e e e
+		h2.\fermata
+		h'8 h h h h h
+		h h h h a a
+		g g g g g g %45
+		a a a a a a
+		f f f f f f
+		d d d d d d
+		a' a a a a a
+		e e e e e e %50
+		a, a a h c d
+		e2.
+		a,\fermata \bar "||" %53 finis
 	}
 }
 
 DomineIesuBassFigures = \figuremode {
-	
+	r1
+	<_+>
+	r2.
+	r
+	<6> %5
+	<7>4 <6>2
+	<_+>2.
+	<6>
+	<_+>
+	r %10
+	r
+	r
+	r
+	r
+	r %15
+	r4 <6 4 2>2
+	<[6]> <6>4
+	r2.
+	r
+	r4 <[6]>2 %20
+	r2.
+	r
+	r
+	r
+	r %25
+	<6 4>4 <5 3>2
+	r2.
+	<4>4 <3>2
+	r2.
+	<7 5> %30
+	<4>4 <_+>2
+	r2.
+	r
+	<[6]>
+	r %35
+	r
+	<[6] [_+]>2 <[5+] [_+]>4
+	r2 <[6\\]>4
+	<[6]>2.
+	r4 <5> <7 [_+]> %40
+	r2.
+	<[5+] _+>
+	r2.
+	r
+	<6> %45
+	r
+	r
+	r
+	r
+	<_+> %50
+	r
+	<5 4>4 <\l _+>2
+	r2. %53 finis
 }
 
 % Organo = {
