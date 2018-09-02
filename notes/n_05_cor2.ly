@@ -392,3 +392,11 @@ DomineIesuCornoII = {
 		e\fermata \bar "||" %53 finis
 	}
 }
+
+HostiasCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoHostias
+			\set Score.currentBarNumber = #54
+	}
+}

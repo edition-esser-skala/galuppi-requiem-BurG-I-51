@@ -14,71 +14,138 @@
 #(set-global-staff-size 15.87)
 
 \book {
+% 	\bookpart {
+% 		\header {
+% 			movement = "4.1 DOMINE IESU CHRISTE"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" } }
+% 						\partcombine \DomineIesuCornoI \DomineIesuCornoII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DomineIesuViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DomineIesuViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\DomineIesuViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \DomineIesuSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DomineIesuSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \DomineIesuAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DomineIesuAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \DomineIesuTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DomineIesuTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \DomineIesuBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DomineIesuBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DomineIesuOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DomineIesuBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "4.1 DOMINE IESU CHRISTE"
+			movement = "4.2 HOSTIAS ET PRECES"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" } }
-						\partcombine \DomineIesuCornoI \DomineIesuCornoII
+						\partcombine \HostiasCornoI \HostiasCornoII
 					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DomineIesuViolinoI
+							\HostiasViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DomineIesuViolinoII
+							\HostiasViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\DomineIesuViola
+						\HostiasViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \DomineIesuSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \HostiasSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DomineIesuSopranoLyrics
+					\new Lyrics \lyricsto Soprano \HostiasSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DomineIesuAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \HostiasAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DomineIesuAltoLyrics
+					\new Lyrics \lyricsto Alto \HostiasAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \DomineIesuTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \HostiasTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \DomineIesuTenoreLyrics
+					\new Lyrics \lyricsto Tenore \HostiasTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \DomineIesuBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \HostiasBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DomineIesuBassoLyrics
+					\new Lyrics \lyricsto Basso \HostiasBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DomineIesuOrgano
+						\HostiasOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DomineIesuBassFigures
+					\HostiasBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

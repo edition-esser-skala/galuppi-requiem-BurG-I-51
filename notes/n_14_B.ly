@@ -1460,13 +1460,15 @@ DomineIesuBassoLyrics = \lyricmode {
 	ius. %53 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+HostiasBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoHostias
+			\set Score.currentBarNumber = #54
+		
+	}
+}
+
+HostiasBassoLyrics = \lyricmode {
+	
+}

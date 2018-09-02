@@ -1391,13 +1391,15 @@ DomineIesuAltoLyrics = \lyricmode {
 	ius.] %53 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+HostiasAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoHostias
+			\set Score.currentBarNumber = #54
+		
+	}
+}
+
+HostiasAltoLyrics = \lyricmode {
+	
+}

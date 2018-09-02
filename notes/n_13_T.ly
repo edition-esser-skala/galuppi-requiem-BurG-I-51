@@ -2017,13 +2017,15 @@ DomineIesuTenoreLyrics = \lyricmode {
 	ius.] %53 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+HostiasTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoHostias
+			\set Score.currentBarNumber = #54
+		
+	}
+}
+
+HostiasTenoreLyrics = \lyricmode {
+	
+}

@@ -1273,13 +1273,15 @@ DomineIesuSopranoLyrics = \lyricmode {
 % fac eas, Domine, de morte transire ad vitam,
 % quam olim Abrahæ promisisti et semini eius.)
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+HostiasSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoHostias
+			\set Score.currentBarNumber = #54
+		
+	}
+}
+
+HostiasSopranoLyrics = \lyricmode {
+	
+}

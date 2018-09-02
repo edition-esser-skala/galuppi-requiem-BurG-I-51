@@ -1253,9 +1253,10 @@ DomineIesuViolinoII = {
 	}
 }
 
-% ViolinoII = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 	}
-% }
+HostiasViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoHostias
+			\set Score.currentBarNumber = #54
+	}
+}
