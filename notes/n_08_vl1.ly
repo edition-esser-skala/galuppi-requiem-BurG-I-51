@@ -1260,5 +1260,38 @@ HostiasViolinoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoHostias
 			\set Score.currentBarNumber = #54
+		f'8\fE f, f f c' c, c c
+		f f f16 g a h c8 g e4 %55
+		f'8\p f, f f c' c, c c
+		f f f16 g a h c8 g e16 g' e g
+		c8 c, c c e f4 g16 f
+		e8 g b,4 a8 c f, f'
+		d g h,4 d8 g g,4 %60
+		R1
+		g'8 g, g g r2
+		g'8 g, g g r2
+		g'8 g, g g r2
+		g'8 c e,4 f8 a f,4 %65
+		r2 c'8 c, c c
+		r2 a''8 a, a a
+		h! r c r c r c r
+		c r h r r2
+		R1 %70
+		c'8\fE c, c c g' g, g g
+		c c c16 d e fis g8 d h16 d h d
+		g8 g, g g f' g, g g
+		e' g, g g d' g, g g \noBreak
+		g2 r\fermata \bar "||" %75
+		\time 3/4 \tempoQuamOlim c16 g c e c g c e c g c e \noBreak
+		h gis h e h gis h e h gis h e
+		c a c e c a c e c a c e
+		f d h d f d h d a c a c
+		h e h e gis, h gis e c' a c e %80
+		a, e' c e a c, a c e, c' a c
+		h e h e gis, h e, gis a e' cis a
+		f' d f a d, f d a f a f d
+		h'4 c2
+		h2.\trill %85
+		a\fermata \bar "|." %86 FINIS
 	}
 }
