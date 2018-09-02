@@ -2692,7 +2692,7 @@ HostiasOrgano = {
 		g g
 		g g \noBreak
 		g r\fermata \bar "||" %75
-		\time 3/4 \tempoQuamOlim \mvTr c'8\fE-\tuttiE c c c c c \noBreak
+		\time 3/4 \tempoQuamOlim c'8\tuttiE c c c c c \noBreak
 		gis gis gis gis gis gis
 		a a a a a a
 		d, d d d dis dis
