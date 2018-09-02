@@ -1243,8 +1243,8 @@ DomineIesuSopranoLyrics = \lyricmode {
 	scu -- rum,
 	ne ca -- dant
 	in ob -- %30
-	scu -- rum.
-	Sed
+	scu -- rum.]
+	[Sed
 	si -- gni -- fer
 	san -- ctus
 	Mi -- cha -- el %35

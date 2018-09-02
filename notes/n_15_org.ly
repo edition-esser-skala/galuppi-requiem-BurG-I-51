@@ -2643,7 +2643,7 @@ DomineIesuBassFigures = \figuremode {
 	<4>4 <_+>2
 	r2.
 	r
-	<[6]>
+	<[6] [5]>
 	r %35
 	r
 	<[6] [_+]>2 <[5+] [_+]>4
