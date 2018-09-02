@@ -1465,10 +1465,66 @@ HostiasBassoNotes = {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoHostias
 			\set Score.currentBarNumber = #54
-		
+		R1*2 %55
+		\mvTr f8.\pE^\solo f16 f a([ g f)] g8 c, c c
+		f16([ e f8]~ f16[ g a h] c16.) c,32 c8 r4
+		b'8( a4 g16[ f] g8 f4 e16[ d]
+		c4) b'8 b b8. a16 a4
+		r2 r4 g %60
+		g8. fis16 fis4 r2
+		r r4 c'
+		c8. h16 h4 r8 g e c
+		d d d g, f'4. e16([ d)]
+		e8. e16 e8 g a4 a8 a %65
+		a8. g16 g4 r r8 c
+		c c c8. b16 a4 r8 f
+		f4 e8 e a4 g8 g
+		fis4 g8 g g g, r g'
+		c4 a8 f g2 %70
+		c, r
+		R1*3 \noBreak
+		R1\fermataMarkup \bar "||" %75
+		\time 3/4 \tempoQuamOlim \mvDll c'2.\fE^\tuttiE \noBreak
+		gis2 gis4
+		a4. a8 a4
+		d,2 dis4
+		e e a %80
+		a4. a8 a4
+		gis e cis
+		d4. d8 d4
+		e2.~
+		e %85
+		a,\fermata \bar "|." %86 FINIS
 	}
 }
 
 HostiasBassoLyrics = \lyricmode {
-% 	Hostias et preces tibi, Domine, laudis offerimus:
+	Ho -- sti -- as et __ pre -- ces ti -- bi, %56
+	Do -- mi -- ne,
+	lau --
+	dis of -- fe -- ri -- mus:
+	Tu %60
+	sus -- ci -- pe,
+	tu
+	sus -- ci -- pe pro a -- ni --
+	ma -- bus il -- lis, qua -- rum
+	ho -- di -- e me -- mo -- ri -- am %65
+	fa -- ci -- mus: Fac
+	e -- as, Do -- mi -- ne, de
+	mor -- te tran -- si -- re, tran --
+	si -- re ad vi -- tam, tran --
+	si -- re ad vi -- %70
+	tam.
+	
+	Quam %76
+	o -- lim
+	A -- bra -- hae
+	pro -- mi --
+	si -- sti, et %80
+	se -- mi -- ni
+	e -- ius, et
+	se -- mi -- ni
+	e --
+	%85
+	ius. %86 FINIS
 }

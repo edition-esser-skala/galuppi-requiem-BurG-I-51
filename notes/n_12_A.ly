@@ -1398,7 +1398,7 @@ HostiasAltoNotes = {
 			\set Score.currentBarNumber = #54
 		R1*21 \noBreak %74
 		R1\fermataMarkup \bar "||" %75
-		\time 3/4 \tempoQuamOlim \mvTr g'2.\fE^\tuttiE \noBreak
+		\time 3/4 \tempoQuamOlim \mvDll g'2.\fE^\tuttiE \noBreak
 		e2 e4
 		e4. e8 e4
 		f2 fis4

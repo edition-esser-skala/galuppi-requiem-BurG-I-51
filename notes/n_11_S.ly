@@ -1275,7 +1275,7 @@ HostiasSopranoNotes = {
 			\set Score.currentBarNumber = #54
 		R1*21 \noBreak %74
 		R1\fermataMarkup \bar "||" %75
-		\time 3/4 \tempoQuamOlim \mvTr c'2.\fE^\tuttiE \noBreak
+		\time 3/4 \tempoQuamOlim \mvDll c'2.\fE^\tuttiE \noBreak
 		h2 h4
 		a4. a8 a4
 		h2 a4

@@ -2038,7 +2038,7 @@ HostiasTenoreNotes = {
 		c2 r
 		R1*3 \noBreak
 		R1\fermataMarkup \bar "||" %75
-		\time 3/4 \tempoQuamOlim \mvTr e2.\fE^\tuttiE \noBreak
+		\time 3/4 \tempoQuamOlim \mvDll e2.\fE^\tuttiE \noBreak
 		h2 h4
 		c4. c8 c4
 		d2 c4
