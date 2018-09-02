@@ -1268,5 +1268,38 @@ HostiasViola = {
 		\clef treble
 		\key c \major \time 4/4 \tempoHostias
 			\set Score.currentBarNumber = #54
+		r4 r8 a\fE g4 r8 g
+		a4 r8 f e4 r
+		r r8 a g4 r8 g
+		f4 r8 f e4 r
+		c'1~
+		c2 f
+		g g %60
+		d d
+		g c,
+		g g
+		g g
+		c f %65
+		c c
+		c f
+		f4 e a g
+		fis? g g8 g, g'4
+		c a8 f g2 %70
+		r4 r8 e\fE d4 r8 d
+		e4 r8 c h4 r
+		r r8 d h d g,4
+		r r8 c h d g,4 \noBreak
+		g2 r\fermata \bar "||" %75
+		\time 3/4 \tempoQuamOlim c8 c e e g g \noBreak
+		e e gis gis h h
+		e, e c c a a
+		d d f f dis dis
+		e e h h c c %80
+		c c e e a-\critnote a
+		e e e e e e
+		d d d d d d
+		e2.~
+		e %85
+		e\fermata \bar "|." %86 FINIS
 	}
 }
