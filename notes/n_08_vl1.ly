@@ -1248,10 +1248,10 @@ DomineIesuViolinoI = {
 		f c f a f c f a f c f a
 		f a f d a f a d f, d f a
 		c, e c a e' c e a e' a, c e
-		gis, e gis h e h gis h e, h' gis h
+		gis, e gis h e h gis h e, h' gis h %50
 		c8 e c2
 		h2.\trill
-		a\fermata \bar "||"
+		a\fermata \bar "||" %53 finis
 	}
 }
 

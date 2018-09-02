@@ -1197,6 +1197,59 @@ DomineIesuViolinoII = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoDomineIesu
+		\mvDll a4\fE r r16. a''32 e16. a32 c,16. e32 c16. a32
+		gis4 r r16. h'32 e,16. h'32 gis16. h32 gis16. e32
+		\time 3/4 \tempoDomineIesuB a16 e c e a e c e a e c e
+		c a c e c a c e c a c e
+		h g h e h g h e h g h e %5
+		e c a e' d a d f d a d f
+		h, gis h e h gis h e h gis h e
+		a, e a e' a, e a e' a, e a e'
+		a, d, fis a fis d fis a d a d fis
+		g d g h g d g h g d g h %10
+		d, g, h d g d g h d, g, h d
+		c g e g c, g' e g a c a f
+		d d' h d h g' d g h, g h d
+		h g' d g h, d h d h g h d
+		g d h d g d h d g d h d %15
+		h d h d g, d' h d g d h d
+		c g' e g c, g e g f d' h d
+		e g e g c g e g c, g e g
+		c, g'' e g c g e g c, g e g
+		c, g'' e g c g e g a f a c %20
+		h, g h d g d h d g, d' h d
+		e c e g e c e g e c e g
+		a f a c a f a c a f a c
+		a f c f c a c f a, f a c
+		d a d f d a d f d a d f %25
+		a, f a c g e g c e c e g
+		c g e g e c e g c, g e g
+		h, g' d g d' h d g d h d g
+		h, g h d g d h d g, d' h d
+		f d h d f d h d c a c e %30
+		e, h' gis h e h gis h e, h' gis h
+		c a c e c a c e c a c e
+		a, e' c e a e c e a, e' c e
+		a, d a d d, a' fis a d a' fis a
+		h g d g d g, h d g d h d %35
+		e h g h e, h' g h e h' g h
+		fis dis fis h fis h, dis fis dis fis dis fis
+		g e g h e, h e g dis h dis a
+		g e g h e h e g h, e g e
+		c a c e a a, c a fis dis fis a %40
+		a4 g8 fis g4
+		fis2.\fermata
+		dis'16 h dis fis dis h dis fis dis h dis fis
+		h, fis'? dis fis h fis dis fis h, fis' dis fis
+		g e g h e, h e g h, g h e %45
+		c a c e c a c e c a c e
+		f c f a f c f a f c f a
+		f a f d a f a d f, d f a
+		c, e c a e' c e a e' a, c e
+		gis, e gis h e h gis h e, h' gis h %50
+		c8 a a2~
+		a4 gis8 fis gis4
+		a2.\fermata \bar "||" %53 finis
 	}
 }
 
