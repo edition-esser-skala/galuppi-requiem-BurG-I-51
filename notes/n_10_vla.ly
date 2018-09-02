@@ -1205,9 +1205,9 @@ LacrimosaViola = {
 
 DomineIesuViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \minor \time 4/4 \tempoDomineIesu
-		\mvDll a4\fE r a r
+		a4\fE r a r
 		h r h r
 		\time 3/4 \tempoDomineIesuB a8 a c c e e
 		c c e e a a
