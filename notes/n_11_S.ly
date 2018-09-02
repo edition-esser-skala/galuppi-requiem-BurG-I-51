@@ -1278,10 +1278,32 @@ HostiasSopranoNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoHostias
 			\set Score.currentBarNumber = #54
-		
+		R1*21 %74
+		R1\fermataMarkup \bar "||" %75
+		\time 3/4 \tempoQuamOlim \mvTr c'2.\fE^\tuttiE
+		h2 h4
+		a4. a8 a4
+		h2 a4
+		a gis a %80
+		a4. a8 a4
+		h h a
+		a4. a8 a4
+		gis4 a2~
+		a4 gis2 %85
+		a2.\fermata \bar "||" %86 FINIS
 	}
 }
 
 HostiasSopranoLyrics = \lyricmode {
-	
+	[Quam %76
+	o -- lim
+	A -- bra -- hae
+	pro -- mi --
+	si -- sti, et %80
+	se -- mi -- ni
+	e -- ius, et
+	se -- mi -- ni
+	e -- _
+	_ %85
+	ius.] %86 FINIS
 }
