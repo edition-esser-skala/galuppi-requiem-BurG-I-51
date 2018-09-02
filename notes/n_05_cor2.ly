@@ -346,5 +346,49 @@ DomineIesuCornoII = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \tempoDomineIesu
+		R1*2
+		\time 3/4 \tempoDomineIesuB e'4\fE r r
+		e r r
+		R2. %5
+		e4 r r
+		R2.
+		e4 r r
+		e r r
+		d2.~ %10
+		d~
+		d2 e4
+		d r r
+		d r r
+		d r r %15
+		d r r
+		d r r
+		g,2.~
+		g~
+		d'2 e4 %20
+		d r r
+		d2 d4
+		c c c
+		c r r
+		R2. %25
+		r4 r g
+		g2 d'4
+		d2 d4
+		d r r
+		R2.*2 %31
+		e4 r r
+		e r r
+		e r r
+		d r r %35
+		R2.*6 %41
+		R2.\fermataMarkup
+		R2.*3 %45
+		e4 r r
+		e2 e4
+		e2 e4
+		e r r
+		R2. %50
+		e4 r r
+		R2.
+		e\fermata \bar "||" %53 finis
 	}
 }
