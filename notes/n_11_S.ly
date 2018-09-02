@@ -1155,14 +1155,123 @@ LacrimosaSopranoLyrics = \lyricmode {
 DomineIesuSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key a \minor \time 4/4 \tempoDomineIesu
-		
+		\key a \minor \time 4/4 \autoBeamOff \tempoDomineIesu
+		\mvTr c'4.\fE^\tuttiE c8 c4 r
+		h4. h8 h4 r
+		\time 3/4 \tempoDomineIesuB c4. c8 c4
+		c2 c4
+		e2 e4 %5
+		e( d2)
+		e4. e8 e4
+		e4. e8 e4
+		a,4. a8 a4
+		h4. h8 h h %10
+		h4. h8 h4
+		c2 c4
+		h h h
+		h h h
+		h h h %15
+		h h2
+		c h4
+		c g r
+		c4. c8 c4
+		c c a %20
+		g g g
+		g g g
+		a4. a8 a4
+		a2 a4
+		a4. a8 a4 %25
+		a g g
+		g g2
+		g4 g r
+		h h h
+		h2 a4 %30
+		a gis2
+		r4 r a
+		a4. a8 a4
+		a2 a4
+		g4. g8 g4 %35
+		g4. g8 g g
+		h4 h h
+		h2 h4
+		h h h
+		c2 c4 %40
+		c( h8[ a] h4)
+		h2.\fermata
+		h
+		h2 h4
+		h4. h8 h4 %45
+		a2 a4
+		a a a
+		a4. a8 a4
+		a a a
+		gis4. gis8 gis4 %50
+		a2.~
+		a4 gis8[ fis] gis4
+		a2.\fermata \bar "||" %53 finis
 	}
 }
 
 DomineIesuSopranoLyrics = \lyricmode {
-	
+	[Do -- mi -- ne,
+	Do -- mi -- ne,
+	Do -- mi -- ne
+	Ie -- su
+	Chri -- ste, %5
+	Rex __
+	glo -- ri -- ae,
+	li -- be -- ra
+	a -- ni -- mas
+	o -- mni -- um fi -- %10
+	de -- li -- um
+	de -- fun --
+	cto -- rum de
+	poe -- nis in --
+	fer -- ni, et %15
+	de pro --
+	fun -- do
+	la -- cu:
+	Li -- be -- ra
+	e -- as de %20
+	o -- re le --
+	o -- nis, ne_ab --
+	sor -- be -- at
+	e -- as
+	tar -- ta -- rus, %25
+	ne ca -- dant
+	in ob --
+	scu -- rum,
+	ne ca -- dant
+	in ob -- %30
+	scu -- rum.
+	Sed
+	si -- gni -- fer
+	san -- ctus
+	Mi -- cha -- el %35
+	re -- prae -- sen -- tet
+	e -- as in
+	lu -- cem
+	san  -- ctam, in
+	lu -- cem %40
+	san  --
+	ctam:
+	Quam
+	o -- lim
+	A -- bra -- hae %45
+	pro -- mi --
+	si -- sti, et
+	se -- mi -- ni
+	e -- ius, et
+	se -- mi -- ni %50
+	e --
+	_ _
+	ius.] %53 finis
 }
+
+% Hostias et preces tibi, Domine, laudis offerimus:
+% tu suscipe pro animabus illis, quarum hodie memoriam facimus:
+% fac eas, Domine, de morte transire ad vitam,
+% quam olim Abrahæ promisisti et semini eius.)
 
 % SopranoNotes = {
 % 	\relative c' {

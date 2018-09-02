@@ -1904,7 +1904,7 @@ LacrimosaTenoreLyrics = \lyricmode {
 DomineIesuTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key a \minor \time 4/4 \tempoDomineIesu
+		\key a \minor \time 4/4 \autoBeamOff \tempoDomineIesu
 		
 	}
 }

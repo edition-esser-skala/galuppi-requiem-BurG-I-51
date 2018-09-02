@@ -1347,7 +1347,7 @@ LacrimosaBassoLyrics = \lyricmode {
 DomineIesuBassoNotes = {
 	\relative c {
 		\clef bass
-		\key a \minor \time 4/4 \tempoDomineIesu
+		\key a \minor \time 4/4 \autoBeamOff \tempoDomineIesu
 		
 	}
 }
