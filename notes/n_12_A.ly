@@ -1396,10 +1396,32 @@ HostiasAltoNotes = {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoHostias
 			\set Score.currentBarNumber = #54
-		
+		R1*21 %74
+		R1\fermataMarkup \bar "||" %75
+		\time 3/4 \tempoQuamOlim \mvTr g'2.\fE^\tuttiE
+		e2 e4
+		e4. e8 e4
+		f2 fis4
+		e e e %80
+		e4. e8 e4
+		e e e
+		f!4. f8 f4
+		e2.~
+		e %85
+		e\fermata \bar "|." %86 FINIS
 	}
 }
 
 HostiasAltoLyrics = \lyricmode {
-	
+	[Quam %76
+	o -- lim
+	A -- bra -- hae
+	pro -- mi --
+	si -- sti, et %80
+	se -- mi -- ni
+	e -- ius, et
+	se -- mi -- ni
+	e --
+	%85
+	ius.] %86 FINIS
 }

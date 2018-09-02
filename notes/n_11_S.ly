@@ -1290,7 +1290,7 @@ HostiasSopranoNotes = {
 		a4. a8 a4
 		gis4 a2~
 		a4 gis2 %85
-		a2.\fermata \bar "||" %86 FINIS
+		a2.\fermata \bar "|." %86 FINIS
 	}
 }
 
