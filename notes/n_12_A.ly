@@ -1275,6 +1275,18 @@ LacrimosaAltoLyrics = \lyricmode {
 	men. %812 FINIS
 }
 
+DomineIesuAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoDomineIesu
+		
+	}
+}
+
+DomineIesuAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

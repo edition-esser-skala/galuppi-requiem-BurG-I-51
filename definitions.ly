@@ -200,6 +200,8 @@ tempoLacrimosa = \tempoMarkup "Adagio"
 	tempoPieIesu = \tempoMarkup "Adagio"
 	tempoDonaEis = \tempoMarkup "Allegro"
 
+tempoDomineIesu = \tempoMarkup "Adagio"
+
 
 % modify the Scheme function 'format-bass-figure'
 % in usr/share/lilypond/current/scm/translation-functions.scm

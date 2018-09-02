@@ -1152,6 +1152,18 @@ LacrimosaSopranoLyrics = \lyricmode {
 	men. %812 FINIS
 }
 
+DomineIesuSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoDomineIesu
+		
+	}
+}
+
+DomineIesuSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

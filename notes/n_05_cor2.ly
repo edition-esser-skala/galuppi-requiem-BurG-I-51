@@ -341,3 +341,10 @@ LacrimosaCornoII = {
 		e\fermata \bar "|." %812 FINIS
 	}
 }
+
+DomineIesuCornoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoDomineIesu
+	}
+}

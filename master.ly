@@ -8,7 +8,8 @@
 
 % \include "scores/s_introitus.ly"
 % \include "scores/s_kyrie.ly"
-\include "scores/s_sequentia.ly"
+% \include "scores/s_sequentia.ly"
+\include "scores/s_offertorium.ly"
 
 % \include "parts/p_vl1.ly"
 % \include "parts/p_vl2.ly"

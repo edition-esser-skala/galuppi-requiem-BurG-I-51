@@ -1193,6 +1193,13 @@ LacrimosaViolinoII = {
 	}
 }
 
+DomineIesuViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoDomineIesu
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble
