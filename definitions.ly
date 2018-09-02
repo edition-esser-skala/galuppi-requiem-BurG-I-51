@@ -203,6 +203,7 @@ tempoLacrimosa = \tempoMarkup "Adagio"
 tempoDomineIesu = \tempoMarkup "Adagio"
 	tempoDomineIesuB = \tempoMarkup "Allegro"
 tempoHostias = \tempoMarkup "Andante"
+	tempoQuamOlim = \tempoMarkup "[Tempo deest]"
 
 
 % modify the Scheme function 'format-bass-figure'

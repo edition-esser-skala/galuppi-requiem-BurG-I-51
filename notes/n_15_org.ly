@@ -2671,9 +2671,73 @@ HostiasOrgano = {
 		\key c \major \time 4/4 \tempoHostias
 			\set Score.currentBarNumber = #54
 		\mvTr f2\fE-\soloE e
+		d c %55
+		f\pE e
+		d c
+		c1~
+		c2 f
+		g g %60
+		d d
+		g c,
+		g g
+		g g
+		c f %65
+		c c
+		c f
+		f4 e a g
+		f g g8 g, g'4
+		c a8 f g2 %70
+		c, h
+		a g
+		g g
+		g g
+		g r\fermata \bar "||" %75
+		\time 3/4 \tempoQuamOlim \mvTr c'8\fE-\tuttiE c c c c c
+		gis gis gis gis gis gis
+		a a a a a a
+		d, d d d dis dis
+		e e e e a a %80
+		a a a a a a
+		gis gis e e cis cis
+		d d d d d d
+		e2.~
+		e %85
+		a,\fermata \bar "|." %86 FINIS
 	}
 }
 
 HostiasBassFigures = \figuremode {
-	
+	r2 <[6]> %54
+	<5>4 <6> r2 %55
+	r <[6]>
+	<5>4 <6> r2
+	<7- 5 3>8 <6 4>4. <5 3>8 <6 4>4.
+	<7- 5 3>2 <[4-]>4 <3>
+	<4> <_!> r2 %60
+	<4>4 <_+> <7 [_+]>2
+	r1
+	<6 4>4 <5 3> <6 4>2
+	<4>4 <3> <7>2
+	r1 %65
+	<6 4>4 <5 3>2.
+	r1
+	<4!>4 <[6]> r <6 4>
+	<7 5> r2.
+	r4 <6> <6 4> <5 3> %70
+	r2 <[6]>
+	<5>4 <6+> r2
+	r <7>
+	<6 4> <5 3>
+	r1 %75
+	r2.
+	<[6]>
+	r
+	<6>2 <5 [_+]>4
+	<4> <_+>2 %80
+	r2.
+	<[6]>4 <[_+]> <6>
+	r2.
+	<7 5 _+>4 <6 4>2
+	<5 4>4 <\l _+>2 %85
+	r2. %86 FINIS
 }
