@@ -1,14 +1,14 @@
-# (c) 2018 by Wolfgang Skala.
+# (c) 2018 by Wolfgang Esser-Skala.
 # This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 # To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 
 # change the following variables according to your project
-project = Galuppi_Missa_BurG_I_51
-zipname = Galuppi_Missa_BurG_I_51_Engraving_Files
+project = Galuppi_Requiem_BurG_I_51
+zipname = Galuppi_Requiem_BurG_I_51_Engraving_Files
 notes = A B cor1 cor2 fl ob1 ob2 org S T tr1 tr2 vl1 vl2 vla
-parts = b coro org tr12 vl1 vl2 vla
-movements = requiem
+parts = b cor12 coro fl ob1 ob2 org tr12 vl1 vl2 vla
+movements = introitus kyrie sequentia offertorium
 
 
 .DEFAULT_GOAL := info

@@ -1,4 +1,4 @@
-% (c) 2018 by Wolfgang Skala.
+% (c) 2018 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -11,8 +11,7 @@ TubaMirumTrombaII = {
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #117
 		R\breve*4 %120
-		c'\breve~
-		c1 r
+		c'\breve~c1 r
 		r4 g g2 r4 g' g2
 		g1 r
 		r r4 f4 f2 %125

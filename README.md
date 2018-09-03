@@ -2,7 +2,7 @@
 
 Engraving files for LilyPond 2.18.0
 
-First version, in progress
+First version, September 2018
 
 
 ## Build instructions
@@ -44,19 +44,27 @@ The file *master.ly* allows you to work with an editor like Kile: Change the inc
     * n_14_B.ly
     * n_15_org.ly
 * Movement definitions in folder *scores*:
-    * s_requiem.ly
+    * s_introitus.ly
+    * s_kyrie.ly
+    * s_sequentia.ly
+    * s_offertorium.ly
 * Parts definitions in folder *parts*:
     * p_b.ly
+    * p_cor12.ly
     * p_coro.ly
+    * p_fl.ly
+    * p_ob1.ly
+    * p_ob2.ly
     * p_org.ly
-    * p_vla.ly
+    * p_tr12.ly
     * p_vl1.ly
     * p_vl2.ly
+    * p_vla.ly
 
 
 ## Copyright
 
-(c) 2018 by Wolfgang Skala.
+(c) 2018 by Wolfgang Esser-Skala.
 
 This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.

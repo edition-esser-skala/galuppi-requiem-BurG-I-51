@@ -1,4 +1,4 @@
-% (c) 2018 by Wolfgang Skala.
+% (c) 2018 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -14,6 +14,10 @@
 #(set-global-staff-size 15.87)
 
 \book {
+	\bookpart {
+		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+		\partTitle "4" "O F F E R T O R I U M"
+	}
 	\bookpart {
 		\header {
 			movement = "4.1 DOMINE IESU CHRISTE"
