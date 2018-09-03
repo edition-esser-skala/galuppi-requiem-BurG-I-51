@@ -95,6 +95,21 @@
 #(define-markup-command (remarkE layout props text) (markup?)
   (interpret-markup layout props
     #{\markup \small \italic #text #}))
+ 
+partTitle = #(define-scheme-function
+  (parser location number title)
+  (string? string?)
+  #{
+		\markup {
+			\column {
+				\vspace #25
+				\fill-line { \fontsize #20 \with-color #(rgb-color .8 .8 .8) #number }
+				\vspace #3
+				\fill-line { \fontsize #4 #title }
+			}
+		}
+	#}
+)
 %
 %
 
@@ -290,7 +305,7 @@ tempoHostias = \tempoMarkup "Andante"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup
