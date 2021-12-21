@@ -1,17 +1,22 @@
-composer: Galuppi, Baldassare
-title: Requiem in F
+composer:
+  last: Galuppi
+  first: Baldassare
+title: Requiem
 id: BurG I/51
 genre: requiem
-scoring: S, A, 2 T, B (solo), S, A, T, B (coro), fl, 2 ob, 2 cor (C), 2 clno (C), 2 vl, vla, vlc, b, org
+scoring: S, A, 2 T, B (solo), S, A, T, B (coro), fl solo, 2 ob,\\2 cor (F), 2 clno (C), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2973-D-22
-    type: manuscript copy
     date: 1750–1764
     rism: 212006205
-    url: http://digital.slub-dresden.de/id426041089
-github: galuppi-requiem-BurG-I-51
+    url: https://digital.slub-dresden.de/id426041089
+    license: public domain
+    principal: true
 imslp: Requiem_in_F_major,_BurG_I/51_(Galuppi,_Baldassare)
-notes:
-
+parts:
+  fl: Flauto solo
+  cor12: Corno I, II in F
+  clno12: Clarino I, II in C
